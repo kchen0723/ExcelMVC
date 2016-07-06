@@ -1,0 +1,2001 @@
+Company ,Industry ,Country ,Market Value,Sales ,Profits,Assets,Rank 
+JPMorgan Chase,Banking ,United States ,166.19,115.63,11.65,"2,031.99",1
+General Electric,Conglomerates ,United States ,169.65,156.78,11.03,781.82,2
+Bank of America,Banking ,United States ,167.63,150.45,6.28,"2,223.30",3
+ExxonMobil,Oil & Gas Operations ,United States ,308.77,275.56,19.28,233.32,4
+ICBC,Banking ,China ,242.23,71.86,16.27,"1,428.46",5
+Banco Santander,Banking ,Spain ,107.12,109.57,12.34,"1,438.68",6
+Wells Fargo,Banking ,United States ,141.69,98.64,12.28,"1,243.65",7
+HSBC Holdings,Banking ,United Kingdom ,178.27,103.74,5.83,"2,355.83",8
+Royal Dutch Shell,Oil & Gas Operations ,Netherlands ,168.63,278.19,12.52,287.64,8
+BP,Oil & Gas Operations ,United Kingdom ,167.13,239.27,16.58,235.45,10
+BNP Paribas,Banking ,France ,86.67,101.06,8.37,"2,952.22",11
+PetroChina,Oil & Gas Operations ,China ,333.84,157.22,16.8,174.95,12
+AT&T,Telecommunications Services ,United States ,147.55,123.02,12.54,268.75,13
+Wal-Mart Stores,Retailing ,United States ,205.37,408.21,14.34,170.71,14
+Berkshire Hathaway,Diversified Financials ,United States ,190.86,112.49,8.06,297.12,15
+Gazprom,Oil & Gas Operations ,Russia ,132.58,115.25,24.33,234.77,16
+China Construction Bank,Banking ,China ,184.32,59.16,13.59,"1,106.20",17
+Petrobras-Petróleo Brasil,Oil & Gas Operations ,Brazil ,190.34,104.81,16.63,198.26,18
+Total,Oil & Gas Operations ,France ,131.8,160.68,12.1,183.29,19
+Chevron,Oil & Gas Operations ,United States ,146.23,159.29,10.48,164.62,20
+Barclays,Banking ,United Kingdom ,56.15,65.91,15.17,"2,223.04",21
+Bank of China,Banking ,China ,147,52.2,9.45,"1,016.31",22
+Allianz,Insurance ,Germany ,52.74,130.06,6.16,834.04,23
+GDF Suez,Utilities ,France ,83.36,114.65,6.42,245.95,24
+E.ON,Utilities ,Germany ,68.26,117.38,12.05,214.58,25
+Goldman Sachs Group,Diversified Financials ,United States ,84.95,51.67,13.39,849,25
+EDF Group,Utilities ,France ,92.23,95.17,5.6,342.63,27
+AXA Group,Insurance ,France ,46.02,145.86,5.17,"1,016.70",28
+Lloyds Banking Group,Banking ,United Kingdom ,50.25,106.67,4.57,"1,650.78",29
+Procter & Gamble,Household & Personal Products ,United States ,184.47,76.78,13.05,135.29,29
+ENI,Oil & Gas Operations ,Italy ,82.22,121.01,6.27,163.52,31
+Telefónica,Telecommunications Services ,Spain ,108.19,79.11,10.84,154.98,32
+IBM,Software & Services ,United States ,167.01,95.76,13.43,109.02,33
+UniCredit Group,Banking ,Italy ,43.95,92.17,5.59,"1,438.91",34
+Hewlett-Packard,Technology Hardware & Equip ,United States ,121.33,116.92,8.13,113.62,35
+Nestlé,"Food, Drink & Tobacco ",Switzerland ,173.67,97.08,10.07,105.16,36
+Verizon Communications,Telecommunications Services ,United States ,82.21,107.81,3.65,227.25,37
+China Mobile,Telecommunications Services ,Hong Kong/China ,199.73,66.22,16.87,104.46,38
+ConocoPhillips,Oil & Gas Operations ,United States ,72.72,136.02,4.86,152.59,39
+Pfizer,Drugs & Biotechnology ,United States ,143.23,50.01,8.64,212.95,40
+Nippon Telegraph & Tel,Telecommunications Services ,Japan ,68.68,106.98,5.53,181.48,41
+ENEL,Utilities ,Italy ,50.92,91.87,7.74,221.26,42
+Deutsche Bank,Banking ,Germany ,39.75,62.98,6.93,"2,150.60",43
+Credit Suisse Group,Diversified Financials ,Switzerland ,53.93,50.26,6.11,988.91,44
+Sinopec-China Petroleum,Oil & Gas Operations ,China ,130.06,208.47,4.37,110.66,45
+Vodafone,Telecommunications Services ,United Kingdom ,112.26,58.35,4.38,217.97,46
+Johnson & Johnson,Drugs & Biotechnology ,United States ,174.9,61.9,12.27,94.68,47
+BBVA-Banco Bilbao Vizcaya,Banking ,Spain ,48.2,49.27,6.03,760.39,48
+Microsoft,Software & Services ,United States ,254.52,58.69,16.26,82.1,49
+Siemens,Conglomerates ,Germany ,80.07,112.23,3.36,133.94,50
+Banco Bradesco,Banking ,Brazil ,54.5,59.1,4.6,281.4,51
+Banco do Brasil,Banking ,Brazil ,42.78,56.1,5.82,406.46,52
+Royal Bank of Canada,Banking ,Canada ,78.17,35.41,3.58,608.05,53
+Intesa Sanpaolo,Banking ,Italy ,44.67,50.71,3.56,877.66,54
+Samsung Electronics,Semiconductors ,South Korea ,94.48,97.28,4.43,83.3,55
+France Telecom,Telecommunications Services ,France ,62.39,65.92,4.3,132.06,56
+Sanofi-aventis,Drugs & Biotechnology ,France ,98.07,41.99,7.54,114.85,57
+Ford Motor,Consumer Durables ,United States ,41.8,118.31,2.72,194.85,58
+Commonwealth Bank,Banking ,Australia ,75.1,31.84,3.81,500.2,59
+RWE Group,Utilities ,Germany ,47.93,66.57,4.98,130.36,60
+Novartis,Drugs & Biotechnology ,Switzerland ,126.22,44.27,8.4,90.89,61
+BHP Billiton,Materials ,Australia/United Kingdom ,192.45,50.21,5.88,74.86,62
+Zurich Financial Services,Insurance ,Switzerland ,34.71,70.27,3.22,366.66,63
+Statoil,Oil & Gas Operations ,Norway ,72.26,79.76,3.16,97.09,64
+Generali Group,Insurance ,Italy ,35.19,123.14,1.83,607.37,65
+Roche Holding,Drugs & Biotechnology ,Switzerland ,146.19,47.35,7.51,69.64,66
+Westpac Banking Group,Banking ,Australia ,70.99,31.19,3.04,519.03,67
+Rio Tinto,Materials ,United Kingdom/Australia ,118.34,41.83,4.87,95.01,68
+Lukoil,Oil & Gas Operations ,Russia ,45.18,86.34,9.14,70.94,69
+Anheuser-Busch InBev,"Food, Drink & Tobacco ",Belgium ,81.48,36.76,4.61,111.58,70
+GlaxoSmithKline,Drugs & Biotechnology ,United Kingdom ,95.36,45.83,8.94,65.38,71
+Merck & Co,Drugs & Biotechnology ,United States ,116.11,27.43,12.9,112.09,72
+Crédit Agricole,Banking ,France ,34.42,91.96,1.61,"2,227.22",73
+Munich Re,Insurance ,Germany ,30.12,59.31,3.67,284.21,74
+Apple,Technology Hardware & Equip ,United States ,189.51,46.71,9.36,53.93,75
+Cisco Systems,Technology Hardware & Equip ,United States ,140.85,35.53,6.07,76.4,75
+Rosneft,Oil & Gas Operations ,Russia ,83.19,34.7,6.51,83.11,77
+Mitsubishi Corp,Trading Companies ,Japan ,42.64,63.12,3.8,109.74,78
+National Australia Bank,Banking ,Australia ,48.8,32.5,2.29,574.41,79
+Vale,Materials ,Brazil ,145.14,27.82,5.88,100.81,80
+CVS Caremark,Retailing ,United States ,47.85,98.73,3.7,61.64,81
+Itaúsa,Conglomerates ,Brazil ,28.74,66.36,2.25,342.63,82
+ANZ Banking,Banking ,Australia ,53.72,26.91,2.6,420.52,83
+Tesco,Food Markets ,United Kingdom ,51.43,77.94,3.1,65.61,84
+Unilever,"Food, Drink & Tobacco ",Netherlands/United Kingdom ,91.33,57.05,4.83,52.05,85
+Honda Motor,Consumer Durables ,Japan ,63.22,102.82,1.41,117.24,86
+Toronto-Dominion Bank,Banking ,Canada ,55.43,23.6,2.9,517.28,86
+Iberdrola,Utilities ,Spain ,42.16,35.15,3.94,125.21,88
+Comcast,Media ,United States ,47.76,35.76,3.64,112.73,89
+China Life Insurance,Insurance ,China ,118.75,24.01,3.12,153.13,90
+Bank of Nova Scotia,Banking ,Canada ,47.26,23.27,3.29,460.93,91
+UnitedHealth Group,Health Care Equipment & Svcs ,United States ,39.4,87.14,3.82,59.05,92
+Sberbank,Banking ,Russia ,57.7,23.27,3.2,220.62,93
+United Technologies,Conglomerates ,United States ,65.28,52.92,3.83,55.76,94
+Nordea Bank,Banking ,Sweden ,39.42,22.81,3.41,729.06,95
+Bank of Communications,Banking ,China ,57.34,19.05,4.17,392.83,96
+BASF,Chemicals ,Germany ,52.12,72.63,2.02,72.06,97
+Walt Disney,Media ,United States ,61.17,36.29,3.31,69.31,98
+Standard Chartered Group,Banking ,United Kingdom ,46.16,20.94,3.38,435.56,99
+AstraZeneca,Drugs & Biotechnology ,United Kingdom ,63.56,32.8,7.52,53.63,100
+Intel, Semiconductors , United States ,115.29,35.13,4.37,53.1,100
+Prudential Financial,Insurance ,United States ,24.86,32.69,3.12,480.2,102
+Société Générale Group,Banking ,France ,41.43,62.08,0.97,"1,468.72",103
+Coca-Cola,"Food, Drink & Tobacco ",United States ,122.79,30.99,6.82,48.67,104
+Abbott Laboratories,Drugs & Biotechnology ,United States ,84.29,30.76,5.75,52.42,105
+PepsiCo,"Food, Drink & Tobacco ",United States ,99.58,43.23,5.95,39.85,106
+Bayer Group,Chemicals ,Germany ,56.3,43.46,1.9,73.15,107
+Telecom Italia,Telecommunications Services ,Italy ,27.75,42,3.08,117.66,108
+Kraft Foods,"Food, Drink & Tobacco ",United States ,42.49,40.39,3.02,66.71,109
+Saudi Basic Industries,Chemicals ,Saudi Arabia ,71.2,27.49,2.42,78.98,110
+Morgan Stanley,Diversified Financials ,United States ,39.41,30.07,1.35,771.46,111
+Manulife Financial,Insurance ,Canada ,32.54,38.26,1.35,379.5,112
+Oracle,Software & Services ,United States ,123.98,23.23,5.8,53.83,113
+American Express,Diversified Financials ,United States ,45.63,26.73,2.13,124.09,114
+Repsol-YPF,Oil & Gas Operations ,Spain ,27.71,63.9,2.24,80.43,115
+WellPoint,Health Care Equipment & Svcs ,United States ,27.55,65.03,4.75,52.13,116
+US Bancorp,Banking ,United States ,46.89,19.49,2.21,281.18,117
+Home Depot,Retailing ,United States ,53.44,66.18,2.66,40.88,118
+Mitsui & Co,Trading Companies ,Japan ,28.81,56.85,1.82,84.47,119
+Boeing,Aerospace & Defense ,United States ,48.45,68.28,1.31,62.05,120
+Google,Software & Services ,United States ,169.38,23.65,6.52,40.5,120
+Aviva,Insurance ,United Kingdom ,15.51,95.98,1.75,559.71,122
+Target,Retailing ,United States ,38.9,65.36,2.49,44.53,123
+Vinci,Construction ,France ,28.11,44.52,2.23,75.23,124
+News Corp,Media ,United States ,37.93,30.93,3.35,56.13,125
+Reliance Industries,Oil & Gas Operations ,India ,69.36,29.4,2.91,48.5,126
+Travelers Cos,Insurance ,United States ,27.26,24.68,3.62,109.56,127
+Hutchison Whampoa,Conglomerates ,Hong Kong/China ,30.97,30.38,2.28,86.04,128
+Prudential,Insurance ,United Kingdom ,20.05,77.67,1.11,361.5,129
+State Bank of India Group,Banking ,India ,27.21,22.14,2.13,256.79,130
+América Móvil,Telecommunications Services ,Mexico ,72.09,30.22,5.4,34.7,131
+Philip Morris International,"Food, Drink & Tobacco ",United States ,92.04,25.04,6.34,34.55,132
+British Amer Tobacco,"Food, Drink & Tobacco ",United Kingdom ,68.27,22.95,4.38,42.41,133
+Time Warner,Media ,United States ,34.05,25.79,2.44,65.73,134
+Nokia,Technology Hardware & Equip ,Finland ,49.18,58.72,1.28,49.11,135
+PNC Financial Services,Banking ,United States ,24.86,18.95,2.45,269.86,135
+Posco,Materials ,South Korea ,39.84,33.48,3.51,37.03,137
+Anglo American,Materials ,United Kingdom ,48.19,21.16,2.46,56.8,138
+United Parcel Service,Transportation ,United States ,58.43,45.3,2.15,31.88,139
+Vivendi,Media ,France ,31.15,37.83,1.16,79.07,140
+China Merchants Bank,Banking ,China ,45.65,12.09,3.09,230,141
+East Japan Railway,Transportation ,Japan ,27.43,27.7,1.92,67.93,142
+ABB,Capital Goods ,Switzerland ,46.46,31.8,2.9,33.68,143
+Deutsche Telekom,Telecommunications Services ,Germany ,56.25,90.08,0.49,183.11,144
+China Unicom (HK),Telecommunications Services ,Hong Kong/China ,29.83,21.6,4.92,49.85,145
+Lockheed Martin,Aerospace & Defense ,United States ,29.61,45.19,3.02,35.11,146
+Canon,Business Services & Supplies ,Japan ,55.8,34.53,1.46,41.33,147
+Schlumberger,Oil & Gas Operations ,Netherlands ,73.49,22.98,3.13,33.47,148
+Nippon Steel,Materials ,Japan ,25.43,48.99,1.59,48.78,149
+Bank of Montreal,Banking ,Canada ,29.86,14.92,1.66,360.62,150
+CNP Assurances,Insurance ,France ,12.99,58.14,1.4,376.12,151
+L'Oréal Group,Household & Personal Products ,France ,63.05,24.36,2.5,33.38,152
+McDonald's,"Hotels, Restaurants & Leisure ",United States ,69.05,22.74,4.55,30.07,153
+China Shenhua Energy,Materials ,China ,85.42,15.72,3.91,40.29,154
+Oil & Natural Gas,Oil & Gas Operations ,India ,51.82,20.21,3.86,35.66,155
+BG Group,Oil & Gas Operations ,United Kingdom ,58.16,16.5,3.5,42.3,156
+TNK-BP Holding,Oil & Gas Operations ,Russia ,27.73,31.6,6.38,31.18,157
+Lowe's Cos,Retailing ,United States ,34.99,47.22,1.78,33.01,158
+Suncor Energy,Oil & Gas Operations ,Canada ,45.59,24.3,1.09,65.17,159
+JFE Holdings,Materials ,Japan ,22.99,40.14,1.99,42.88,160
+Occidental Petroleum,Oil & Gas Operations ,United States ,65.57,15.4,2.92,44.23,160
+Cnooc,Oil & Gas Operations ,Hong Kong/China ,70.65,18.27,6.44,30.33,162
+Walgreen,Retailing ,United States ,34.89,64.75,2.09,26.55,163
+Honeywell International,Conglomerates ,United States ,31.02,30.91,2.15,36,164
+Caterpillar,Capital Goods ,United States ,36.14,32.4,0.9,60.04,165
+Amgen,Drugs & Biotechnology ,United States ,55.72,14.64,4.61,39.63,166
+Bristol-Myers Squibb,Drugs & Biotechnology ,United States ,41.81,18.81,10.61,31.01,167
+Marathon Oil,Oil & Gas Operations ,United States ,20.64,48.45,1.46,47.05,168
+3M,Conglomerates ,United States ,57.35,23.12,3.19,27.25,169
+Canadian Imperial Bank,Banking ,Canada ,26.19,13.2,1.58,316.51,170
+Dexia,Banking ,Belgium ,9.38,98.01,1.45,828.74,171
+KDDI,Telecommunications Services ,Japan ,24.38,35.92,2.29,33.59,172
+Surgutneftegas,Oil & Gas Operations ,Russia ,29.95,18.88,4.8,37.9,173
+Sumitomo,Trading Companies ,Japan ,13.57,36.06,2.21,70.69,174
+Exelon,Utilities ,United States ,29.34,17.32,2.71,49.18,175
+Hon Hai Precision Ind,Technology Hardware & Equip ,Taiwan ,34.97,59.29,1.68,26.77,176
+Standard Bank Group,Banking ,South Africa ,22.08,16.57,1.55,162.52,177
+Bouygues,Construction ,France ,16.32,43.72,1.84,49.52,178
+EI du Pont de Nemours,Chemicals ,United States ,30.76,27.33,1.76,38.19,179
+Altria Group,"Food, Drink & Tobacco ",United States ,42.17,16.82,3.21,36.68,180
+General Dynamics,Aerospace & Defense ,United States ,28.51,31.98,2.39,31.08,181
+Danone,"Food, Drink & Tobacco ",France ,37.81,21.46,2.02,36.46,182
+Dell,Technology Hardware & Equip ,United States ,26.55,52.9,1.43,33.65,183
+Aflac,Insurance ,United States ,23.47,18.25,1.5,84.11,184
+Eli Lilly & Co,Drugs & Biotechnology ,United States ,39.58,21.84,4.33,27.46,185
+National Grid,Utilities ,United Kingdom ,24.24,22.22,1.34,63.54,186
+Shinhan Financial,Banking ,South Korea ,16.95,17.16,1.62,208.99,187
+Hyundai Motor,Consumer Durables ,South Korea ,21.84,63.95,0.69,81.45,188
+Dow Chemical,Chemicals ,United States ,33,44.88,0.65,65.94,189
+Telstra,Telecommunications Services ,Australia ,32.89,20.48,3.29,32.3,190
+Japan Tobacco,"Food, Drink & Tobacco ",Japan ,36.3,28.78,1.27,37.98,191
+Carrefour Group,Food Markets ,France ,33.37,125.36,0.47,73.96,192
+Deutsche Post DHL,Transportation ,Germany ,19.69,66.29,0.92,49.84,193
+Imperial Tobacco Group,"Food, Drink & Tobacco ",United Kingdom ,31.94,23.6,1.06,50.82,194
+Allstate,Insurance ,United States ,16.94,32.01,0.85,132.65,195
+PTT Public Company,Oil & Gas Operations ,Thailand ,19.88,47.58,1.79,32.8,196
+BMW Group,Consumer Durables ,Germany ,26.83,74.09,0.45,139.31,197
+China Citic Bank,Banking ,China ,36.64,9.33,1.96,173.84,198
+Wesfarmers,Conglomerates ,Australia ,29.49,40.87,1.24,31.15,199
+DnB NOR,Diversified Financials ,Norway ,18.37,13.06,1.48,315.61,200
+ACE, Insurance , Switzerland ,16.97,15.08,2.55,77.98,201
+Xstrata,Materials ,Switzerland ,46.87,22.73,0.66,63.61,202
+Erste Bank,Banking ,Austria ,14.07,20.27,1.2,278.9,203
+Gas Natural Group,Utilities ,Spain ,16.89,20.75,1.67,64.99,203
+Royal KPN,Telecommunications Services ,Netherlands ,25.97,19.27,3.12,32.59,205
+Southern Co,Utilities ,United States ,26.3,15.74,1.71,52.05,206
+Veolia Environnement,Utilities ,France ,16.2,49.5,0.84,69.15,207
+TeliaSonera,Telecommunications Services ,Sweden ,31.3,15.24,2.63,36.2,208
+Teva Pharmaceutical Inds,Drugs & Biotechnology ,Israel ,56.19,14.36,2.07,33.21,209
+Seven & I Holdings,Food Markets ,Japan ,20.2,57.74,0.94,37.86,210
+Union Pacific,Transportation ,United States ,34.21,14.14,1.9,42.41,211
+Archer Daniels,"Food, Drink & Tobacco ",United States ,19.06,62.21,1.14,33.53,212
+Holcim,Construction ,Switzerland ,21.77,20.4,1.42,47.2,213
+Itochu,Trading Companies ,Japan ,12.77,35.11,1.7,51.19,214
+Diageo,"Food, Drink & Tobacco ",United Kingdom ,40.93,15.34,2.67,28.69,215
+Northrop Grumman,Aerospace & Defense ,United States ,19.08,33.76,1.69,30.25,216
+Centrica,Utilities ,United Kingdom ,21.68,34.39,1.32,31.39,217
+ACS Group,Construction ,Spain ,14.14,21.76,2.72,45.51,218
+Costco Wholesale,Retailing ,United States ,27.08,74.23,1.15,23.37,219
+SABMiller,"Food, Drink & Tobacco ",United Kingdom ,42.45,14.88,1.88,31.46,220
+Lafarge,Construction ,France ,18.57,22.76,1.05,56.2,221
+Ecopetrol,Oil & Gas Operations ,Colombia ,54.14,14.26,2.4,27.2,222
+Christian Dior,Household & Personal Products ,France ,18.22,24.98,1.11,48.53,223
+Shanghai Pudong Dev Bk,Banking ,China ,26.83,8.7,1.84,191.5,224
+Jardine Matheson,Conglomerates ,Hong Kong/China ,18.25,22.5,1.6,39.13,225
+Takeda Pharmaceutical,Drugs & Biotechnology ,Japan ,35.47,15.8,2.41,27.83,225
+Schneider Electric,Capital Goods ,France ,28.05,22.02,1.19,34.61,227
+Medtronic,Health Care Equipment & Svcs ,United States ,48.52,15.45,2.27,25.17,228
+McKesson,Drugs & Biotechnology ,United States ,16.27,108.28,1.2,27.54,229
+Wilmar International,"Food, Drink & Tobacco ",Singapore ,30.31,23.89,1.88,23.36,230
+State Street,Diversified Financials ,United States ,22.28,9.36,1.8,157.95,231
+Capital One Financial,Diversified Financials ,United States ,17.02,15.95,0.88,169.65,232
+FPL Group,Utilities ,United States ,19.58,15.65,1.62,48.44,233
+Deere & Co,Capital Goods ,United States ,24.63,22.8,0.91,40.78,234
+Eletrobrás,Utilities ,Brazil ,15.95,13.11,2.68,58,235
+Sun Life Financial,Insurance ,Canada ,16.24,26.3,0.59,192.1,236
+Air Liquide,Chemicals ,France ,31.49,17.16,1.76,28.15,237
+Carnival,"Hotels, Restaurants & Leisure ",Panama/United Kingdom ,30.09,13.16,1.79,36.84,238
+BCE,Telecommunications Services ,Canada ,21.99,16.92,1.66,36.29,239
+Freeport Copper,Materials ,United States ,32.87,15.04,2.75,25.87,240
+Royal Philips Electronics,Conglomerates ,Netherlands ,29.36,33.22,0.59,42.02,241
+Swiss Re Group,Insurance ,Switzerland ,16.44,30.71,0.49,221.5,242
+Transocean,Oil & Gas Operations ,Switzerland ,25.81,11.56,3.18,36.44,243
+Alstom,Conglomerates ,France ,18.63,24.66,1.46,30.85,244
+Industrial Bank China,Banking ,China ,26.02,8.29,1.67,149.33,245
+Raytheon,Aerospace & Defense ,United States ,21.53,24.88,1.94,23.61,246
+Power Corp of Canada,Diversified Financials ,Canada ,12.96,31.62,0.65,136.41,247
+Banca MPS,Banking ,Italy ,9.85,16.93,1.52,292.22,248
+Metro AG,Food Markets ,Germany ,16.82,94.65,0.56,45.57,249
+Dominion Resources,Utilities ,United States ,22.87,15.13,1.29,42.55,250
+Chubb,Insurance ,United States ,16.77,13.02,2.18,50.45,251
+Aetna,Health Care Equipment & Svcs ,United States ,13.14,34.76,1.28,38.14,252
+Medco Health,Health Care Equipment & Svcs ,United States ,29.68,59.8,1.28,17.92,253
+Emerson Electric,Conglomerates ,United States ,35.64,20.51,1.69,21.49,254
+National Bank of Greece,Banking ,Greece ,11.78,12.42,2.15,140.48,255
+QBE Insurance Group,Insurance ,Australia ,19.74,14.94,1.77,36.66,256
+Legal & General Group,Insurance ,United Kingdom ,6.41,70.71,1.39,479.64,257
+Qualcomm,Technology Hardware & Equip ,United States ,59.76,10.57,2.09,28.9,258
+EDP-Energias de Portugal,Utilities ,Portugal ,13.34,19.35,1.52,48.89,259
+Nintendo,Technology Hardware & Equip ,Japan ,39.34,18.88,2.87,18.03,260
+Saudi Telecommunications,Telecommunications Services ,Saudi Arabia ,23.47,13.54,2.9,29.07,261
+Central Japan Railway,Transportation ,Japan ,16.07,16.13,1.29,51.03,262
+SAP,Software & Services ,Germany ,55.27,15.29,2.56,18.73,263
+Baoshan Iron & Steel,Materials ,China ,21.04,29.39,0.95,29.35,264
+China Minsheng Banking,Banking ,China ,24.09,8.96,1.16,154.37,265
+Duke Energy,Utilities ,United States ,21.59,12.73,1.08,57.04,266
+Svenska Handelsbanken,Banking ,Sweden ,17.2,8.81,1.43,297.27,267
+PPR,Retailing ,France ,14.67,23.71,1.41,34.3,268
+Marubeni,Trading Companies ,Japan ,10.36,41.1,1.14,46.47,269
+Resona Holdings,Banking ,Japan ,14.73,9.83,1.27,400.47,270
+Time Warner Cable,Media ,United States ,16.63,17.87,1.07,43.69,271
+BB&T,Banking ,United States ,19.2,10.82,0.85,165.76,272
+Telenor,Telecommunications Services ,Norway ,21.42,16.85,1.55,28.49,273
+Türkiye Garanti Bankasi,Banking ,Turkey ,16.06,9.75,2.06,77.02,274
+Canadian Natural Res,Oil & Gas Operations ,Canada ,37.24,9.67,1.51,39.13,275
+Ericsson,Technology Hardware & Equip ,Sweden ,32.55,28.83,0.51,35.78,276
+Mapfre,Insurance ,Spain ,10.5,22.82,1.33,57.26,277
+Hyundai Heavy Industries,Capital Goods ,South Korea ,13.53,22.04,1.81,30.36,278
+EnCana,Oil & Gas Operations ,Canada ,25.35,11.11,1.86,33.83,279
+American Electric,Utilities ,United States ,16.21,13.5,1.36,48.35,280
+EnBW-Energie Baden,Utilities ,Germany ,12.35,22.3,1.1,45.73,281
+Icici Bank,Banking ,India ,21.07,12.58,0.7,94.64,282
+Rolls-Royce Group,Aerospace & Defense ,United Kingdom ,15.57,16.82,3.59,24.32,283
+EMC,Technology Hardware & Equip ,United States ,36.44,14.03,1.09,26.81,284
+Hess,Oil & Gas Operations ,United States ,19.63,29.57,0.74,29.47,285
+Kimberly-Clark,Household & Personal Products ,United States ,25.29,19.12,1.88,19.21,285
+Softbank,Telecommunications Services ,Japan ,27.9,27.45,0.44,42.81,287
+Türkiye Is Bankasi,Banking ,Turkey ,12.6,10.97,1.61,86.34,288
+XTO Energy,Oil & Gas Operations ,United States ,26.77,9.06,2.02,36.26,289
+Danske Bank Group,Banking ,Denmark ,15.75,30.41,0.33,597.03,290
+Visa,Diversified Financials ,United States ,73.12,7.13,2.54,31.72,291
+Woolworths,Food Markets ,Australia ,30.7,40.03,1.48,13.42,292
+PG&E,Utilities ,United States ,15.61,13.4,1.23,42.95,293
+Best Buy,Retailing ,United States ,15.38,47.87,1.11,21.1,294
+Thomson Reuters,Media ,Canada ,29.1,12.95,0.84,34.57,295
+HeidelbergCement,Construction ,Germany ,9.56,19.76,2.52,36.36,296
+CCCC-China Communications Construction,Construction ,China ,14.03,26.26,0.89,31.69,297
+LG Corp,Conglomerates ,South Korea ,9.07,72.36,0.73,50.92,298
+Linde,Chemicals ,Germany ,19.2,16.09,0.85,34.98,298
+Sasol,Oil & Gas Operations ,South Africa ,23.85,17.84,1.77,18.73,298
+CRH, Construction , Ireland ,15.89,24.23,0.83,29.47,301
+Ahold,Food Markets ,Netherlands ,14.68,35.82,1.5,18.4,302
+Directv,Media ,United States ,32.73,21.57,0.94,18.26,303
+Husky Energy,Oil & Gas Operations ,Canada ,21.92,14.38,1.31,25.08,304
+FirstRand,Banking ,South Africa ,13.67,10.93,0.9,104.61,305
+DBS Group,Banking ,Singapore ,23.01,5.88,1.45,184.12,306
+Saint-Gobain,Construction ,France ,24.02,52.69,0.28,60.55,307
+Baxter International,Health Care Equipment & Svcs ,United States ,34.51,12.56,2.21,17.35,308
+Carso Global Telecom,Telecommunications Services ,Mexico ,15.65,16.04,1.23,27.85,309
+Johnson Controls,Consumer Durables ,United States ,21.41,29.57,0.62,23.81,310
+Singapore Telecom,Telecommunications Services ,Singapore ,34.66,9.81,2.27,21.34,310
+TransCanada,Utilities ,Canada ,22.84,8.55,1.34,41.82,312
+Indian Oil,Oil & Gas Operations ,India ,16.74,47.53,0.51,28.45,313
+Severstal,Materials ,Russia ,11.76,22.39,2.03,22.48,313
+Amazon.com,Retailing ,United States ,55.36,24.51,0.9,13.81,315
+CEZ,Utilities ,Czech Republic ,24.65,9.44,2.42,24.46,315
+General Mills,"Food, Drink & Tobacco ",United States ,23.87,14.78,1.63,18.56,317
+China Railway Construction,Construction ,China ,15.75,32.21,0.53,31.86,318
+Loews,Insurance ,United States ,15.64,14.12,0.56,74.07,319
+Pernod Ricard,"Food, Drink & Tobacco ",France ,20.4,10.1,1.33,33.33,319
+Koç Holding,Conglomerates ,Turkey ,7.45,36.34,1.32,41.8,321
+Cigna,Health Care Equipment & Svcs ,United States ,9.51,18.41,1.3,43.01,322
+CIC Group,Banking ,France ,6.4,21.5,1.12,351.15,323
+Evraz Group,Materials ,Luxembourg ,14.4,20.38,1.87,19.45,324
+Mitsui Fudosan,Diversified Financials ,Japan ,14.84,14.57,0.86,37.87,324
+Cardinal Health,Drugs & Biotechnology ,United States ,12.68,101.66,0.78,20.82,326
+Pub Svc Enterprise,Utilities ,United States ,15.4,12.41,1.59,28.73,327
+Henkel Group,Household & Personal Products ,Germany ,21.03,18.93,0.84,22.67,328
+China Cosco Holdings,Transportation ,China ,17.85,19.21,1.71,16.95,329
+Enbridge,Oil & Gas Operations ,Canada ,17.07,11.89,1.49,26.87,329
+Viacom,Media ,United States ,18.01,13.62,1.61,21.9,331
+Taiwan Semiconductor,Semiconductors ,Taiwan ,48.22,8.65,2.7,18.05,332
+NIKE,Household & Personal Products ,United States ,33.63,18.36,1.47,13.36,333
+Tokio Marine Holdings,Insurance ,Japan ,22.29,32.45,0.24,152.15,334
+Woori Finance Holdings,Banking ,South Korea ,9.07,51.01,0.36,230.52,334
+Entergy,Utilities ,United States ,14.71,10.75,1.25,37.36,336
+Aegon,Insurance ,Netherlands ,11.04,42.68,0.29,428.46,337
+OMV Group,Oil & Gas Operations ,Austria ,11.05,25.67,0.82,30.47,338
+Accenture,Software & Services ,Ireland ,28.62,22.45,1.55,12.18,339
+Reckitt Benckiser Group,Household & Personal Products ,United Kingdom ,37.64,12.53,2.29,13.79,340
+NTPC,Utilities ,India ,36.3,8.62,1.58,22.59,341
+Monsanto,Chemicals ,United States ,38.87,10.77,1.53,17.61,342
+Akbank,Banking ,Turkey ,15.75,8.06,1.16,60.23,343
+Sumitomo Metal Inds,Materials ,Japan ,13.28,18.94,1,24.4,344
+Tata Steel,Materials ,India ,11.04,28.69,0.96,23.95,345
+Criteria Caixa,Diversified Financials ,Spain ,15.28,6.53,1.84,70.37,346
+National Oilwell Varco,Oil & Gas Operations ,United States ,18.27,12.71,1.47,21.53,346
+Colgate-Palmolive,Household & Personal Products ,United States ,41.37,15.33,2.29,11.13,348
+Automatic Data,Business Services & Supplies ,United States ,21.19,8.79,1.36,29.6,349
+MTN Group,Telecommunications Services ,South Africa ,27.31,10.96,1.64,18.33,349
+Komatsu,Capital Goods ,Japan ,19.36,20.76,0.81,19.57,351
+Swisscom,Telecommunications Services ,Switzerland ,17.74,11.58,1.86,21.2,352
+Citigroup,Banking ,United States ,96.54,108.07,-1.61,"1,856.65",353
+Fortum,Utilities ,Finland ,22.79,7.79,1.88,28.4,353
+Halliburton,Oil & Gas Operations ,United States ,27.83,14.68,1.15,16.54,355
+Ebay,Retailing ,United States ,31.02,8.73,2.39,18.41,356
+China State Construction,Construction ,China ,19.16,29.56,0.4,29.81,357
+Areva,Materials ,France ,16.58,12.22,0.79,32.95,358
+Banco Popular Español,Banking ,Spain ,8.75,10,1.1,185.5,359
+Toyota Motor,Consumer Durables ,Japan ,127.1,210.84,-4.49,292.73,360
+FirstEnergy,Utilities ,United States ,11.91,12.97,1.01,34.3,361
+Shin-Etsu Chemical,Chemicals ,Japan ,23.08,12.33,1.59,16.71,362
+KB Financial Group,Banking ,South Korea ,16.24,8.82,0.49,212.4,363
+Teck Resources,Materials ,Canada ,22.48,7.32,1.75,28.5,364
+Consolidated Edison,Utilities ,United States ,12.15,13.03,0.88,33.87,365
+Danaher,Conglomerates ,United States ,24.37,11.18,1.15,19.6,366
+Fresenius,Health Care Equipment & Svcs ,Germany ,11.63,20.29,0.71,29.96,367
+Raiffeisen International Bank-Holding,Banking ,Austria ,7,11.8,1.37,118.58,368
+Mitsubishi UFJ Financial,Banking ,Japan ,72.17,57.53,-2.64,"1,999.58",369
+CSX,Transportation ,United States ,18.85,9.04,1.15,27.04,370
+Emirates Telecommunications,Telecommunications Services ,United Arab Emirates ,23.29,8.39,2.41,19.4,371
+Kirin Holdings,"Food, Drink & Tobacco ",Japan ,13.67,20.44,0.53,30.1,372
+ING Group,Insurance ,Netherlands ,35.46,167.49,-1.3,"1,667.62",373
+Edison International,Utilities ,United States ,10.86,12.36,0.85,41.44,374
+Syngenta,Chemicals ,Switzerland ,24.33,11.47,1.43,16.07,375
+United Overseas Bank,Banking ,Singapore ,19.92,4.75,1.31,132.1,375
+Canadian National,Transportation ,Canada ,25.32,7.03,1.77,24.01,377
+WPP,Media ,United Kingdom ,11.64,14.02,0.71,35.98,378
+Express Scripts,Health Care Equipment & Svcs ,United States ,26.55,24.75,0.83,11.93,379
+Macquarie Group,Diversified Financials ,Australia ,13.85,8.43,0.59,102.8,380
+Illinois Tool Works,Capital Goods ,United States ,23.16,13.88,0.95,16.08,381
+AMP,Diversified Financials ,Australia ,11.01,9.82,0.66,80.2,382
+Heineken Holding,"Food, Drink & Tobacco ",Netherlands ,10.27,21.06,0.73,28.15,383
+Research In Motion,Technology Hardware & Equip ,Canada ,39.09,14.34,2.27,9.7,384
+Brookfield Asset Mgmt,Diversified Financials ,Canada ,13.64,12.08,0.45,59.37,385
+Royal Bank of Scotland,Banking ,United Kingdom ,30.9,95.02,-5.82,"2,727.94",385
+Fifth Third Bancorp,Banking ,United States ,9.73,9.45,0.74,113.38,387
+Daimler,Consumer Durables ,Germany ,45.07,110.06,-3.69,184.49,388
+Mitsubishi Estate,Diversified Financials ,Japan ,21.97,9.68,0.47,44.8,389
+Novolipetsk Steel,Materials ,Russia ,18.99,11.7,2.28,14.06,390
+Oversea-Chinese Banking,Banking ,Singapore ,19.59,4.5,1.4,138.35,391
+UBS,Diversified Financials ,Switzerland ,48.58,43.22,-2.64,"1,288.19",392
+International Paper,Materials ,United States ,10.55,23.37,0.66,25.55,393
+Inpex,Oil & Gas Operations ,Japan ,17.2,11.05,1.49,17.64,394
+Waste Management,Business Services & Supplies ,United States ,16.18,11.79,0.99,21.15,394
+Rogers Communications,Telecommunications Services ,Canada ,20.01,11.19,1.41,16.23,396
+Finmeccanica,Aerospace & Defense ,Italy ,7.49,20.94,0.8,40.69,397
+Newmont Mining,Materials ,United States ,24.69,7.71,1.3,22.3,398
+MCC,Construction ,China ,13.59,23.18,0.47,24.76,399
+Norfolk Southern,Transportation ,United States ,19.46,7.97,1.03,27.37,399
+Staples, Retailing , United States ,18.72,24.28,0.74,13.72,399
+Covidien,Health Care Equipment & Svcs ,Ireland ,24.78,10.86,0.93,17.35,402
+Sysco,Food Markets ,United States ,17.17,35.78,1.14,10.28,402
+Sumitomo Mitsui Financial,Banking ,Japan ,45.82,36.14,-3.84,"1,202.59",404
+ArcelorMittal,Materials ,Luxembourg ,59.75,65.11,0.12,127.7,405
+Constellation Energy,Utilities ,United States ,7.11,15.6,4.44,23.54,406
+Thermo Fisher,Health Care Equipment & Svcs ,United States ,19.86,10.11,0.85,21.6,407
+BOC Hong Kong,Banking ,Hong Kong/China ,24.24,6.51,0.43,148.01,408
+Sampo,Insurance ,Finland ,13.69,8.04,0.92,37.41,409
+Inditex,Retailing ,Spain ,37.23,13.36,1.61,9.71,410
+Progressive,Insurance ,United States ,11.62,14.56,1.06,20.05,411
+George Weston,Food Markets ,Canada ,8.52,30.35,0.99,19.21,412
+Ameriprise Financial,Diversified Financials ,United States ,10.29,7.95,0.72,113.77,413
+Sabanci Group,Conglomerates ,Turkey ,7.33,12.93,0.78,65.24,414
+Kohl's,Retailing ,United States ,16.54,17.18,0.99,13.16,415
+Bombardier,Aerospace & Defense ,Canada ,9.68,19.44,0.81,22.12,416
+Texas Instruments,Semiconductors ,United States ,30.59,10.43,1.47,12.12,417
+Safran,Aerospace & Defense ,France ,9.32,14.72,0.89,26.04,418
+Sun Hung Kai Properties,Diversified Financials ,Hong Kong/China ,36.2,4.42,1.34,39.98,419
+Tokyo Electric Power,Utilities ,Japan ,37.17,60.47,-0.87,132.79,419
+Sony,Technology Hardware & Equip ,Japan ,34.33,79.39,-1.02,118,421
+Mizuho Financial,Banking ,Japan ,30.37,34.68,-6.05,"1,538.94",422
+Novo Nordisk,Drugs & Biotechnology ,Denmark ,44.65,9.83,2.07,10.27,422
+Nissan Motor,Consumer Durables ,Japan ,35.65,86.65,-2.4,102.52,424
+MetLife,Insurance ,United States ,29.93,41.06,-2.25,539.31,425
+Coca-Cola Enterprises,"Food, Drink & Tobacco ",United States ,12.59,21.65,0.73,16.42,426
+H&M Hennes & Mauritz,Retailing ,Sweden ,50.24,14.54,2.35,7.6,427
+Mitsubishi Heavy Inds,Capital Goods ,Japan ,12.53,34.67,0.25,45.73,428
+Formosa Petrochemical,Oil & Gas Operations ,Taiwan ,24.16,26.67,0.46,13.03,429
+Corning,Technology Hardware & Equip ,United States ,27.7,5.4,2.01,21.3,430
+Standard Life,Insurance ,United Kingdom ,6.45,28.15,0.34,236.74,431
+Femsa,"Food, Drink & Tobacco ",Mexico ,14.84,15.08,0.76,16.07,432
+Sempra Energy,Utilities ,United States ,12.15,8.11,1.13,28.51,433
+Progress Energy,Utilities ,United States ,11.03,9.89,0.76,31.24,434
+Carlsberg,"Food, Drink & Tobacco ",Denmark ,11.85,11.42,0.69,25.94,435
+Astellas Pharma,Drugs & Biotechnology ,Japan ,17.81,9.92,1.76,13.18,436
+Praxair,Chemicals ,United States ,23.3,8.96,1.25,14.32,437
+VTB Bank,Banking ,Russia ,26.43,11.28,0.22,125.85,437
+Xerox,Business Services & Supplies ,United States ,12.99,15.18,0.49,24.03,439
+Merck,Drugs & Biotechnology ,Germany ,17.43,11.1,0.52,23.2,440
+Compass Group,Business Services & Supplies ,United Kingdom ,13.94,21.51,0.94,11.74,441
+Cenovus Energy,Oil & Gas Operations ,Canada ,18.42,10.14,0.65,20.55,442
+Akzo Nobel,Chemicals ,Netherlands ,11.86,19.9,0.41,25.95,443
+Panasonic,Technology Hardware & Equip ,Japan ,34.54,79.75,-3.89,59.29,444
+Zain Group,Telecommunications Services ,Kuwait ,19.1,7.34,1.18,19.44,445
+Kellogg,"Food, Drink & Tobacco ",United States ,19.79,12.58,1.21,11.2,446
+Mitsui OSK Lines,Transportation ,Japan ,7.73,19.16,1.3,18.24,447
+Tenaris,Oil & Gas Operations ,Luxembourg ,25.14,8.15,1.16,15.1,448
+Charles Schwab,Diversified Financials ,United States ,21.76,4.41,0.79,75.4,449
+AES,Utilities ,United States ,7.47,14.12,0.66,39.54,450
+Unum Group,Insurance ,United States ,7.07,10.09,0.85,54.51,451
+SCA-Svenska Cellulosa,Household & Personal Products ,Sweden ,10.52,15.48,0.67,20.99,452
+Mxller-Maersk,Transportation ,Denmark ,33.77,48.7,-1.32,66.49,453
+Origin Energy,Utilities ,Australia ,13.42,6.49,5.6,17.78,454
+Principal Financial,Diversified Financials ,United States ,7.4,8.85,0.62,137.76,455
+Humana,Health Care Equipment & Svcs ,United States ,8.08,30.96,1.04,14.15,456
+Kyushu Electric Power,Utilities ,Japan ,10.7,15.65,0.35,40.43,457
+China Railway Group,Construction ,China ,18.05,33.03,0.2,36.55,458
+Reynolds American,"Food, Drink & Tobacco ",United States ,15.52,8.42,0.96,18.01,459
+China Pacific Insurance,Insurance ,China ,32.21,15.01,0.2,46.44,460
+Discover Financial Services,Diversified Financials ,United States ,7.4,7.99,1.28,46.02,461
+Investor,Diversified Financials ,Sweden ,13.59,4.98,4.38,23.84,462
+Acciona,Construction ,Spain ,6.97,9.34,1.81,29.46,463
+L-3 Communications,Aerospace & Defense ,United States ,10.62,15.62,0.9,14.81,463
+Omnicom Group,Media ,United States ,11.7,11.72,0.79,17.92,465
+Ping An Insurance Group,Insurance ,China ,52.8,18.98,0.04,108.31,466
+Al Rajhi Bank,Banking ,Saudi Arabia ,30.1,3.35,1.8,45.52,467
+PKO Bank Polski,Banking ,Poland ,16.08,4.51,1.05,45.36,468
+National Bank of Canada,Banking ,Canada ,9.55,4.96,0.94,125.88,469
+Gilead Sciences,Drugs & Biotechnology ,United States ,42.76,7.01,2.64,9.7,470
+Bharti Airtel,Telecommunications Services ,India ,23,7.27,1.53,12.88,471
+CLP Holdings,Utilities ,Hong Kong/China ,16.75,7.01,1.34,16.75,472
+China Telecom,Telecommunications Services ,China ,36.69,27.42,0.13,62.39,473
+EADS,Aerospace & Defense ,Netherlands ,16.75,61.44,-1.09,111.4,474
+MOL,Oil & Gas Operations ,Hungary ,8.79,17.1,0.55,22.54,475
+Hitachi,Technology Hardware & Equip ,Japan ,15.11,102.7,-8.09,93.33,476
+OTP Bank,Banking ,Hungary ,7.71,8.37,0.75,49.3,477
+CSN-Cia Siderurgica,Materials ,Brazil ,25.3,5.57,1.32,16.74,478
+Toshiba,Technology Hardware & Equip ,Japan ,21.24,68.34,-3.53,51.64,479
+Murphy Oil,Oil & Gas Operations ,United States ,10.17,18.92,0.84,12.76,480
+Wm Morrison Supermarkets,Food Markets ,United Kingdom ,12.07,21.06,0.67,11.86,481
+Bunge,"Food, Drink & Tobacco ",Bermuda ,8.67,41.93,0.36,21.29,482
+BlackRock,Diversified Financials ,United States ,41.14,4.7,0.88,21.38,483
+Suncorp-Metway,Diversified Financials ,Australia ,9.56,12.27,0.28,78.58,484
+Computer Sciences,Software & Services ,United States ,8.06,16,0.94,16.2,485
+Xcel Energy,Utilities ,United States ,9.63,9.64,0.68,25.49,485
+Telus,Telecommunications Services ,Canada ,10.67,9.16,0.95,18.33,487
+Northern Trust,Banking ,United States ,12.92,4.23,0.86,82.14,488
+Natixis,Banking ,France ,14.01,28.85,-3.9,769.48,489
+China Steel,Materials ,Taiwan ,13.45,11.71,0.73,14.08,490
+AmerisourceBergen,Drugs & Biotechnology ,United States ,7.93,73.76,0.54,13.56,491
+TJX Cos,Retailing ,United States ,17.49,20.29,1.21,7.46,491
+CIMB Group Holdings,Banking ,Malaysia ,14.05,4.24,0.82,70.14,493
+China Coal Energy,Materials ,China ,22.77,7.48,1.05,12.81,494
+EFG Eurobank Ergasias,Banking ,Greece ,4.48,11.97,0.86,113.92,494
+Tokyo Gas,Utilities ,Japan ,11.95,17.05,0.43,17.39,496
+VimpelCom,Telecommunications Services ,Russia ,18.63,10.12,0.52,15.73,497
+KBC Group,Banking ,Belgium ,15.39,24.04,-3.54,462.66,498
+Fiat Group,Consumer Durables ,Italy ,13.24,71.78,-1.2,92.76,499
+Kansai Electric Power,Utilities ,Japan ,22.45,28.65,-0.09,67.34,500
+Singapore Airlines, Transportation , Singapore ,12.62,10.51,0.7,16.33,501
+Steel Authority of India,Materials ,India ,19.57,8.39,1.22,10.98,502
+Suzuki Motor,Consumer Durables ,Japan ,11.62,30.86,0.28,20.59,502
+ThyssenKrupp Group,Conglomerates ,Germany ,16.41,59.39,-2.72,59.53,504
+Abertis,Transportation ,Spain ,13.27,5.49,0.69,35.31,505
+Sodexo,Business Services & Supplies ,France ,9.4,21.03,0.56,14.8,506
+Sears Holdings,Retailing ,United States ,11.01,44.04,0.24,24.81,507
+RSA Insurance Group,Insurance ,United Kingdom ,6.56,12.05,0.68,32.36,508
+Assoc British Foods,"Food, Drink & Tobacco ",United Kingdom ,11.47,15.07,0.58,14.15,509
+Vienna Insurance Group,Insurance ,Austria ,6.12,12.09,0.57,44.91,510
+Chunghwa Telecom,Telecommunications Services ,Taiwan ,18.78,6.13,1.37,14.08,511
+Korea Electric Power,Utilities ,South Korea ,20.52,25.31,-2.37,68.47,512
+China Vanke,Diversified Financials ,China ,14.84,6.63,0.78,20.16,513
+Aon,Insurance ,United States ,10.94,7.6,0.75,22.96,514
+AU Optronics,Technology Hardware & Equip ,Taiwan ,9.44,12.89,0.65,17.21,515
+Cheung Kong,Diversified Financials ,Hong Kong/China ,28.92,1.66,2,36.98,515
+Eurasian Natural Resources,Materials ,United Kingdom ,20.51,6.87,2.66,9.83,517
+Ingersoll-Rand,Conglomerates ,Ireland ,10.5,13.2,0.45,19.99,518
+Industrial Bank of Korea,Banking ,South Korea ,6.19,7.85,0.62,114.63,519
+Delhaize Group,Food Markets ,Belgium ,7.81,26.5,0.65,13.47,520
+Nippon Yusen,Transportation ,Japan ,6.11,24.96,0.58,20.65,521
+Chubu Electric Power,Utilities ,Japan ,20.53,25.78,-0.19,53.38,522
+Qwest Communications,Telecommunications Services ,United States ,7.91,12.31,0.66,20.38,523
+Porsche,Consumer Durables ,Germany ,8.88,81.31,-3.6,300.45,524
+Macy's,Retailing ,United States ,8.33,23.49,0.35,21.3,525
+Kao,Household & Personal Products ,Japan ,13.79,13.11,0.66,10.7,526
+SEB-Skand Enskilda Bank,Banking ,Sweden ,13.5,13.02,0.16,323.28,527
+KT,Telecommunications Services ,South Korea ,10.01,15.75,0.36,20.57,528
+J Sainsbury,Food Markets ,United Kingdom ,9.37,26.9,0.41,14.38,529
+BAE Systems,Aerospace & Defense ,United Kingdom ,19.99,32.91,-0.11,38.58,530
+Renault,Consumer Durables ,France ,11.27,47.01,-4.36,91.69,530
+West Japan Railway,Transportation ,Japan ,6.99,13.1,0.56,23.65,530
+Noble Group,Conglomerates ,Hong Kong/China ,8.72,36.09,0.58,10.66,533
+Türkiye Halk Bankasi,Banking ,Turkey ,8.1,5.76,1.05,33.17,534
+Gap,Retailing ,United States ,14.9,14.2,1.1,7.99,535
+Cepsa,Oil & Gas Operations ,Spain ,7.53,33.58,0.52,13.47,536
+Volvo Group,Consumer Durables ,Sweden ,18.31,30.49,-2.06,44.77,537
+Portugal Telecom,Telecommunications Services ,Portugal ,9.24,9.23,0.81,17.63,538
+Air Prods & Chems,Chemicals ,United States ,14.67,8.23,0.81,12.91,539
+Magnitogorsk Iron & Steel,Materials ,Russia ,11.3,8.64,0.88,14.06,540
+ConAgra Foods,"Food, Drink & Tobacco ",United States ,10.95,12.56,0.77,11.57,541
+Solvay,Chemicals ,Belgium ,8.12,11.83,0.72,17.11,542
+Richemont,Retailing ,Switzerland ,20,7.33,1.45,9.47,543
+Commerzbank,Banking ,Germany ,8.72,37.37,-6.5,"1,202.99",544
+Galp Energia,Oil & Gas Operations ,Portugal ,13.84,16.74,0.48,10.38,545
+HJ Heinz,"Food, Drink & Tobacco ",United States ,14.54,10.31,0.85,10.07,545
+Yahoo,Software & Services ,United States ,22.11,6.46,0.6,14.94,547
+Larsen & Toubro,Construction ,India ,19.9,7.87,0.74,11.12,548
+Pearson,Media ,United Kingdom ,11.59,8.81,0.67,15.2,549
+Hua Xia Bank,Banking ,China ,8.22,5.68,0.45,107.11,550
+Old Mutual,Insurance ,United Kingdom ,9.24,35.28,-0.55,263.58,551
+Atlantia,Transportation ,Italy ,13.11,4.81,1.02,22.13,552
+Denso,Consumer Durables ,Japan ,24.05,32.28,-0.86,29.34,553
+Kyocera,Technology Hardware & Equip ,Japan ,16.2,11.59,0.3,17.82,554
+Mechel,Materials ,Russia ,9.41,9.95,1.14,12.01,555
+Hana Financial Group,Banking ,South Korea ,6.12,8.73,0.39,125.27,556
+Talisman Energy,Oil & Gas Operations ,Canada ,18.71,6.19,0.42,22.53,557
+Reed Elsevier,Media ,United Kingdom/Netherlands ,9.03,9.76,0.63,17.88,558
+Korea Exchange Bank,Banking ,South Korea ,7.09,5.49,0.63,85.18,559
+Scottish & Southern,Utilities ,United Kingdom ,15.56,36.17,0.16,25.33,560
+Saudi Electricity,Utilities ,Saudi Arabia ,13.5,6.36,0.31,44.28,561
+Belgacom,Telecommunications Services ,Belgium ,12.56,8.26,1.26,10.68,562
+Spectra Energy,Oil & Gas Operations ,United States ,14.23,4.55,0.85,24.08,563
+Atlas Copco,Capital Goods ,Sweden ,17.41,8.9,0.87,9.17,564
+Fairfax Financial,Insurance ,Canada ,7.45,6.64,0.86,28.4,565
+Hartford Finl Service,Insurance ,United States ,9.53,24.7,-0.89,307.72,566
+Mitsubishi Electric,Capital Goods ,Japan ,17.79,37.64,0.12,30.4,567
+FedEx,Transportation ,United States ,26.85,32.59,-0.25,24.59,568
+Kubota,Capital Goods ,Japan ,11.31,11.37,0.49,13.86,568
+Angang Steel,Materials ,China ,12.95,11.45,0.44,13.74,570
+Keppel,Conglomerates ,Singapore ,9.57,8.71,1.16,12.33,570
+Toyota Tsusho,Trading Companies ,Japan ,5.08,64.57,0.41,21.29,572
+Republic Services,Business Services & Supplies ,United States ,11.01,8.2,0.5,19.54,573
+"Becton, Dickinson",Health Care Equipment & Svcs ,United States ,18.62,7.36,1.24,9.09,574
+Bank of New York Mellon,Banking ,United States ,34.33,8.28,-1.08,212.22,575
+Eaton,Capital Goods ,United States ,11.61,11.87,0.38,16.28,576
+Deutsche Boerse,Diversified Financials ,Germany ,13.67,2.95,0.71,202.77,577
+NRG Energy,Utilities ,United States ,5.91,8.95,0.94,23.38,578
+Alpha Bank Group,Banking ,Greece ,5.09,6.94,0.71,90.26,579
+Annaly Capital Mgmt,Diversified Financials ,United States ,10.14,2.92,1.96,69.38,580
+PGE Polska Grupa,Utilities ,Poland ,12.9,6.92,0.65,15.78,581
+Woodside Petroleum,Oil & Gas Operations ,Australia ,30.37,3.45,1.45,17.84,582
+Stryker,Health Care Equipment & Svcs ,United States ,21.42,6.72,1.11,9.07,583
+Fujitsu,Technology Hardware & Equip ,Japan ,13.41,48.2,-1.15,31.89,584
+Samba Financial Group,Banking ,Saudi Arabia ,13.86,2.24,1.22,49.46,585
+BT Group,Telecommunications Services ,United Kingdom ,13.15,30.43,-0.12,40.38,586
+Sumitomo Realty & Dev,Diversified Financials ,Japan ,8.46,7.14,0.47,30.26,587
+EOG Resources,Oil & Gas Operations ,United States ,23.91,4.79,0.55,18.12,588
+Alpiq Holding,Utilities ,Switzerland ,10.02,14.31,0.65,9.85,589
+Voestalpine,Materials ,Austria ,5.89,15.3,0.7,16.51,590
+Yara International,Chemicals ,Norway ,12.03,10.5,0.65,10.34,590
+Asahi Breweries,"Food, Drink & Tobacco ",Japan ,9.15,10.69,0.51,15.17,592
+Orix,Diversified Financials ,Japan ,8.03,10.24,0.23,84.07,592
+Yum Brands,"Hotels, Restaurants & Leisure ",United States ,15.9,10.84,1.07,7.15,594
+PPL,Utilities ,United States ,10.94,7.56,0.41,22.17,595
+Sprint Nextel,Telecommunications Services ,United States ,10.12,32.26,-2.44,55.42,595
+Sara Lee,"Food, Drink & Tobacco ",United States ,9.57,11.64,0.81,9.93,597
+Bank of Beijing,Banking ,China ,14.97,2.85,0.8,61.11,598
+Sime Darby,Conglomerates ,Malaysia ,15.27,8.82,0.65,9.92,599
+Swiss Life Holding,Insurance ,Switzerland ,4.05,17.49,0.33,126.13,600
+Williams Cos, Oil & Gas Operations , United States ,12.87,8.26,0.29,25.28,601
+Kroger,Food Markets ,United States ,14.56,76.73,0.07,23.09,602
+Banco de Sabadell,Banking ,Spain ,5.6,5.09,0.75,117.85,603
+Nomura Holdings,Diversified Financials ,Japan ,27.42,7.39,-7.27,248.09,604
+QNB,Banking ,Qatar ,12.69,2.47,1.15,49.25,605
+Hyundai Mobis,Consumer Durables ,South Korea ,12.46,11.11,0.84,8.3,606
+CME Group,Diversified Financials ,United States ,20.03,2.61,0.83,35.65,607
+Valero Energy,Oil & Gas Operations ,United States ,9.96,67.27,-1.98,35.63,608
+DTE Energy,Utilities ,United States ,7.34,8.01,0.53,24.19,609
+Türkiye Vak?flar,Banking ,Turkey ,5.93,6.25,0.81,35.48,609
+Nexen,Oil & Gas Operations ,Canada ,11.89,5.54,0.51,21.84,611
+Grupo Mexico,Materials ,Mexico ,18.97,5.02,0.9,12.01,612
+ITT,Conglomerates ,United States ,9.49,10.9,0.64,11.13,613
+Mitsui Sumitomo Insurance Group,Insurance ,Japan ,10.82,19,0.08,73.9,614
+PartnerRe,Insurance ,Bermuda ,6.57,5.42,1.54,23.73,615
+Edison,Utilities ,Italy ,7.23,12.7,0.34,23.46,616
+Quanta Computer,Technology Hardware & Equip ,Taiwan ,7.62,24.89,0.61,9.25,616
+Fujifilm Holdings,Household & Personal Products ,Japan ,16.27,25,0.11,28.05,618
+Citic Securities,Diversified Financials ,China ,26.94,3.3,1.07,19.96,619
+Usiminas,Materials ,Brazil ,14.26,5.54,0.68,14.78,620
+Asustek Computer,Technology Hardware & Equip ,Taiwan ,7.57,20.3,0.5,11,621
+Baker Hughes,Oil & Gas Operations ,United States ,15.07,9.66,0.42,11.44,622
+Potash of Saskatchewan,Chemicals ,Canada ,33.31,3.98,0.99,12.92,622
+Bridgestone,Consumer Durables ,Japan ,14.44,27.94,0.01,28.72,624
+Salzgitter,Materials ,Germany ,5.39,17.41,0.94,12.07,625
+Adidas,Household & Personal Products ,Germany ,10.83,14.87,0.35,12.14,626
+Delta Air Lines,Transportation ,United States ,10.34,28.06,-1.24,43.54,627
+International Power,Utilities ,United Kingdom ,7.5,5.58,0.97,21.52,627
+Natl Bank of Kuwait,Banking ,Kuwait ,12.97,2.45,0.92,44.97,629
+Alcoa,Materials ,United States ,13.58,18.44,-1.15,38.47,630
+Marks & Spencer,Retailing ,United Kingdom ,7.82,12.89,0.72,10.4,631
+HDFC Bank,Banking ,India ,16.83,3.85,0.44,35.98,632
+Lotte Shopping,Retailing ,South Korea ,7.99,10.3,0.6,13.42,632
+Mosaic,Chemicals ,United States ,26.46,6.14,0.41,12.7,634
+PPG Industries,Chemicals ,United States ,10.35,12.24,0.34,14.24,635
+Anadarko Petroleum,Oil & Gas Operations ,United States ,34.68,8.21,-0.14,50.12,636
+CBS,Media ,United States ,9.09,13.01,0.23,26.96,637
+Wuhan Iron & Steel,Materials ,China ,7.93,10.76,0.76,10.9,638
+Verbund,Utilities ,Austria ,12.51,4.86,0.9,14.83,639
+Skanska,Construction ,Sweden ,6.89,19.1,0.51,11.17,640
+Orkla,"Food, Drink & Tobacco ",Norway ,8.16,9.7,0.45,16.39,641
+Fubon Financial,Diversified Financials ,Taiwan ,9.18,5.07,0.33,60.99,642
+PKN Orlen,Oil & Gas Operations ,Poland ,4.87,23.7,0.46,17.08,642
+Public Bank,Banking ,Malaysia ,11.52,2.75,0.74,63.27,642
+SunTrust Banks,Banking ,United States ,11.8,10.42,-1.56,174.16,642
+TNT,Transportation ,Netherlands ,9.63,14.33,0.39,11.03,646
+Motorola,Technology Hardware & Equip ,United States ,15.59,22.04,-0.05,25.61,647
+Osaka Gas,Utilities ,Japan ,7.94,13.63,0.37,14.71,648
+Sharp,Technology Hardware & Equip ,Japan ,12.86,29.24,-1.29,26.07,649
+Dongfeng Motor Group,Consumer Durables ,China ,12.7,10.36,0.59,8.64,650
+Vestas Wind Systems,Capital Goods ,Denmark ,9.89,9.51,0.83,9.08,651
+Nippon Oil,Oil & Gas Operations ,Japan ,7.95,65.81,-2.58,38.44,652
+Royal DSM,Chemicals ,Netherlands ,8.05,10.78,0.47,13.78,653
+Fortis,Insurance ,Belgium ,8.53,16.56,-39.03,128.57,654
+MasterCard,Diversified Financials ,United States ,30.35,5.1,1.46,7.47,655
+Aeon,Retailing ,Japan ,8.2,53.46,-0.03,37.52,656
+Tyco International,Conglomerates ,Switzerland ,17.46,17.06,-1.77,25.6,657
+FCC,Construction ,Spain ,4.02,17.71,0.43,30.47,658
+Tele Norte Leste,Telecommunications Services ,Brazil ,7.99,8.17,0.5,16.73,658
+SCOR,Insurance ,France ,4.49,9.33,0.53,37.42,660
+Peugeot Groupe,Consumer Durables ,France ,5.97,69.37,-1.66,91.19,661
+T&D Holdings,Insurance ,Japan ,7.31,22.4,-0.92,124.23,661
+Shanghai Electric Group,Capital Goods ,China ,14.24,8.43,0.37,11.91,663
+Riyad Bank,Banking ,Saudi Arabia ,11.48,2.05,0.81,47.03,664
+Transneft,Oil & Gas Operations ,Russia ,1.23,9.01,2.31,31.54,665
+Tohoku Electric Power,Utilities ,Japan ,10.94,18.93,-0.33,39.13,666
+Turk Telekom,Telecommunications Services ,Turkey ,11.25,6.82,1.18,8.97,666
+CenturyTel,Telecommunications Services ,United States ,10.32,4.97,0.51,22.48,668
+Franklin Resources,Diversified Financials ,United States ,23.47,4.6,1.13,9.22,669
+MTR,Transportation ,Hong Kong/China ,20.1,2.27,1.07,20.56,670
+Asahi Glass,Construction ,Japan ,11.62,12.35,0.22,18.74,671
+Swire Pacific,Conglomerates ,Hong Kong/China ,16.76,3.18,0.76,25.52,672
+Norilsk Nickel,Materials ,Russia ,30.11,13.98,-0.45,20.82,673
+Sumitomo Trust & Banking,Banking ,Japan ,9.54,10.91,0.08,213.85,673
+Weatherford Intl,Oil & Gas Operations ,Switzerland ,12.25,8.83,0.25,18.69,675
+Nan Ya Plastic,Chemicals ,Taiwan ,15.53,9.81,0.29,12.23,676
+Lagardère SCA,Media ,France ,4.7,11.44,0.83,16.86,677
+Ameren,Utilities ,United States ,5.95,7.09,0.61,23.79,678
+DISH Network,Media ,United States ,9.61,11.66,0.64,8.3,679
+Eisai,Drugs & Biotechnology ,Japan ,11.58,8.03,0.49,10.91,679
+BanColombia,Banking ,Colombia ,9.25,4.14,0.62,30.28,681
+Grupo Modelo,"Food, Drink & Tobacco ",Mexico ,17.42,6.27,0.66,8.92,681
+Turkcell,Telecommunications Services ,Turkey ,13.19,5.89,1.55,8,683
+Publicis Groupe,Media ,France ,7.52,6.48,0.58,18.16,684
+Telekom Indonesia,Telecommunications Services ,Indonesia ,17.74,5.42,0.95,8.37,684
+TDC,Telecommunications Services ,Denmark ,8.77,6.91,0.47,16.65,686
+Fluor,Construction ,United States ,7.67,21.99,0.68,7.18,687
+Continental,Consumer Durables ,Germany ,9.01,28.79,-2.36,32.02,688
+Swedbank,Banking ,Sweden ,9.11,10.23,-1.47,251.18,688
+Apache,Oil & Gas Operations ,United States ,35.35,8.61,-0.28,28.19,690
+Kingfisher,Retailing ,United Kingdom ,7.72,14.53,0.3,14.71,691
+Whirlpool,Consumer Durables ,United States ,6.43,17.1,0.33,15.09,692
+SLM,Diversified Financials ,United States ,5.31,6.14,0.32,169.99,693
+Marsh & McLennan,Insurance ,United States ,12.37,10.49,0.24,15.32,694
+Punjab National Bank,Banking ,India ,6.16,4.42,0.62,49.93,695
+Cummins,Capital Goods ,United States ,11.87,10.8,0.43,8.82,696
+Sumitomo Electric,Capital Goods ,Japan ,9.52,21.79,0.18,18.65,697
+JBS,"Food, Drink & Tobacco ",Brazil ,12.18,20.19,0.07,24.37,698
+Bharat Heavy Electricals,Capital Goods ,India ,25.24,5.16,0.61,8.96,699
+Coca-Cola HBC,"Food, Drink & Tobacco ",Greece ,9.02,9.37,0.57,9.75,700
+CBD-Brasil Distribuição, Food Markets , Brazil ,9.54,13.34,0.34,10.33,701
+Avon Products,Household & Personal Products ,United States ,13.24,10.38,0.63,6.83,702
+Kazakhmys,Materials ,United Kingdom ,11.28,5.15,0.91,10.68,703
+Barrick Gold,Materials ,Canada ,37.61,8.14,-4.27,27.08,704
+Cathay Financial,Insurance ,Taiwan ,15.86,6.61,0.07,113.83,705
+Maybank,Banking ,Malaysia ,14.7,4.63,0.2,87.98,706
+Michelin Group,Consumer Durables ,France ,10.36,20.65,0.15,23.67,706
+Fanuc,Capital Goods ,Japan ,23.39,3.99,1,9.83,708
+Tenaga Nasional,Utilities ,Malaysia ,10.21,8.17,0.26,20.26,709
+M&T Bank,Banking ,United States ,9.23,3.77,0.38,68.88,710
+Devon Energy,Oil & Gas Operations ,United States ,31,8.02,-2.43,29.69,711
+Deutsche Postbank,Banking ,Germany ,6.75,13.1,0.11,325.12,712
+Cemex,Construction ,Mexico ,9.3,14.54,0.1,44.51,713
+GFNorte,Banking ,Mexico ,7.61,4.28,0.45,43.33,714
+BCP-Banco Com Português,Banking ,Portugal ,4.74,6.67,0.32,136.25,715
+Precision Castparts,Aerospace & Defense ,United States ,16.46,5.65,0.94,7.46,716
+UBI Banca,Banking ,Italy ,7.91,11.12,0.1,168.46,717
+Simon Property Group,Diversified Financials ,United States ,22.73,3.78,0.31,25.95,718
+Samsung C&T,Trading Companies ,South Korea ,7.96,16.43,0.28,12.24,719
+Starbucks,"Hotels, Restaurants & Leisure ",United States ,17.31,9.88,0.57,6.1,720
+Henderson Land,Diversified Financials ,Hong Kong/China ,15.04,1.09,0.71,23.55,721
+Wharf (Holdings),Conglomerates ,Hong Kong/China ,14.76,2.06,0.81,21.7,722
+Eiffage,Construction ,France ,3.95,19.57,0.27,36.23,723
+Luxottica Group,Household & Personal Products ,Italy ,12.15,7.1,0.44,10.36,724
+Ricoh,Business Services & Supplies ,Japan ,10.13,21.48,0.07,24.9,725
+Samsung Fire & Marine,Insurance ,South Korea ,7.54,7.24,0.43,16.73,726
+Hellenic Telecom,Telecommunications Services ,Greece ,5.85,8.34,0.56,15.94,727
+NEC,Technology Hardware & Equip ,Japan ,7.14,43.29,-3.05,29.61,727
+Tatneft,Oil & Gas Operations ,Russia ,10.68,10.07,0.28,12.81,729
+Israel Corp,Diversified Financials ,Israel ,5.98,18.51,0.3,14.76,730
+Quest Diagnostics,Health Care Equipment & Svcs ,United States ,10.17,7.46,0.73,8.56,731
+Metalurgica Gerdau,Materials ,Brazil ,7.42,13.46,0.19,26.23,732
+Hongkong Land,Diversified Financials ,Hong Kong/China ,10.44,1.32,1.64,19.57,733
+SAIC Motor,Consumer Durables ,China ,21.11,15.44,0.1,15.77,734
+Aluminum Corp of China,Materials ,China ,22.14,11.26,0,19.76,735
+Qatar Telecom,Telecommunications Services ,Qatar ,6.26,5.58,0.63,20.28,736
+Vallourec,Capital Goods ,France ,10.76,6.41,0.74,8.85,737
+Sompo Japan Insurance,Insurance ,Japan ,6.83,17.22,-0.69,57.34,738
+Schindler Holding,Capital Goods ,Switzerland ,9.59,12.38,0.6,6.71,739
+Formosa Plastics,Chemicals ,Taiwan ,13.15,6.09,0.6,8.87,740
+Tata Consultancy Svcs,Software & Services ,India ,32.31,5.41,1.02,4.45,741
+Reliance Communications,Telecommunications Services ,India ,7.04,4.04,1.18,20.15,742
+Samsung Heavy Industries,Capital Goods ,South Korea ,4.91,8.57,0.48,21.09,743
+British Sky Broadcasting,Media ,United Kingdom ,14.51,8.83,0.43,7.5,744
+Deutsche Lufthansa,Transportation ,Germany ,6.85,31.1,-0.16,31.27,744
+Emirates NBD,Banking ,United Arab Emirates ,3.65,4.73,0.91,76.66,746
+Agrium,Chemicals ,Canada ,10.3,9.13,0.37,9.79,747
+Ferrovial,Construction ,Spain ,6.42,16.87,-0.13,63.21,748
+Regions Financial,Banking ,United States ,7.93,9.09,-1.03,142.32,749
+Siam Cement,Construction ,Thailand ,8.09,7.16,0.73,9.38,750
+Beiersdorf,Household & Personal Products ,Germany ,15.64,8.23,0.54,6.51,751
+Peabody Energy,Materials ,United States ,12.63,6.01,0.45,9.96,752
+MAN,Capital Goods ,Germany ,10.65,17.23,-0.39,21.55,753
+Antarchile,Diversified Financials ,Chile ,8.73,10.38,0.29,12.21,754
+Banque Nat de Belgique,Banking ,Belgium ,1.86,5.59,0.62,212.96,755
+Daikin Industries,Construction ,Japan ,11.33,12.35,0.22,11.12,756
+Biogen Idec,Drugs & Biotechnology ,United States ,15.31,4.38,0.97,8.55,757
+Alcatel-Lucent,Technology Hardware & Equip ,France ,7.03,21.14,-0.73,34.18,758
+CA,Software & Services ,United States ,11.87,4.29,0.74,11.39,759
+KazMunaiGas Exploration,Oil & Gas Operations ,Kazakhstan ,10.91,4.43,1.99,8.42,760
+Western Digital,Technology Hardware & Equip ,United States ,9.26,8.35,0.96,6.59,761
+American Intl Group,Insurance ,United States ,3.48,96,-10.95,847.59,762
+Lincoln National,Insurance ,United States ,7.74,8.5,-0.48,177.43,762
+Chesapeake Energy,Oil & Gas Operations ,United States ,17.29,7.7,-5.83,29.91,764
+Hyundai Steel,Materials ,South Korea ,6.5,9.02,0.66,9.69,764
+Investec,Diversified Financials ,United Kingdom/South Africa ,4.96,5.01,0.42,52.99,766
+Arab Bank,Banking ,Jordan ,8.36,2.26,0.53,50.51,767
+Siam Commercial Bank,Banking ,Thailand ,8.62,2.43,0.62,38.81,767
+Mitsubishi Chemical,Chemicals ,Japan ,6.86,29.88,-0.69,27.01,769
+Bâloise Group,Insurance ,Switzerland ,4.05,7.64,0.34,57.21,770
+National Bank of Abu Dhabi,Banking ,United Arab Emirates ,6.48,2.41,0.82,53.58,770
+Sistema JSFC,Telecommunications Services ,Russia ,8.33,16.04,0.06,28.98,770
+CapitaLand,Diversified Financials ,Singapore ,11.54,2.1,0.75,21.49,773
+Genworth Financial,Insurance ,United States ,7.77,9.07,-0.46,108.19,773
+Safeway,Food Markets ,United States ,9.7,40.85,-1.1,14.96,775
+Banque Saudi Fransi,Banking ,Saudi Arabia ,9.04,1.45,0.66,32.15,776
+Saudi British Bank,Banking ,Saudi Arabia ,9.5,2.04,0.54,35.08,777
+JC Penney,Retailing ,United States ,6.59,17.56,0.25,12.58,778
+CenterPoint Energy,Utilities ,United States ,5.34,8.28,0.37,19.77,779
+Li & Fung,Trading Companies ,Hong Kong/China ,18.16,14.29,0.31,4.83,780
+Hanwha,Trading Companies ,South Korea ,2.77,21.85,0.24,55.26,781
+Cemig,Utilities ,Brazil ,9.25,4.75,0.82,10.44,782
+HDFC-Housing Devel,Diversified Financials ,India ,15.5,2.28,0.45,22.84,783
+Campbell Soup,"Food, Drink & Tobacco ",United States ,11.44,7.57,0.81,6.15,784
+Shinsegae,Retailing ,South Korea ,8.62,8.86,0.46,8.59,785
+Hochtief,Construction ,Germany ,4.75,26.61,0.24,16.53,786
+Liberty Media-Interactive,Retailing ,United States ,7.73,8.31,0.26,17.34,786
+RTL Group,Media ,Luxembourg ,11.09,8.01,0.27,11.73,788
+K+S,Chemicals ,Germany ,11.76,6.68,1.21,4.76,789
+Electrolux Group,Consumer Durables ,Sweden ,6.09,15.24,0.36,9.8,790
+Dollar General,Retailing ,United States ,8.2,11.46,0.33,9.13,791
+Inbursa,Banking ,Mexico ,11.47,2.1,0.62,22.07,791
+Swatch Group,Household & Personal Products ,Switzerland ,15.43,4.96,0.73,7.45,793
+Sacyr Vallehermoso,Construction ,Spain ,2.51,8.17,0.71,29.17,794
+Thales,Aerospace & Defense ,France ,7.67,17.96,-0.28,25.81,794
+Bank Central Asia,Banking ,Indonesia ,12.65,2.07,0.52,22.46,796
+Bank Mandiri,Banking ,Indonesia ,10.03,2.85,0.47,32.32,796
+Toyota Industries,Consumer Durables ,Japan ,8.61,16.27,-0.34,23.45,798
+PICC Property & Casualty,Insurance ,China ,10.29,12.99,0.01,22.4,799
+Fast Retailing,Retailing ,Japan ,18.06,7.36,0.54,4.96,800
+Hudson City Bancorp, Banking , United States ,6.97,2.98,0.53,60.27,800
+Kühne & Nagel Intl,Transportation ,Switzerland ,10.98,13.24,0.43,5.73,802
+First Gulf Bank,Banking ,United Arab Emirates ,6.54,2.25,0.9,34.16,803
+Huaneng Power Intl,Utilities ,China ,11.69,9.9,-0.58,24.27,804
+A2A,Utilities ,Italy ,5.3,8.31,0.44,15.06,805
+Goodrich,Aerospace & Defense ,United States ,8.42,6.69,0.6,8.74,806
+Infosys Technologies,Software & Services ,India ,32.2,4.22,1.17,4.34,807
+Dassault Aviation,Aerospace & Defense ,France ,7.4,5.22,0.52,13.54,808
+Parker-Hannifin,Capital Goods ,United States ,9.92,9.15,0.28,9.79,809
+Acer,Technology Hardware & Equip ,Taiwan ,7.6,16.61,0.36,7.41,810
+Shoppers Drug Mart,Retailing ,Canada ,9.28,9.53,0.56,6.54,810
+Seagate Technology,Technology Hardware & Equip ,Cayman Islands ,10.66,10.19,0.36,7.39,812
+Kuwait Finance House,Banking ,Kuwait ,9.28,2.65,0.41,39.33,813
+Yamada Denki,Retailing ,Japan ,6.69,19.22,0.34,7.81,814
+Liberty Global,Media ,United States ,7.37,11.08,-0.41,39.9,815
+Seadrill,Oil & Gas Operations ,Bermuda ,9.29,3.25,1.26,13.83,816
+UCB,Drugs & Biotechnology ,Belgium ,7.91,4.35,0.72,13.29,817
+Genzyme,Drugs & Biotechnology ,United States ,15.63,4.52,0.42,10.06,818
+UPM-Kymmene,Materials ,Finland ,5.63,11.06,0.24,19.11,819
+Allergan,Drugs & Biotechnology ,United States ,18.33,4.5,0.62,7.54,820
+Daqin Railway,Transportation ,China ,18.63,3.22,0.98,9.14,821
+Canadian Pacific Railway,Transportation ,Canada ,8.4,4.1,0.58,14.82,822
+Piraeus Bank,Banking ,Greece ,2.9,6.21,0.44,75.95,823
+Sanlam,Insurance ,South Africa ,6.86,4.95,0.27,34.04,823
+Western Union,Diversified Financials ,United States ,10.98,5.08,0.85,7.35,823
+Wipro,Software & Services ,India ,21.53,5,0.76,5.49,826
+Symantec,Software & Services ,United States ,13.45,5.92,0.27,10.95,827
+Assurant,Insurance ,United States ,3.57,8.7,0.43,25.84,828
+Grupo Aval,Diversified Financials ,Colombia ,6.19,4.85,0.34,28.31,829
+Freddie Mac,Diversified Financials ,United States ,0.75,37.61,-21.55,841.78,830
+Arab National Bank,Banking ,Saudi Arabia ,7.57,1.41,0.63,29.41,831
+Mediaset,Media ,Italy ,9.09,5.85,0.64,8.2,832
+Rakuten,Business Services & Supplies ,Japan ,10.04,3.21,0.58,18.62,832
+Falabella,Retailing ,Chile ,13.59,6.33,0.36,8.15,834
+Capgemini,Software & Services ,France ,7.13,11.99,0.26,11.11,835
+Formosa Chems & Fibre,Chemicals ,Taiwan ,12.92,8.84,0.19,12.33,835
+Noble,Oil & Gas Operations ,Switzerland ,11.13,3.64,1.68,8.4,837
+Boston Scientific,Health Care Equipment & Svcs ,United States ,11.74,8.19,-1.03,25.18,838
+Aisin Seiki,Consumer Durables ,Japan ,7.74,22.74,-0.26,17.22,839
+Landesbank Berlin,Banking ,Germany ,5.05,10.52,0.02,200.8,840
+Grupo Bimbo,"Food, Drink & Tobacco ",Mexico ,8.81,8.64,0.44,7.41,841
+Chugoku Electric Power,Utilities ,Japan ,7.7,12.05,-0.24,27.73,842
+Bank Rakyat Indonesia,Banking ,Indonesia ,9.49,2.74,0.53,22.39,843
+Mediobanca,Diversified Financials ,Italy ,8.74,5.74,0,102.89,844
+TD Ameritrade Holding,Diversified Financials ,United States ,10.26,2.43,0.6,18.45,845
+Sumitomo Chemical,Chemicals ,Japan ,7.32,18.37,-0.61,20.34,846
+Everest Re Group,Insurance ,Bermuda ,5.07,4.5,0.81,18,847
+McGraw-Hill Cos,Media ,United States ,10.83,5.95,0.73,6.48,848
+Fannie Mae,Diversified Financials ,United States ,1.1,29.07,-71.97,869.14,849
+Technip,Oil & Gas Operations ,France ,7.82,9.25,0.24,11.92,850
+China Overseas Land & Inv,Diversified Financials ,Hong Kong/China ,17.32,2.44,0.65,10.98,851
+Tyco Electronics,Technology Hardware & Equip ,Switzerland ,12.12,10.44,-3.05,16.28,852
+Dai Nippon Printing,Media ,Japan ,9.17,16.28,-0.21,15.05,853
+Ternium,Materials ,Luxembourg ,6.91,4.96,0.72,10.29,854
+CAM Group,Banking ,Spain ,0.38,7.31,0.28,108.25,855
+Kone,Construction ,Finland ,10.72,6.8,0.67,5.07,856
+China Resources Ent,Conglomerates ,Hong Kong/China ,8.64,8.34,0.3,8.99,857
+Axis Bank,Banking ,India ,9.85,2.68,0.35,29.02,858
+Kobe Steel,Materials ,Japan ,5.72,22.36,-0.32,23.02,858
+Accor,"Hotels, Restaurants & Leisure ",France ,11.64,9.72,-0.39,16.83,860
+Dr Pepper Snapple Group,"Food, Drink & Tobacco ",United States ,7.92,5.53,0.56,8.78,861
+St Jude Medical,Health Care Equipment & Svcs ,United States ,12.98,4.68,0.78,6.43,862
+Hannover Re,Insurance ,Germany ,5.39,11.22,-0.18,48.89,863
+CPFL Energia,Utilities ,Brazil ,10.16,5.36,0.65,7.02,864
+Bank of East Asia,Banking ,Hong Kong/China ,7.4,2.09,0.33,55.94,865
+Haitong Securities,Diversified Financials ,China ,20.71,1.16,0.48,10.95,866
+Bed Bath & Beyond,Retailing ,United States ,10.94,7.51,0.52,4.93,867
+TUI,"Hotels, Restaurants & Leisure ",Germany ,2.52,24.22,0.26,19.8,868
+Oneok,Utilities ,United States ,4.8,11.11,0.31,12.83,869
+Public Storage,Diversified Financials ,United States ,14.35,1.63,0.83,9.81,870
+Shikoku Electric Power,Utilities ,Japan ,6.81,6.52,0.3,13.9,871
+Goldcorp,Materials ,Canada ,28.02,2.72,0.24,20.95,872
+SK C&C,Conglomerates ,South Korea ,2.52,71.65,0.12,56.66,872
+Nucor,Materials ,United States ,13.34,11.19,-0.29,12.57,874
+Air France-KLM,Transportation ,France ,3.97,31.54,-1.07,37.13,875
+New York Community,Banking ,United States ,6.77,1.82,0.41,42.17,876
+Adecco,Business Services & Supplies ,Switzerland ,9.43,21.59,0.01,11.24,877
+SAIC,Aerospace & Defense ,United States ,7.72,10.68,0.49,5.41,878
+Zimmer Holdings,Health Care Equipment & Svcs ,United States ,11.81,4.1,0.72,7.79,879
+Nordstrom,Retailing ,United States ,8.18,8.63,0.44,6.58,880
+Kasikornbank,Banking ,Thailand ,6.26,2.51,0.45,40.75,881
+Sojitz,Trading Companies ,Japan ,2.2,53.06,0.2,22.77,881
+Limited Brands,Retailing ,United States ,7.26,8.63,0.45,7.17,883
+Reinsurance Group of America,Insurance ,United States ,3.53,7.07,0.41,25.25,883
+Daiichi Sankyo,Drugs & Biotechnology ,Japan ,14.32,8.65,-2.21,14.2,885
+Hankyu Hanshin,Transportation ,Japan ,6.06,7.02,0.21,23.31,886
+Poly Real Estate Group,Diversified Financials ,China ,10.22,3.37,0.52,13.15,887
+Attijariwafa Bank,Banking ,Morocco ,5.96,2.8,0.5,36.7,888
+Cameron International,Oil & Gas Operations ,United States ,10.15,5.22,0.48,7.73,889
+Air China,Transportation ,China ,17.22,7.42,-1.36,14.49,890
+Wolseley,Trading Companies ,United Kingdom ,6.74,24.15,-1.96,14.62,891
+Bank of Baroda,Banking ,India ,4.61,3.58,0.46,45.78,892
+Secom,Business Services & Supplies ,Japan ,10.65,6.97,0.22,10.79,893
+Estee Lauder Cos,Household & Personal Products ,United States ,12.24,7.48,0.41,5.71,894
+All Nippon Airways,Transportation ,Japan ,7.54,14.3,-0.04,17,895
+Grupo Televisa,Media ,Mexico ,11.34,4.01,0.46,9.69,896
+Sandvik,Capital Goods ,Sweden ,12.91,10.05,-0.37,12.83,896
+Industries of Qatar,Chemicals ,Qatar ,15.84,2.65,1.34,7.45,898
+Hongkong Electric,Utilities ,Hong Kong/China ,12.21,1.34,0.86,9.67,899
+Banco Popolare,Banking ,Italy ,3.94,11.64,-0.46,166.15,900
+OPAP," Hotels, Restaurants & Leisure ", Greece ,6.51,7.69,1.01,1.92,901
+Bank of India,Banking ,India ,3.8,3.79,0.6,44.62,902
+Antofagasta,Materials ,United Kingdom ,13.49,2.61,1.32,7.91,903
+Axiata Group,Telecommunications Services ,Malaysia ,9.71,3.83,0.48,10.8,904
+Korea Gas,Utilities ,South Korea ,3.36,18.78,0.26,17.49,905
+Daiwa House Industry,Construction ,Japan ,6.38,17.37,0.04,17.27,906
+MISC,Transportation ,Malaysia ,10.66,4.33,0.39,10.08,907
+AutoZone,Retailing ,United States ,8.22,6.99,0.68,5.42,908
+Toray Industries,Household & Personal Products ,Japan ,7.62,15.11,-0.17,14.94,908
+Julius Baer Group,Banking ,Switzerland ,6.44,1.82,0.38,41.33,910
+Nippon Mining,Oil & Gas Operations ,Japan ,4.72,41.75,-0.42,18.5,910
+VF,Household & Personal Products ,United States ,8.65,7.22,0.46,6.49,912
+Chinatrust Financial,Banking ,Taiwan ,5.28,2.79,0.45,52.47,913
+Nidec,Capital Goods ,Japan ,14.38,6.3,0.29,7,914
+Impala Platinum Holdings,Materials ,South Africa ,15.4,3.38,0.78,7.47,915
+Nikon,Technology Hardware & Equip ,Japan ,8.77,9.03,0.29,7.36,916
+Yamato Holdings,Transportation ,Japan ,6.19,12.86,0.26,8.65,917
+Paccar,Capital Goods ,United States ,13.12,8.09,0.11,14.57,918
+Braskem,Chemicals ,Brazil ,3.58,8.75,0.53,12.68,919
+China Yangtze Power,Utilities ,China ,21.17,1.29,0.58,8.45,920
+Mitsubishi Motors,Consumer Durables ,Japan ,7.99,20.27,-0.56,11.44,921
+Cablevision,Media ,United States ,7.4,7.77,0.29,9.33,922
+DLF,Diversified Financials ,India ,10.94,1.95,0.87,9.64,923
+Vedanta Resources,Materials ,United Kingdom ,10.69,5.49,0.18,16.29,923
+Cencosud,Food Markets ,Chile ,8.75,10.49,0.19,9.84,925
+Consol Energy,Materials ,United States ,9.47,4.62,0.54,7.73,925
+CSL,Drugs & Biotechnology ,Australia ,17.44,3.73,0.92,5.77,925
+Daiwa Securities,Diversified Financials ,Japan ,8.61,4.25,-0.87,143.43,928
+Tata Motors,Consumer Durables ,India ,7.93,13.61,-0.49,14.29,928
+BM&F Bovespa,Diversified Financials ,Brazil ,13.17,0.76,0.45,12.17,930
+Jiangxi Copper,Materials ,China ,12.22,7.88,0.34,5.01,930
+Shenzhen Develop Bank,Banking ,China ,10.21,4.18,0.09,69.27,930
+KeyCorp,Banking ,United States ,6.12,5.83,-1.34,93.29,933
+Enka,Construction ,Turkey ,7.29,5.87,0.5,7.63,934
+Southwest Airlines,Transportation ,United States ,9.45,10.35,0.1,14.27,935
+Discovery Communications,Media ,United States ,8.76,3.52,0.56,10.97,936
+Datang Intl Power,Utilities ,China ,12.18,5.41,0.11,22.96,937
+Synthes,Health Care Equipment & Svcs ,Switzerland ,14.16,3.54,0.86,6.57,938
+Asahi Kasei,Chemicals ,Japan ,7.31,15.95,0.05,13.67,939
+Toppan Printing,Media ,Japan ,6.05,16.61,-0.08,16.9,940
+ERG,Oil & Gas Operations ,Italy ,1.87,16.01,0.9,7.37,941
+Orascom Construction Inds,Construction ,Egypt ,8.97,3.73,0.99,7.8,942
+Redecard,Business Services & Supplies ,Brazil ,10.2,1.39,0.8,10.01,942
+Essilor International,Health Care Equipment & Svcs ,France ,13.22,4.68,0.56,5.9,944
+Westfield Group,Diversified Financials ,Australia ,25.12,3.21,-0.41,42.35,945
+NMDC,Materials ,India ,37.12,1.47,0.85,3.32,946
+US Steel,Materials ,United States ,7.83,11.05,-1.4,15.42,947
+Orica,Chemicals ,Australia ,8.1,6.55,0.48,6.27,948
+Suning Appliance,Retailing ,China ,12.42,7.31,0.32,3.15,949
+ZTE,Technology Hardware & Equip ,China ,12.7,6.5,0.24,7.6,950
+Bank of Ireland,Banking ,Ireland ,1.54,12.82,0.09,256.98,951
+Finatis,Food Markets ,France ,0.5,41.02,-0.14,34.97,952
+BRF-Brasil Foods,"Food, Drink & Tobacco ",Brazil ,10.75,8.07,0.06,14.76,953
+Grupo Carso,Conglomerates ,Mexico ,8.17,5.06,0.49,7.48,953
+Sekisui House,Construction ,Japan ,6.59,14.98,-0.32,14.74,955
+Dover,Conglomerates ,United States ,8.57,5.78,0.36,7.88,956
+Compal Electronics,Technology Hardware & Equip ,Taiwan ,5.81,14.55,0.38,5.95,957
+S-Oil,Oil & Gas Operations ,South Korea ,5.28,18.53,0.36,6.12,957
+Norsk Hydro,Materials ,Norway ,8.2,11.63,0.05,13.43,959
+XL Capital,Insurance ,Bermuda ,6.36,6.19,0.07,45.58,960
+Credicorp,Banking ,Peru ,6.35,2.1,0.49,22.15,961
+SES,Media ,Luxembourg ,9.5,2.44,0.68,10.58,961
+AGL Energy,Utilities ,Australia ,5.91,4.76,1.29,7.3,963
+Electric Power Devel,Utilities ,Japan ,5.53,7.24,0.2,19.71,964
+LeGrand,Capital Goods ,France ,8.48,5.13,0.42,7.94,965
+SNS Reaal,Banking ,Netherlands ,1.33,13.01,0.03,184.22,965
+Pgnig Group,Oil & Gas Operations ,Poland ,7.13,6.19,0.29,9.87,967
+Sumitomo Metal Mining,Materials ,Japan ,8.3,8.15,0.23,8.89,968
+Bidvest Group,Conglomerates ,South Africa ,6.05,14.55,0.36,4.93,969
+Allied Irish Banks,Banking ,Ireland ,1.24,12.13,-3.46,249.26,970
+Tyson Foods,"Food, Drink & Tobacco ",United States ,6.47,26.82,-0.27,10.85,971
+Mazda Motor,Consumer Durables ,Japan ,4.66,26.04,-0.73,17.5,972
+Yanzhou Coal Mining,Materials ,China ,13.29,3.66,0.95,4.73,973
+Wheelock & Co,Diversified Financials ,Hong Kong/China ,5.98,2.91,0.44,25.51,974
+Equity Residential,Diversified Financials ,United States ,10.18,1.94,0.36,15.42,975
+Tokyu,Transportation ,Japan ,5.39,13.39,0.11,20.27,976
+Colruyt,Food Markets ,Belgium ,7.94,8.3,0.4,3.12,977
+Kintetsu,Transportation ,Japan ,5.34,9.94,0.17,18.69,977
+Fortune Brands,Consumer Durables ,United States ,6.68,6.21,0.24,12.37,979
+Fibria Celulose,Materials ,Brazil ,8.72,3.44,0.32,16.25,980
+Cathay Pacific Airways,Transportation ,Hong Kong/China ,7.35,11.17,-1.1,14.8,981
+Fondiaria-SAI,Insurance ,Italy ,2.2,17.48,0.12,56.55,982
+Molson Coors Brewing,"Food, Drink & Tobacco ",United States ,7.62,3.03,0.72,12.02,982
+Banca Carige,Banking ,Italy ,4.61,3.9,0.29,44.07,984
+GAIL (India),Utilities ,India ,10.98,4.8,0.55,5.79,985
+Orascom Telecom,Telecommunications Services ,Egypt ,5.86,5.33,0.43,9.69,986
+Mobily,Telecommunications Services ,Saudi Arabia ,8.59,3.48,0.8,8.25,987
+Celgene,Drugs & Biotechnology ,United States ,28.18,2.69,0.78,5.39,988
+Clorox,Household & Personal Products ,United States ,8.63,5.5,0.59,4.49,988
+Domtar,Materials ,Canada ,12.9,5.47,0.31,6.52,990
+Flextronics Intl,Technology Hardware & Equip ,Singapore ,5.82,29.28,-5.76,11.3,991
+Magna International,Consumer Durables ,Canada ,6.4,17.37,-0.49,12.3,992
+CH Robinson Worldwide,Transportation ,United States ,8.98,7.58,0.36,1.83,993
+IntercontinentalExchange,Diversified Financials ,United States ,7.96,0.99,0.32,21.88,994
+Ecolab,Chemicals ,United States ,10.01,5.9,0.42,5.02,995
+Genuine Parts,Consumer Durables ,United States ,6.48,10.06,0.4,5,995
+DaVita,Health Care Equipment & Svcs ,United States ,6.51,6.11,0.42,7.56,997
+Dentsu,Media ,Japan ,6.6,19.38,-0.21,10.7,998
+Shanxi Taigang Stainless,Materials ,China ,6.56,12.19,0.18,9.54,998
+Lorillard,"Food, Drink & Tobacco ",United States ,11.26,3.69,0.95,2.58,1000
+Aéroports de Paris, Transportation , France ,7.76,3.77,0.39,11.45,1001
+Daito Trust Construction,Construction ,Japan ,5.96,9.81,0.43,5.34,1002
+Smith International,Oil & Gas Operations ,United States ,10.21,8.22,0.15,10.74,1003
+Terna,Utilities ,Italy ,8.25,1.86,0.46,12.88,1004
+Hindalco Industries,Materials ,India ,6.69,12.73,0.07,12.71,1005
+American Finl Group,Insurance ,United States ,2.99,4.32,0.52,27.85,1006
+DP World,Transportation ,United Arab Emirates ,6.14,3.28,0.48,15.46,1007
+Canara Bank,Banking ,India ,3.49,3.82,0.4,43.39,1008
+Grupo Elektra,Retailing ,Mexico ,12.89,3.28,0.38,9.12,1009
+Forest Labs,Drugs & Biotechnology ,United States ,9.16,4.1,0.75,6.11,1010
+Northeast Utilities,Utilities ,United States ,4.59,5.44,0.34,14.06,1011
+Cameco,Materials ,Canada ,10.9,2.04,0.97,7.02,1012
+Mattel,Household & Personal Products ,United States ,8.03,5.43,0.53,4.78,1013
+Textron,Conglomerates ,United States ,5.51,10.5,-0.03,18.94,1014
+SGS,Business Services & Supplies ,Switzerland ,10.08,4.55,0.55,3.43,1015
+JM Smucker,"Food, Drink & Tobacco ",United States ,7.08,4.6,0.47,7.9,1016
+Olympus,Technology Hardware & Equip ,Japan ,8.32,10.07,-1.18,11.04,1017
+Idemitsu Kosan,Oil & Gas Operations ,Japan ,2.93,39.01,0.03,22.83,1018
+New World Development,Diversified Financials ,Hong Kong/China ,7.42,3.15,0.27,23.04,1018
+Sherwin-Williams,Retailing ,United States ,6.98,7.09,0.44,4.32,1020
+Arch Capital Group,Insurance ,Bermuda ,4.11,3.5,0.88,15.38,1021
+Pepco Holdings,Utilities ,United States ,3.72,9.26,0.24,15.78,1021
+ITC,"Food, Drink & Tobacco ",India ,19,3.18,0.65,3.97,1023
+Las Vegas Sands,"Hotels, Restaurants & Leisure ",United States ,11.28,4.56,-0.35,20.57,1024
+Wisconsin Energy,Utilities ,United States ,5.76,4.13,0.38,12.7,1024
+Unipol,Insurance ,Italy ,2.65,12.27,0.13,56,1026
+Fiserv,Software & Services ,United States ,7.45,4.08,0.48,8.38,1027
+Hershey,"Food, Drink & Tobacco ",United States ,9.1,5.3,0.44,3.68,1028
+Esprit Holdings,Retailing ,Hong Kong/China ,9.18,4.45,0.61,2.49,1029
+Nipponkoa Insurance,Insurance ,Japan ,4.63,8.78,0.1,30.18,1030
+Unibail-Rodamco,Diversified Financials ,France ,16.96,2.49,-1.55,34.57,1030
+Apollo Group,Business Services & Supplies ,United States ,9.29,4.27,0.66,3.27,1032
+STMicroelectronics,Semiconductors ,Switzerland ,7.73,8.69,-1.16,13.34,1033
+Citic Pacific,Materials ,Hong Kong/China ,8.46,5.99,-1.63,17.71,1034
+NYSE Euronext,Diversified Financials ,United States ,7.13,4.69,0.22,14.36,1035
+W&W-Wüstenrot,Diversified Financials ,Germany ,2.42,10.07,0.09,89.94,1036
+WW Grainger,Capital Goods ,United States ,7.55,6.22,0.43,3.73,1037
+Shaw Communications,Media ,Canada ,8.32,3.3,0.5,9.38,1037
+Wärtsilä,Capital Goods ,Finland ,4.78,7.54,0.56,6.55,1039
+Novatek,Oil & Gas Operations ,Russia ,17.04,2.6,0.75,4.58,1040
+CIT Group,Diversified Financials ,United States ,7.31,3.98,,60.03,1041
+Bankinter,Banking ,Spain ,3.84,3.04,0.35,78.06,1042
+Advanced Micro,Semiconductors ,United States ,5.52,5.4,0.38,9.08,1043
+Stora Enso,Materials ,Finland ,5.06,12.82,-1.26,16.41,1044
+Tele2,Telecommunications Services ,Sweden ,6.58,5.48,0.63,5.01,1045
+Insurance Australia Group,Insurance ,Australia ,7.64,6.77,0.15,15.31,1046
+Qantas Airways,Transportation ,Australia ,5.33,11.74,0.09,16.21,1047
+Espirito Santo Finl,Banking ,Luxembourg ,1.57,9.34,0.11,108.15,1048
+Rockwell Collins,Aerospace & Defense ,United States ,9.18,4.44,0.56,4.65,1048
+NiSource,Utilities ,United States ,4.2,6.65,0.22,19.27,1050
+Ajinomoto,"Food, Drink & Tobacco ",Japan ,7.1,12.23,-0.11,10.57,1051
+Celesio,Health Care Equipment & Svcs ,Germany ,4.97,30.4,-0.03,10.39,1051
+Kweichow Moutai,"Food, Drink & Tobacco ",China ,22.98,1.21,0.56,2.28,1053
+Strabag,Construction ,Austria ,2.8,17.03,0.22,13.38,1053
+Hong Kong & China Gas,Utilities ,Hong Kong/China ,14.9,1.59,0.56,6.7,1055
+Randstad Holding,Business Services & Supplies ,Netherlands ,7.17,17.76,0.1,8.6,1055
+Community Health Sys,Health Care Equipment & Svcs ,United States ,3.3,12.11,0.24,14.02,1057
+Onex,Diversified Financials ,Canada ,3.07,23.68,0.11,24.3,1058
+Petro Rabigh,Oil & Gas Operations ,Saudi Arabia ,7.71,7.85,-0.38,13.9,1059
+HTC,Technology Hardware & Equip ,Taiwan ,8.01,4.39,0.68,3.72,1060
+Kawasaki Kisen Kaisha,Transportation ,Japan ,2.27,12.78,0.33,9.73,1061
+Neste Oil,Oil & Gas Operations ,Finland ,3.64,13.81,0.32,8.16,1062
+SNC-Lavalin Group,Construction ,Canada ,7.21,5.82,0.34,6.87,1063
+Nippon Express,Transportation ,Japan ,4.39,18.78,0.16,11.87,1064
+HK Exchanges & Clearing,Diversified Financials ,Hong Kong/China ,18.59,0.83,0.61,5.85,1065
+Santos,Oil & Gas Operations ,Australia ,9.82,1.96,0.39,10.15,1066
+Balfour Beatty,Construction ,United Kingdom ,2.84,14.47,0.36,8.41,1067
+Applied Materials,Semiconductors ,United States ,16.79,5.53,-0.09,10,1068
+Adobe Systems,Software & Services ,United States ,18.29,2.95,0.39,7.28,1069
+Royal Caribbean,"Hotels, Restaurants & Leisure ",Liberia ,6.07,5.89,0.16,18.23,1070
+Oji Paper,Materials ,Japan ,4.56,13.01,-0.06,17.12,1071
+AMR,Transportation ,United States ,3.13,19.92,-1.47,25.44,1072
+HAL Trust,Diversified Financials ,Netherlands ,6.32,4.96,0.53,6.6,1073
+Tencent Holdings,Software & Services ,China ,36.39,1.05,0.41,1.4,1073
+Supervalu,Food Markets ,United States ,3.32,42.21,0.1,17.17,1075
+Cooper Industries,Capital Goods ,Ireland ,7.77,5.07,0.44,5.98,1076
+Laboratory Corp Amer,Health Care Equipment & Svcs ,United States ,7.77,4.69,0.54,4.84,1077
+MediaTek,Semiconductors ,Taiwan ,17.64,2.75,0.58,3.01,1078
+Pitney Bowes,Business Services & Supplies ,United States ,4.81,5.57,0.42,8.53,1079
+PLDT-Philippine LDT,Telecommunications Services ,Philippines ,10.77,3.29,0.84,5.33,1080
+Marriott International,"Hotels, Restaurants & Leisure ",United States ,9.76,10.91,-0.35,7.93,1081
+Doosan,Construction ,South Korea ,2.31,17.19,0.09,25.95,1082
+GS Holdings,Diversified Financials ,South Korea ,3.06,32.18,0.09,18.48,1083
+Millicom Intl Cellular,Telecommunications Services ,Luxembourg ,9.29,3.37,0.85,5.99,1084
+Cognizant Technology,Software & Services ,United States ,15.02,3.28,0.53,3.34,1085
+Brambles,Business Services & Supplies ,Australia ,9.03,4.37,0.49,5.1,1086
+Bank Leumi le-Israel,Banking ,Israel ,6.27,3.78,0.02,81.82,1087
+Mylan,Drugs & Biotechnology ,United States ,6.56,5.09,0.23,10.8,1087
+Hynix Semiconductor,Semiconductors ,South Korea ,10.68,5.47,-3.79,12.8,1089
+Weyerhaeuser,Materials ,United States ,8.82,5.53,-0.55,15.25,1090
+Celanese,Chemicals ,United States ,4.71,5.08,0.49,8.41,1091
+Cincinnati Financial,Insurance ,United States ,4.46,3.9,0.43,14.44,1091
+Power Grid of India,Utilities ,India ,9.78,1.28,0.33,10.71,1093
+Bangkok Bank,Banking ,Thailand ,6.73,0.66,0.18,53.15,1094
+Jacobs Engineering,Construction ,United States ,4.91,10.71,0.36,4.68,1094
+Coach,Household & Personal Products ,United States ,11.63,3.34,0.64,2.87,1096
+China CSSC Holdings,Capital Goods ,China ,7.06,4.06,0.61,6.71,1097
+Wendel,Diversified Financials ,France ,2.87,7.54,0.22,23.01,1097
+SembCorp Industries,Conglomerates ,Singapore ,4.86,6.59,0.47,6.64,1099
+Storebrand,Insurance ,Norway ,3.14,7.71,0.15,63.24,1100
+Hokuhoku Finl Group, Banking , Japan ,2.96,2.43,0.38,99.58,1101
+Cielo,Business Services & Supplies ,Brazil ,11.03,1.98,0.88,1.61,1102
+Navistar Intl,Consumer Durables ,United States ,2.85,11.57,0.3,10.03,1103
+SKF Group,Capital Goods ,Sweden ,7.23,7.85,0.23,6.91,1104
+Willis Group Holdings,Insurance ,Ireland ,5.08,3.26,0.44,15.64,1105
+Naspers,Media ,South Africa ,15.24,2.75,0.59,5.65,1106
+Ross Stores,Retailing ,United States ,6.11,6.94,0.4,2.74,1107
+Bank of Yokohama,Banking ,Japan ,6.58,3.36,0.08,121.16,1108
+Ball,Materials ,United States ,5.14,7.35,0.39,6.49,1109
+El Paso,Oil & Gas Operations ,United States ,7.64,4.63,-0.54,22.51,1110
+Bharat Petroleum,Oil & Gas Operations ,India ,4.41,26.59,0.12,10.66,1111
+Canadian Tire,Retailing ,Canada ,4.11,8.23,0.32,8.52,1112
+Aioi Insurance,Insurance ,Japan ,3.6,10.77,-0.11,26.41,1113
+G4S,Business Services & Supplies ,United Kingdom ,5.81,8.68,0.22,7.8,1114
+WR Berkley,Insurance ,United States ,4.06,4.43,0.31,17.33,1115
+Polo Ralph Lauren,Household & Personal Products ,United States ,7.97,4.87,0.41,4.65,1116
+Jupiter Telecomunications,Media ,Japan ,8.08,3.59,0.36,8.56,1117
+Darden Restaurants,"Hotels, Restaurants & Leisure ",United States ,5.75,7.15,0.39,5.04,1118
+Helvetia Group,Insurance ,Switzerland ,2.73,5.59,0.22,31.32,1119
+Invesco,Diversified Financials ,Bermuda ,8.67,2.63,0.32,10.91,1120
+Shimizu,Construction ,Japan ,3.04,19.39,0.06,20.04,1120
+China Oilfield Services,Oil & Gas Operations ,China ,9,1.78,0.46,8.29,1122
+Irish Life & Permanent,Diversified Financials ,Ireland ,0.99,6.74,-0.45,114.81,1123
+Power Finance,Business Services & Supplies ,India ,6.22,1.28,0.39,13.45,1123
+Transatlantic Holdings,Insurance ,United States ,3.35,4.45,0.48,14.94,1123
+Shin Kong Financial,Diversified Financials ,Taiwan ,2.91,8.28,-0.64,52.49,1126
+JS Group,Construction ,Japan ,6.08,10.75,0,10.52,1127
+Zijin Mining Group,Materials ,China ,17.01,2.4,0.45,3.83,1128
+BPER-Emilia Romagna,Banking ,Italy ,3.39,4.66,0.18,73.05,1129
+Kajima,Construction ,Japan ,2.45,20.01,-0.06,18.73,1129
+Jindal Steel & Power,Materials ,India ,12.79,2.11,0.59,3.81,1131
+TDK,Technology Hardware & Equip ,Japan ,7.97,7.47,-0.65,10.38,1132
+Kawasaki Heavy Inds,Capital Goods ,Japan ,4.31,13.75,0.12,13.74,1133
+Banco BPI,Banking ,Portugal ,2.34,4.52,0.21,58.43,1134
+Fortescue Metals Group,Materials ,Australia ,13.11,1.99,0.55,4.08,1134
+Smith & Nephew,Health Care Equipment & Svcs ,United Kingdom ,9.11,3.88,0.49,4.36,1136
+White Mountains Ins,Insurance ,Bermuda ,3.11,4.45,0.47,15.44,1137
+Gree Electric Appliances,Consumer Durables ,China ,7.16,6.17,0.31,4.38,1138
+American Tower,Telecommunications Services ,United States ,17.24,1.72,0.25,8.51,1139
+Hua Nan Financial,Banking ,Taiwan ,3.85,2.07,0.28,52.09,1140
+NII Holdings,Telecommunications Services ,United States ,6.3,4.4,0.38,7.55,1140
+Scana,Utilities ,United States ,4.53,4.24,0.36,11.96,1142
+KGHM Polska Miedz,Materials ,Poland ,6.73,3.92,0.76,5.21,1143
+Bank of Greece,Banking ,Greece ,1.13,2.66,0.31,98.58,1144
+Remgro,Conglomerates ,South Africa ,6.17,1.18,4.67,4.43,1144
+Cosmo Oil,Oil & Gas Operations ,Japan ,2.04,35.21,-0.95,13.94,1146
+China Eastern Airlines,Transportation ,China ,9.25,6.03,-2.24,10.69,1147
+China Southern Airlines,Transportation ,China ,6.31,8.12,-0.71,12.15,1148
+Isetan Mitsukoshi Holdings,Retailing ,Japan ,4.13,14.65,0.05,13.6,1149
+Kinross Gold,Materials ,Canada ,12.84,2.41,0.31,8.01,1150
+MBIA,Insurance ,United States ,1,2.95,0.62,25.68,1150
+Ashland,Chemicals ,United States ,3.83,8.2,0.28,9.23,1152
+Hang Lung Group,Diversified Financials ,Hong Kong/China ,6.63,0.61,0.34,12.71,1153
+Krung Thai Bank,Banking ,Thailand ,3.38,2.11,0.36,46.31,1153
+Parmalat,"Food, Drink & Tobacco ",Italy ,4.36,5.53,0.72,6.1,1155
+Daewoo Ship & Marine,Capital Goods ,South Korea ,3.32,9.8,0.21,13.77,1156
+Anhui Conch Cement,Construction ,China ,10.88,3.56,0.38,6.2,1157
+Metro Inc,Food Markets ,Canada ,4.21,10.72,0.35,4.53,1158
+Coventry Health Care,Health Care Equipment & Svcs ,United States ,3.52,13.9,0.24,8.17,1159
+Mitsubishi UFJ Lease,Business Services & Supplies ,Japan ,3.11,8.41,0.07,39.42,1160
+Aker Solutions,Construction ,Norway ,3.61,9.33,0.39,6.84,1161
+Hormel Foods,"Food, Drink & Tobacco ",United States ,5.52,6.57,0.37,3.73,1161
+Tingyi,"Food, Drink & Tobacco ",China ,13.48,4.29,0.26,3.02,1161
+Industrial Alliance Insur,Insurance ,Canada ,2.54,5.55,0.21,27.74,1164
+UAL,Transportation ,United States ,3.01,16.34,-0.65,18.35,1165
+H&R Block,Business Services & Supplies ,United States ,5.75,4,0.5,7.41,1166
+Hyundai Eng & Const,Construction ,South Korea ,5.74,6.45,0.28,6.8,1167
+Federal Grid,Utilities ,Russia ,12.62,2.32,-0.78,22.85,1168
+Chuo Mitsui Trust,Banking ,Japan ,6.12,2.72,-0.95,150.79,1169
+Boston Properties,Diversified Financials ,United States ,9.49,1.52,0.23,12.35,1170
+Hebei Iron & Steel,Materials ,China ,5.79,8.47,0.25,6.06,1171
+Shinsei Bank,Banking ,Japan ,2.35,5.74,-1.47,120.75,1171
+Calpine,Utilities ,United States ,4.95,6.56,0.15,16.65,1173
+Ingram Micro,Technology Hardware & Equip ,United States ,3,29.52,0.2,8.18,1174
+Xishan Group,Materials ,China ,11.99,1.95,0.51,2.55,1175
+Assa Abloy,Business Services & Supplies ,Sweden ,6.92,4.88,0.37,5.97,1176
+China Resources Power Holdings,Utilities ,Hong Kong/China ,9.64,3.45,0.22,10.26,1177
+Obayashi,Construction ,Japan ,2.8,17.28,0.11,17.24,1177
+Genting,"Hotels, Restaurants & Leisure ",Malaysia ,6.81,2.6,0.31,12.68,1179
+McDermott International,Construction ,Panama ,5.48,6.19,0.39,4.85,1179
+Johnson Matthey,Materials ,United Kingdom ,5.2,11.18,0.25,3.82,1181
+Shiseido,Household & Personal Products ,Japan ,9.03,7.09,0.2,6.02,1182
+Murata Manufacturing,Technology Hardware & Equip ,Japan ,11.88,5.38,0.04,9,1183
+Pohjola Bank,Banking ,Finland ,3.56,3.08,0.28,50.93,1183
+Jeronimo Martins,Food Markets ,Portugal ,6.16,9.6,0.23,5.09,1185
+Shire,Drugs & Biotechnology ,Ireland ,12.11,3.01,0.49,4.62,1186
+Hoya,Technology Hardware & Equip ,Japan ,10.92,4.66,0.26,5.61,1187
+Crown Holdings,Materials ,United States ,4.46,7.94,0.33,6.53,1188
+CMS Energy,Utilities ,United States ,3.53,6.2,0.23,15.26,1189
+Ultrapar Participacoes,Oil & Gas Operations ,Brazil ,3.87,18.31,0.24,6.37,1190
+Red Eléctrica,Utilities ,Spain ,6.72,1.72,0.47,8.8,1191
+RHB Capital,Banking ,Malaysia ,3.49,1.57,0.35,33.49,1192
+BCV Group,Banking ,Switzerland ,3.84,1.35,0.29,34.57,1193
+Konica Minolta,Technology Hardware & Equip ,Japan ,5.51,9.73,0.16,8.89,1194
+Shizuoka Bank,Banking ,Japan ,6.26,2.3,0.13,92.09,1195
+MGM Mirage,"Hotels, Restaurants & Leisure ",United States ,4.7,5.98,-1.29,22.52,1196
+Axis Capital Holdings,Insurance ,Bermuda ,4.16,2.81,0.5,15.31,1197
+Questar,Utilities ,United States ,7.47,3.04,0.39,8.9,1198
+T Rowe Price,Diversified Financials ,United States ,13.23,1.87,0.43,3.21,1199
+Uralkali,Chemicals ,Russia ,9.04,2.06,0.72,2.03,1200
+Kinnevik, Diversified Financials , Sweden ,4.57,1.17,2.28,7.46,1201
+Shanghai Zhenhua,Capital Goods ,China ,5.87,4.02,0.37,8.06,1202
+Foster's Group,"Food, Drink & Tobacco ",Australia ,9.37,3.62,0.35,6.43,1203
+Hyundai Merchant,Transportation ,South Korea ,3.35,7.16,0.54,7.07,1203
+Maxis,Telecommunications Services ,Malaysia ,12.08,2.22,0.46,5.17,1205
+China Resources Land,Diversified Financials ,Hong Kong/China ,10.85,1.18,0.26,9.08,1206
+Hermès International,Household & Personal Products ,France ,14.18,2.46,0.4,3.04,1207
+Hospira,Health Care Equipment & Svcs ,United States ,8.75,3.88,0.4,5.5,1208
+Taisei,Construction ,Japan ,2.26,16.85,-0.25,16.32,1208
+Mitsubishi Materials,Materials ,Japan ,3.31,14.63,0.06,17.19,1210
+Delek Group,Oil & Gas Operations ,Israel ,2.57,12.56,-0.47,20.18,1211
+Industrivarden,Diversified Financials ,Sweden ,4.27,2.79,2.89,7.53,1212
+British Airways,Transportation ,United Kingdom ,3.66,12.64,-0.53,15.03,1213
+City Developments,Diversified Financials ,Singapore ,6.66,2.25,0.41,9.46,1214
+Paychex,Business Services & Supplies ,United States ,10.95,2.02,0.49,4.66,1215
+Abengoa,Construction ,Spain ,2.28,5.78,0.24,17.73,1216
+Micron Technology,Semiconductors ,United States ,8.31,5.14,-0.93,11.73,1216
+Intuit,Software & Services ,United States ,10.42,3.22,0.46,4.78,1218
+Bank of Ningbo,Banking ,China ,5.8,0.89,0.21,23.93,1219
+Jefferies Group,Diversified Financials ,United States ,4.17,2.47,0.28,27.86,1220
+Royal BAM Group,Construction ,Netherlands ,1.06,12.3,0.23,9.3,1220
+CSR,Transportation ,China ,9.47,5.15,0.2,6.66,1222
+STX Corp,Transportation ,South Korea ,0.74,13.04,0.01,18.34,1223
+IOI Group,"Food, Drink & Tobacco ",Malaysia ,10.78,4.15,0.28,4.53,1224
+Mega Financial Holding,Diversified Financials ,Taiwan ,6.17,2.47,0.01,73.36,1225
+Südzucker,"Food, Drink & Tobacco ",Germany ,4.44,7.46,0.21,9.65,1225
+Priceline.com,Business Services & Supplies ,United States ,10.87,2.34,0.49,1.83,1227
+Uniqa,Insurance ,Austria ,1.96,7.84,0.07,33.94,1227
+Vornado Realty,Diversified Financials ,United States ,11.99,2.74,0.11,20.19,1229
+Steinhoff Intl Holdings,Consumer Durables ,South Africa ,3.71,6.58,0.44,7.02,1230
+China Merchants (International),Transportation ,Hong Kong/China ,9.13,0.53,0.48,6.51,1231
+Isuzu Motors,Consumer Durables ,Japan ,4.29,14.63,-0.28,10.32,1231
+Sunoco,Oil & Gas Operations ,United States ,3.1,28.8,-0.33,11.9,1231
+United Utilities,Utilities ,United Kingdom ,5.63,3.46,0.26,13.97,1234
+NetApp,Technology Hardware & Equip ,United States ,10.66,3.64,0.33,5.97,1235
+Saputo,"Food, Drink & Tobacco ",Canada ,5.94,5.62,0.34,3.11,1236
+Klöckner & Co,Materials ,Germany ,1.58,9.4,0.55,4.21,1237
+Tobu Railway,Transportation ,Japan ,4.69,6.18,0.17,14.14,1237
+First Solar,Technology Hardware & Equip ,United States ,9,2.07,0.64,3.35,1239
+Keyence,Technology Hardware & Equip ,Japan ,12.08,1.7,0.43,5.23,1239
+Smiths Group,Conglomerates ,United Kingdom ,6.18,4.46,0.45,4.99,1241
+Virgin Media,Media ,United States ,5.58,6.14,-0.58,14.84,1242
+Ensco International,Oil & Gas Operations ,United Kingdom ,6.47,1.95,0.77,6.75,1243
+OOIL-Orient Overseas,Transportation ,Hong Kong/China ,4.52,6.57,0.27,7.7,1243
+Coca-Cola Amatil,"Food, Drink & Tobacco ",Australia ,7.61,4.05,0.4,5.01,1245
+Bezeq-Israeli Telecom,Telecommunications Services ,Israel ,6.99,3.04,0.93,3.58,1246
+Lubrizol,Chemicals ,United States ,5.5,4.59,0.5,4.77,1246
+Kerry Group,"Food, Drink & Tobacco ",Ireland ,5.6,6.48,0.29,5.94,1248
+Odakyu Electric Railway,Transportation ,Japan ,6.2,5.7,0.11,13.22,1249
+Volksbank,Banking ,Austria ,3.19,5.36,-0.21,73.06,1250
+Weichai Power,Capital Goods ,China ,8.03,4.63,0.28,4.34,1251
+Torchmark,Insurance ,United States ,3.9,3.22,0.4,16.02,1252
+URS,Construction ,United States ,3.93,9.25,0.27,6.9,1252
+Tullow Oil,Oil & Gas Operations ,United Kingdom ,15.85,1.01,0.33,4.22,1254
+Icade,Diversified Financials ,France ,4.87,2.1,0.74,8.59,1255
+Experian Group,Business Services & Supplies ,Ireland ,9.43,3.23,0.41,6.17,1256
+Goodyear,Consumer Durables ,United States ,3.22,16.3,-0.38,14.41,1256
+RusHydro,Utilities ,Russia ,11.62,3.53,-0.65,13.96,1258
+CareFusion,Health Care Equipment & Svcs ,United States ,5.78,3.65,0.42,7.72,1259
+Bilfinger & Berger,Construction ,Germany ,2.93,14.35,0.2,9.45,1260
+FMC Technologies,Oil & Gas Operations ,United States ,6.95,4.41,0.36,3.51,1261
+Mediceo Paltac,Health Care Equipment & Svcs ,Japan ,2.84,25.3,0.13,11.31,1262
+AngloGold Ashanti,Materials ,South Africa ,12.96,4.15,-0.37,9.82,1263
+Fosun International,Materials ,China ,4.86,5.91,0.19,10.13,1264
+Telekom Austria,Telecommunications Services ,Austria ,5.72,6.88,0.14,11.87,1265
+Bank Hapoalim,Banking ,Israel ,5.59,2.7,-0.23,80.97,1266
+Chiba Bank,Banking ,Japan ,5.4,2.38,0.13,100.98,1267
+KT&G,"Food, Drink & Tobacco ",South Korea ,7.68,2.7,0.72,3.63,1268
+Hellenic Petroleum,Oil & Gas Operations ,Greece ,3.4,9.68,0.25,8.23,1269
+Fukuoka Financial Group,Banking ,Japan ,3.15,2.74,0.23,118.1,1270
+Henry Schein,Health Care Equipment & Svcs ,United States ,5.16,6.54,0.31,3.84,1270
+Saudi Arabian Fertilizers,Chemicals ,Saudi Arabia ,9.33,0.73,0.49,2.35,1272
+Showa Shell Sekiyu,Oil & Gas Operations ,Japan ,2.64,21.76,-0.62,11.87,1272
+Lenovo Group,Technology Hardware & Equip ,China ,6.57,14.95,-0.21,6.12,1274
+Shoprite Holdings,Food Markets ,South Africa ,5.33,7.68,0.26,2.13,1275
+Terumo,Health Care Equipment & Svcs ,Japan ,11.36,3.11,0.38,3.72,1276
+Rexel,Trading Companies ,France ,3.32,16.22,0.12,12.99,1277
+Union Bank of India,Banking ,India ,2.81,2.6,0.34,31.72,1278
+Couche Tard,Food Markets ,Canada ,3.43,14.41,0.29,3.5,1279
+Fuji Heavy Inds,Consumer Durables ,Japan ,3.57,14.85,-0.72,11.69,1280
+Metso,Capital Goods ,Finland ,4.69,7.19,0.21,7.95,1281
+Public Power,Utilities ,Greece ,3.62,8.11,-0.43,19.4,1282
+Comerica,Banking ,United States ,5.4,3.16,0.02,59.26,1283
+IHI,Capital Goods ,Japan ,2.58,14.26,-0.08,14.58,1283
+Commercial Bank Qatar,Banking ,Qatar ,3.88,1.14,0.42,15.74,1285
+Marvell Technology Group,Semiconductors ,Bermuda ,12.55,2.81,0.35,5.17,1286
+OHL,Construction ,Spain ,2.13,6.29,0.24,12.84,1287
+Next,Retailing ,United Kingdom ,5.23,4.74,0.44,2.56,1288
+SanDisk,Technology Hardware & Equip ,United States ,7.46,3.57,0.42,6,1289
+Protective Life,Insurance ,United States ,1.58,3.07,0.27,42.31,1290
+Buzzi Unicem,Construction ,Italy ,2.53,4.9,0.55,8.21,1291
+AMMB Holdings,Banking ,Malaysia ,4.42,1.45,0.24,24.56,1292
+First Financial Holding,Banking ,Taiwan ,3.45,2.13,0.22,54.75,1293
+China Agri-Industries,"Food, Drink & Tobacco ",Hong Kong/China ,5.34,5.39,0.34,3.63,1294
+Commercial Bank Kuwait,Banking ,Kuwait ,4.09,1.24,0.37,15.57,1295
+Taiwan Cooperative Bank,Banking ,Taiwan ,3.18,2.45,0.23,76.39,1296
+Mercantil Servicios,Diversified Financials ,Venezuela ,0.54,2.92,0.37,24.72,1297
+Flowserve,Capital Goods ,United States ,5.77,4.37,0.43,4.25,1298
+Maanshan Iron & Steel,Materials ,China ,4.71,10.28,0.1,9.62,1299
+Family Dollar Stores,Retailing ,United States ,4.53,7.47,0.3,2.76,1300
+Amcor, Materials , Australia ,6.52,7.7,0.17,6.7,1301
+Hindustan Petroleum,Oil & Gas Operations ,India ,2.55,22.13,0.15,9.73,1302
+Bank of Moscow,Banking ,Russia ,4.44,2.13,0.22,26.24,1303
+Dean Foods,"Food, Drink & Tobacco ",United States ,2.65,11.16,0.24,7.84,1303
+JFE Shoji Holdings,Trading Companies ,Japan ,0.8,27.8,0.2,6.43,1305
+Nippon Paper Group,Materials ,Japan ,2.99,12.2,-0.24,15.07,1305
+STX Offshore,Capital Goods ,South Korea ,0.74,11.89,0.02,15.41,1307
+China Shipping Develop,Transportation ,China ,6.48,2.53,0.79,4.39,1308
+Mahindra & Mahindra,Consumer Durables ,India ,5.96,5.13,0.27,6.13,1308
+Advanced Info Service,Telecommunications Services ,Thailand ,7.89,3.07,0.51,3.45,1310
+ICAP,Diversified Financials ,United Kingdom ,3.21,2.28,0.25,48.45,1311
+Securitas,Business Services & Supplies ,Sweden ,3.96,8.75,0.3,4.31,1311
+Yamaha Motor,Consumer Durables ,Japan ,3.84,12.41,-2.33,10.54,1313
+Fidelity National Info,Business Services & Supplies ,United States ,8.65,3.77,0.11,14,1314
+Mead Johnson Nutrition,Household & Personal Products ,United States ,9.78,2.83,0.4,2.07,1315
+Sabesp-Saneamento Basico,Utilities ,Brazil ,3.89,3.13,0.49,11.61,1316
+X5 Retail Group,Food Markets ,Russia ,9.36,8.35,-2.14,5.66,1317
+Avnet,Technology Hardware & Equip ,United States ,4.29,16.66,0.15,7.32,1318
+Gannett,Media ,United States ,3.78,5.61,0.36,7.15,1319
+KBR,Construction ,United States ,3.4,12.06,0.29,5.33,1319
+Mitsui Chemicals,Chemicals ,Japan ,2.76,15.28,-0.98,11.99,1319
+MeadWestvaco,Materials ,United States ,4.09,6.05,0.23,9.02,1322
+Allegheny Energy,Utilities ,United States ,3.89,3.43,0.39,11.59,1323
+Wuliangye Yibin,"Food, Drink & Tobacco ",China ,15.79,1.1,0.27,1.98,1324
+EXOR,Diversified Financials ,Italy ,3.62,3.71,0.42,10.75,1325
+Garmin,Technology Hardware & Equip ,Cayman Islands ,6.51,2.95,0.7,3.83,1326
+GameStop,Retailing ,United States ,2.88,9.05,0.39,5.04,1327
+CR Bard,Health Care Equipment & Svcs ,United States ,8.07,2.53,0.46,2.91,1328
+Gold Fields,Materials ,South Africa ,8.16,3.77,0.2,8.45,1329
+Delta Electronics,Technology Hardware & Equip ,Taiwan ,6.65,4.34,0.31,3.58,1330
+Capita Group,Business Services & Supplies ,United Kingdom ,6.73,4.34,0.31,3.83,1331
+Owens-Illinois,Materials ,United States ,5.07,7.07,0.16,8.73,1332
+Hertz Global Holdings,Business Services & Supplies ,United States ,3.89,7.1,-0.13,16,1333
+Host Hotels & Resorts,Diversified Financials ,United States ,7.6,4.16,-0.25,12.56,1334
+Bradespar,Diversified Financials ,Brazil ,7.67,1.79,0.49,5.08,1335
+Leucadia National,Diversified Financials ,United States ,5.93,1.12,0.55,6.76,1336
+Agility,Transportation ,Kuwait ,2.16,6.72,0.52,5.94,1337
+Industrias Peñoles,Materials ,Mexico ,7.91,3.33,0.39,3.79,1338
+Banca Popolare di Sondrio,Banking ,Italy ,2.91,1.63,0.28,30.44,1339
+Continental Airlines,Transportation ,United States ,2.95,12.59,-0.28,12.78,1340
+Hokkaido Electric Power,Utilities ,Japan ,4.24,6.11,-0.25,15.87,1341
+Hokuriku Electric Power,Utilities ,Japan ,4.93,5.39,0.08,14.32,1342
+Brown-Forman,"Food, Drink & Tobacco ",United States ,7.85,2.44,0.46,3.42,1343
+Nürnberger Beteiligungs,Insurance ,Germany ,0.89,6.28,0.04,25.89,1344
+Empire,Food Markets ,Canada ,3.17,14.25,0.26,5.58,1345
+Catlin Group,Insurance ,Bermuda ,1.94,3.34,0.55,11.68,1346
+Dubai Islamic Bank,Banking ,United Arab Emirates ,2.25,1.39,0.33,23.15,1347
+JDC,Materials ,China ,8.39,0.86,0.41,2.12,1347
+Dollar Tree,Retailing ,United States ,4.88,5.23,0.32,2.29,1349
+Golden Agri-Resources,"Food, Drink & Tobacco ",Singapore ,4.66,2.29,0.61,7.9,1350
+SQM,Chemicals ,Chile ,10.32,1.44,0.33,3.2,1351
+GS E&C,Construction ,South Korea ,3.83,5.7,0.31,7.15,1352
+Warner Chilcott,Drugs & Biotechnology ,Ireland ,6.68,1.44,0.51,6.03,1353
+O'Reilly Automotive,Retailing ,United States ,5.44,4.85,0.31,4.78,1354
+Korean Air,Transportation ,South Korea ,3.61,8.41,-1.56,13.82,1355
+Eurazeo,Diversified Financials ,France ,3.49,6.11,-0.08,21.42,1356
+R&F Properties,Diversified Financials ,China ,5.13,2.25,0.46,8.01,1357
+Agilent Technologies,Technology Hardware & Equip ,United States ,11.2,4.53,-0.02,7.6,1358
+CarMax,Retailing ,United States ,4.78,7.11,0.24,2.41,1359
+Masco,Construction ,United States ,5.01,7.79,-0.18,9.18,1360
+Rite Aid,Retailing ,United States ,1.34,25.91,-2.59,8.6,1361
+Fortis (Canada),Utilities ,Canada ,4.54,3.47,0.27,11.6,1362
+Kingdom Holding,Diversified Financials ,Saudi Arabia ,11.02,1.07,0.11,13.33,1363
+Noble Energy,Oil & Gas Operations ,United States ,12.8,2.31,-0.13,11.81,1364
+Bank Audi,Banking ,Lebanon ,2.97,1.6,0.28,26.58,1365
+Thai Oil,Oil & Gas Operations ,Thailand ,2.67,8.52,0.36,4.12,1366
+Thomas Cook Group,Business Services & Supplies ,United Kingdom ,3,14.83,0.03,10.62,1366
+Italmobiliare,Construction ,Italy ,1.36,8.58,-0.15,16.46,1368
+Whole Foods Market,Food Markets ,United States ,6.23,8.2,0.17,3.87,1368
+Tokyo Electron,Semiconductors ,Japan ,11.13,5.22,0.08,6.45,1370
+Oil & Gas Development,Oil & Gas Operations ,Pakistan ,5.89,1.42,0.68,2.19,1371
+Singapore Technologies,Aerospace & Defense ,Singapore ,6.68,3.95,0.32,4.81,1372
+WorleyParsons,Construction ,Australia ,5.35,4.68,0.32,2.77,1373
+Zenith Bank,Banking ,Nigeria ,2.7,1.77,0.44,15.2,1374
+Baidu,Software & Services ,China ,18.06,0.65,0.22,0.9,1375
+Analog Devices,Semiconductors ,United States ,8.88,2.14,0.34,3.7,1376
+Credito Emiliano,Banking ,Italy ,2.15,2.75,0.22,41.74,1376
+Enagas,Utilities ,Spain ,4.94,1.24,0.43,8.21,1378
+Alfresa Holdings,Health Care Equipment & Svcs ,Japan ,2.04,19.87,0.06,8.88,1379
+CCR,Transportation ,Brazil ,9.31,1.57,0.32,5.22,1380
+Cable & Wireless,Telecommunications Services ,United Kingdom ,5.32,5.19,0.2,7.35,1381
+Sinofert Holdings,Chemicals ,Hong Kong/China ,4.23,6.58,0.28,4.39,1382
+Banca Popolare di Milano,Banking ,Italy ,2.42,4.08,0.1,62.26,1383
+Qatar Islamic Bank,Banking ,Qatar ,4.22,0.64,0.36,10.78,1384
+Banesco Banco,Banking ,Venezuela ,0.19,2.57,0.36,17.31,1385
+NHPC,Utilities ,India ,7.75,0.67,0.24,8.11,1385
+Wyndham Worldwide,"Hotels, Restaurants & Leisure ",United States ,4.24,3.75,0.29,9.35,1387
+Eutelsat Communications,Media ,France ,7.38,1.32,0.35,6.41,1388
+Silvinit,Chemicals ,Russia ,5.81,1.75,0.62,2.76,1388
+Inner Mongolia Yitai,Materials ,China ,6.72,1.6,0.46,3.27,1390
+FirstGroup,Transportation ,United Kingdom ,2.56,8.8,0.2,8.41,1391
+Alfa Laval,Capital Goods ,Sweden ,6.02,3.64,0.38,3.45,1392
+Belle International Holdings,Retailing ,Hong Kong/China ,9.66,2.62,0.3,2.48,1393
+Geberit,Construction ,Switzerland ,6.96,2.04,0.44,1.89,1394
+Intuitive Surgical,Health Care Equipment & Svcs ,United States ,13.81,1.05,0.23,1.81,1394
+Sino Land,Diversified Financials ,Hong Kong/China ,5.49,1.26,0.23,11.77,1396
+Wolters Kluwer,Media ,Netherlands ,5.96,4.78,0.16,8.67,1396
+Taiwan Mobile,Telecommunications Services ,Taiwan ,7.17,1.73,0.42,2.53,1398
+Natura Cosmeticos,Household & Personal Products ,Brazil ,8.22,2.15,0.35,1.57,1399
+Expeditors Intl,Transportation ,United States ,7.71,4.09,0.24,2.32,1400
+Soriana, Retailing , Mexico ,4.82,7.03,0.22,5.02,1400
+VMware,Software & Services ,United States ,20.25,2.02,0.2,5.07,1402
+BYD,Capital Goods ,China ,18.49,3.93,0.15,4.8,1403
+JGC,Construction ,Japan ,4.85,4.63,0.32,4.75,1404
+Union National Bank,Banking ,United Arab Emirates ,1.68,1.19,0.3,20.62,1405
+Basler Kantonalbank,Banking ,Switzerland ,3.39,1.04,0.21,31.77,1406
+RR Donnelley & Sons,Media ,United States ,4.11,9.86,-0.03,8.75,1406
+Charter Commun,Media ,United States ,3.39,6.76,,16.66,1408
+Fraser & Neave,Conglomerates ,Singapore ,4.32,3.78,0.26,9.83,1408
+Agile Property Holdings,Diversified Financials ,China ,4.95,1.37,0.8,5.12,1410
+Marshall & Ilsley,Banking ,United States ,3.71,3.38,-0.76,57.21,1411
+Bank Negara Indonesia,Banking ,Indonesia ,3.07,2.47,0.26,24.07,1412
+Joy Global,Capital Goods ,United States ,5.32,3.57,0.45,2.97,1413
+Broadcom,Semiconductors ,United States ,15.75,4.49,0.07,5.13,1414
+Shanxi Lu'an,Materials ,China ,6.94,2.06,0.42,2.5,1415
+Yamana Gold,Materials ,Canada ,7.84,1.18,0.19,9.71,1416
+Crown Castle Intl,Telecommunications Services ,United States ,11.18,1.69,-0.11,10.96,1417
+TrygVesta,Insurance ,Denmark ,4.07,3.5,0.39,8.36,1418
+Starwood Hotels,"Hotels, Restaurants & Leisure ",United States ,7.25,4.71,0.07,8.76,1419
+Kumho Industrial,Construction ,South Korea ,0.18,8.13,0.03,14.72,1420
+Blom Bank,Banking ,Lebanon ,1.94,1.33,0.29,20.79,1421
+Fresnillo,Materials ,Mexico ,8.38,0.85,0.32,1.2,1421
+Indian Overseas Bank,Banking ,India ,1.04,2.2,0.26,23.86,1423
+Telecom Egypt,Telecommunications Services ,Egypt ,6.09,1.86,0.45,6.05,1424
+Grasim Industries,Construction ,India ,5.36,3.58,0.43,4.79,1425
+Uni-President,"Food, Drink & Tobacco ",Taiwan ,4.47,9.11,0.11,8.13,1425
+Tech Data,Technology Hardware & Equip ,United States ,2.28,22.1,0.18,5.9,1427
+Hasbro,Household & Personal Products ,United States ,4.92,4.07,0.37,3.9,1428
+Windstream,Telecommunications Services ,United States ,4.7,3,0.33,9.15,1429
+Petrofac,Oil & Gas Operations ,United Kingdom ,5.5,3.76,0.36,3.55,1430
+Newell Rubbermaid,Household & Personal Products ,United States ,3.84,5.58,0.29,6.42,1431
+Banrisul,Banking ,Brazil ,3.38,2.85,0.31,16.41,1432
+Beijing Enterprises,Conglomerates ,Hong Kong/China ,7.39,2.54,0.29,6.61,1432
+Seiko Epson,Business Services & Supplies ,Japan ,3.45,11.53,-1.14,9.26,1432
+Sinopharm Group,Health Care Equipment & Svcs ,China ,9.54,5.61,0.09,2.34,1435
+Cantv,Telecommunications Services ,Venezuela ,0.58,4.62,0.68,4.41,1436
+Suzuken,Drugs & Biotechnology ,Japan ,3.11,16.86,0.07,8.38,1436
+BCI-Banco Credito,Banking ,Chile ,3.59,2.32,0.24,20,1438
+Interpublic Group,Media ,United States ,4.01,6.03,0.12,12.26,1439
+Manpower,Business Services & Supplies ,United States ,4.17,16.04,-0.01,6.21,1440
+SMC,Capital Goods ,Japan ,9.02,2.91,0.27,6.05,1441
+Wistron,Technology Hardware & Equip ,Taiwan ,3.28,13.53,0.21,4.25,1442
+Smurfit Kappa Group,Materials ,Ireland ,1.79,9.84,-0.07,10.99,1443
+China Intl Marine Container,Capital Goods ,China ,4.7,6.94,0.21,5.01,1444
+Land Securities Group,Diversified Financials ,United Kingdom ,7.25,1.17,-7.38,16.01,1445
+UNY,Food Markets ,Japan ,1.55,12.16,0.05,9.62,1446
+Axel Springer,Media ,Germany ,3.6,3.8,0.78,3.89,1447
+Check Point Software,Software & Services ,Israel ,6.91,0.96,0.37,3.06,1448
+CNPC (Hong Kong),Oil & Gas Operations ,Hong Kong/China ,6.26,0.67,0.43,1.9,1449
+Cairn Energy,Oil & Gas Operations ,United Kingdom ,7.22,0.3,0.35,3.62,1450
+Bank of Ayudhya,Banking ,Thailand ,3.77,1.54,0.2,23.18,1451
+Lanxess,Chemicals ,Germany ,3.27,9.16,0.24,6.27,1451
+RenaissanceRe Holdings,Insurance ,Bermuda ,3.35,1.67,0.88,7.8,1453
+Arrow Electronics,Technology Hardware & Equip ,United States ,3.47,14.68,0.12,7.76,1454
+Tesoro,Oil & Gas Operations ,United States ,1.66,16.87,-0.14,8.07,1455
+Prysmian,Capital Goods ,Italy ,3.14,7.16,0.33,4.25,1456
+Juniper Networks,Technology Hardware & Equip ,United States ,14.87,3.32,0.12,7.59,1457
+BMC Software,Software & Services ,United States ,6.76,1.9,0.37,3.91,1458
+Allied World Assurance,Insurance ,Bermuda ,2.31,1.7,0.61,9.6,1459
+Telkom,Telecommunications Services ,South Africa ,2.29,3.7,0.43,8.94,1460
+OGX,Oil & Gas Operations ,Brazil ,29.3,0,0.16,4.18,1461
+Validus Holdings,Insurance ,Bermuda ,3.58,1.94,0.9,7.02,1461
+Moody's,Business Services & Supplies ,United States ,6.44,1.8,0.4,2,1463
+Liberty Media-Starz,Media ,United States ,2.64,1.2,6.08,2.2,1464
+Tenet Healthcare,Health Care Equipment & Svcs ,United States ,2.54,9.01,0.19,7.95,1464
+Oil India,Oil & Gas Operations ,India ,6.04,1.41,0.43,3.32,1466
+Nasdaq OMX Group,Diversified Financials ,United States ,3.97,3.41,0.27,10.72,1467
+ALFA,Conglomerates ,Mexico ,3.8,8.58,0.15,8.26,1468
+CMPC,Materials ,Chile ,8.61,2.96,0.2,7.6,1468
+Sun Pharma Industries,Drugs & Biotechnology ,India ,6.92,0.81,0.35,1.59,1470
+Taiheiyo Cement,Construction ,Japan ,1.19,8.95,-0.36,11.42,1471
+Copel,Utilities ,Brazil ,5.66,2.38,0.47,5.51,1472
+Newcrest Mining,Materials ,Australia ,13.96,2.04,0.2,4.21,1473
+Huntington Bancshs,Banking ,United States ,3.44,3.43,-3.09,51.55,1474
+HCP,Diversified Financials ,United States ,8.53,1.16,0.13,12.21,1475
+China Shipping Container,Transportation ,China ,7.21,5.1,0.01,7.27,1476
+Want Want China,"Food, Drink & Tobacco ",China ,8.8,1.58,0.27,1.42,1477
+Guangdong Midea Electric,Consumer Durables ,China ,6.41,6.65,0.15,3.37,1478
+Tong Yang Major,Construction ,South Korea ,0.19,5.35,-0.19,20.04,1478
+Aldar Properties,Diversified Financials ,United Arab Emirates ,2.54,0.39,0.27,18.03,1480
+Amphenol,Technology Hardware & Equip ,United States ,7.36,2.82,0.32,3.22,1481
+Conseco,Insurance ,United States ,1.23,4.34,0.09,30.34,1481
+Integrys Energy Group,Utilities ,United States ,3.43,7.5,-0.07,11.85,1483
+Samsung Card,Business Services & Supplies ,South Korea ,5.37,2.35,0.21,11.32,1483
+PPB Group,"Food, Drink & Tobacco ",Malaysia ,5.6,0.57,0.46,3.82,1485
+Embraer,Aerospace & Defense ,Brazil ,3.96,5.12,0.19,9.04,1486
+Harley-Davidson,Consumer Durables ,United States ,5.82,4.78,-0.06,9.16,1487
+Life Technologies,Drugs & Biotechnology ,United States ,9.4,3.28,0.14,9.12,1488
+Stockland,Diversified Financials ,Australia ,8.78,0.85,-1.46,11.66,1488
+Bank of Nanjing,Banking ,China ,4.55,0.76,0.21,13.7,1490
+Amlin,Insurance ,United Kingdom ,3,2.2,0.73,8.35,1491
+CC Media Holdings,Media ,United States ,0.27,5.55,-4.03,18.05,1492
+Rural Electrification,Diversified Financials ,India ,4.54,0.95,0.25,11.03,1492
+GAM Holding,Diversified Financials ,Switzerland ,2.29,0.94,3.36,3.06,1494
+Mediolanum,Insurance ,Italy ,4.11,3.3,0.03,31.23,1495
+Sumco,Semiconductors ,Japan ,4.61,4.35,0.21,8.02,1496
+Harris,Technology Hardware & Equip ,United States ,5.9,4.92,0.2,4.53,1497
+NHN,Software & Services ,South Korea ,7.51,1.11,0.3,0.96,1498
+People's United Financial,Banking ,United States ,5.42,1.08,0.1,21.26,1499
+Nishi-Nippon City Bank,Banking ,Japan ,2.17,1.82,0.15,72.21,1500
+YTL, Utilities , Malaysia ,4.16,2.53,0.24,12.92,1501
+Kesko,Food Markets ,Finland ,3.56,12.1,0.18,5.51,1502
+Banco de Valencia,Banking ,Spain ,2.94,1.48,0.19,32.55,1503
+Fraport,Transportation ,Germany ,4.66,2.83,0.21,12.34,1504
+El Puerto de Liverpool,Retailing ,Mexico ,6.32,3.47,0.28,4.52,1505
+Rexam,Materials ,United Kingdom ,3.69,7.86,-0.05,9.5,1506
+Gecina,Diversified Financials ,France ,6.3,1.02,-1.22,16.35,1507
+TRW Automotive Hldgs,Consumer Durables ,United States ,3.27,11.61,0.06,8.73,1507
+THY-Turkish Airlines,Transportation ,Turkey ,2.87,4,0.74,5.1,1507
+Mirant,Utilities ,United States ,1.81,2.31,0.49,9.57,1510
+ProLogis,Diversified Financials ,United States ,6.09,1.22,0.02,16.89,1511
+China National Building,Construction ,China ,4.5,3.87,0.22,8.61,1512
+Savola Group,"Food, Drink & Tobacco ",Saudi Arabia ,4.69,4.78,0.25,4.6,1513
+TAQA,Utilities ,United Arab Emirates ,2.08,4.58,0.05,23.52,1514
+Air Canada,Transportation ,Canada ,0.4,9.29,-0.02,9.93,1515
+Lend Lease,Diversified Financials ,Australia ,3.99,11.93,-0.53,6.56,1516
+Nortel Networks,Technology Hardware & Equip ,Canada ,0.02,4.09,0.49,6.69,1516
+Valeo,Consumer Durables ,France ,2.28,10.46,-0.21,9.14,1518
+Givaudan,Chemicals ,Switzerland ,6.79,3.82,0.19,6.81,1519
+Busan Bank,Banking ,South Korea ,1.88,1.67,0.22,22.48,1520
+Man Group,Diversified Financials ,United Kingdom ,5.76,2.06,0.4,5.56,1520
+Rockwell Automation,Capital Goods ,United States ,7.87,4.21,0.18,4.4,1522
+Schroders,Diversified Financials ,United Kingdom ,5.23,1.63,0.15,16.5,1523
+Qinghai Salt Lake Industry Group,Chemicals ,China ,10.42,0.81,0.21,3.05,1524
+Advance Auto Parts,Retailing ,United States ,3.87,5.41,0.27,3.07,1525
+D/S Norden,Transportation ,Denmark ,1.79,4.03,0.67,2.04,1525
+Furukawa Electric,Capital Goods ,Japan ,3.38,10.61,-0.38,8.4,1527
+Fidelity National Finl,Insurance ,United States ,3.27,5.83,0.22,7.94,1528
+Swedish Match,"Food, Drink & Tobacco ",Sweden ,5.26,1.98,0.44,2.29,1528
+Expedia,Business Services & Supplies ,United States ,6.7,2.96,0.3,5.94,1530
+Far Eastern New Century,Conglomerates ,Taiwan ,5.27,5.26,0.14,8.22,1531
+Yamaguchi Financial Group,Banking ,Japan ,2.89,1.7,0.14,78.07,1532
+Bumi Resources,Materials ,Indonesia ,4.56,2.96,0.57,5.44,1533
+CJ,"Food, Drink & Tobacco ",South Korea ,1.69,6.36,0.21,7.71,1533
+First American,Insurance ,United States ,2.98,5.97,0.2,8.72,1535
+Xilinx,Semiconductors ,United States ,7.3,1.7,0.28,3.12,1536
+TMK,Materials ,Russia ,3.91,5.69,0.2,7.07,1537
+Bunzl,Business Services & Supplies ,United Kingdom ,3.42,7.51,0.24,4.04,1538
+Tata Power,Utilities ,India ,6.24,3.42,0.25,6.28,1539
+Financière de l'Odet,Transportation ,France ,1.96,10.2,0.03,8.89,1540
+Freenet,Telecommunications Services ,Germany ,1.88,5.23,0.37,4.3,1541
+Zions Bancorp,Banking ,United States ,2.75,3.32,-1.22,51.12,1541
+General Growth Prop,Diversified Financials ,United States ,4.14,3.14,-1.28,28.15,1543
+Energizer Holdings,Household & Personal Products ,United States ,4.1,4.13,0.31,6.2,1544
+Sigma-Aldrich,Chemicals ,United States ,6,2.15,0.35,2.71,1545
+Amdocs,Software & Services ,United Kingdom ,6.08,2.83,0.34,4.53,1546
+Huadian Power Intl,Utilities ,China ,4.45,4.4,-0.38,12.48,1546
+Varian Medical Systems,Health Care Equipment & Svcs ,United States ,6.23,2.25,0.33,2.36,1546
+Nagoya Railroad,Transportation ,Japan ,2.66,6.83,0.12,12.15,1549
+Hanjin Shipping,Transportation ,South Korea ,1.21,8.01,0.2,7.05,1550
+Scripps Networks,Media ,United States ,6.66,1.54,0.3,1.87,1551
+Sonova Holding,Health Care Equipment & Svcs ,Switzerland ,8,1.08,0.25,1.18,1552
+Joyo Bank,Banking ,Japan ,3.27,1.62,0.05,74.48,1553
+Pingdingshan Tianan Coal Mining Co. Ltd.,Materials ,China ,5.41,2.43,0.39,2.39,1554
+PTT Aromatics,Oil & Gas Operations ,Thailand ,2.4,6.75,0.27,4.54,1555
+Ahli United Bank,Banking ,Bahrain ,2.82,1.44,0.2,23.58,1556
+AutoNation,Retailing ,United States ,3.1,10.76,0.2,5.41,1556
+Toll Holdings,Transportation ,Australia ,4.56,5.23,0.22,3.98,1556
+Cattolica Assicurazioni,Insurance ,Italy ,1.6,4.51,0.04,21.42,1559
+Oriental Land,"Hotels, Restaurants & Leisure ",Japan ,6.47,4,0.19,6.5,1560
+BOK Financial,Banking ,United States ,3.13,1.41,0.2,23.52,1561
+Sapporo Hokuyo,Banking ,Japan ,1.74,1.75,-2.2,72.44,1562
+Jtekt,Capital Goods ,Japan ,3.41,10.45,-0.12,7.94,1563
+Taishin Financial Holding,Banking ,Taiwan ,1.89,2.72,-0.16,70.94,1563
+EVN,Utilities ,Austria ,2.81,3.99,0.26,9.78,1565
+San Miguel,"Food, Drink & Tobacco ",Philippines ,3.5,3.61,0.42,6.98,1566
+Bank of Kyoto,Banking ,Japan ,3.27,1.48,0.1,67.65,1567
+Indian Bank,Banking ,India ,1.53,1.53,0.24,16.58,1568
+Nabors Industries,Oil & Gas Operations ,Bermuda ,6.33,3.5,-0.09,10.66,1568
+Teijin,Chemicals ,Japan ,2.91,9.69,-0.44,8.82,1568
+Hero Honda Motors,Consumer Durables ,India ,7.68,2.4,0.25,1.2,1571
+Daegu Bank,Banking ,South Korea ,1.69,1.51,0.21,21.24,1572
+IDB Holding,Diversified Financials ,Israel ,1.27,3.9,-0.11,27.56,1573
+Serco Group,Business Services & Supplies ,United Kingdom ,4.16,6.22,0.2,4.09,1573
+Dar Al Arkan,Diversified Financials ,Saudi Arabia ,3.89,1.46,0.57,6.29,1575
+Primus Guaranty,Diversified Financials ,Bermuda ,0.15,1.51,1.46,0.73,1576
+Raspadskaya,Materials ,Russia ,4.37,1.2,0.53,1.76,1577
+Hiroshima Bank,Banking ,Japan ,2.59,1.53,0.07,62.41,1578
+Ventas,Diversified Financials ,United States ,6.97,0.94,0.27,5.62,1579
+Foncière des Régions,Diversified Financials ,France ,4.84,1.38,-0.37,20,1580
+Ryanair Holdings,Transportation ,Ireland ,6.94,3.87,-0.22,8.48,1580
+Hachijuni Bank,Banking ,Japan ,2.98,1.83,0,61.2,1582
+Aozora Bank,Banking ,Japan ,2.23,1.84,-2.49,61.11,1583
+Orient,Diversified Financials ,Japan ,0.44,2.54,0.15,44.68,1583
+Altera,Semiconductors ,United States ,7.44,1.2,0.25,2.29,1585
+Smithfield Foods,"Food, Drink & Tobacco ",United States ,2.96,11.61,-0.32,7.72,1586
+Gunma Bank,Banking ,Japan ,2.75,1.52,0.11,59.88,1587
+J Front Retailing,Retailing ,Japan ,2.93,11.21,0.07,7.81,1587
+Petroplus Holdings,Oil & Gas Operations ,Switzerland ,1.32,15.44,-0.26,6.69,1589
+Chugoku Bank,Banking ,Japan ,3.01,1.46,0.09,59.19,1590
+Foster Wheeler,Construction ,Switzerland ,3.11,5.06,0.35,3.19,1591
+African Rainbow,Materials ,South Africa ,5.3,1.31,0.37,3.3,1592
+IKB,Banking ,Germany ,0.69,2.98,-0.76,59.02,1592
+Sekisui Chemical,Construction ,Japan ,3.63,9.59,0.01,7.34,1594
+Omnicare,Health Care Equipment & Svcs ,United States ,3.23,6.17,0.21,7.32,1595
+Aareal Bank,Banking ,Germany ,0.9,0.88,0.07,57.03,1596
+Eramet,Materials ,France ,7.92,3.85,-0.38,7.46,1596
+DSV Group,Transportation ,Denmark ,3.42,7,0.23,4.38,1598
+Bluescope Steel,Materials ,Australia ,4.05,8.31,-0.05,7.1,1599
+77 Bank,Banking ,Japan ,2.07,1.37,0.08,56.55,1599
+Banco Pastor, Banking , Spain ,1.57,2.43,0.14,46.12,1601
+MF Global,Diversified Financials ,United States ,0.84,2.05,-0.16,55.98,1602
+Waters,Health Care Equipment & Svcs ,United States ,5.77,1.5,0.32,1.91,1603
+Nippon Sheet Glass,Construction ,Japan ,1.77,7.59,-0.29,9.89,1604
+Chang Hwa Bank,Banking ,Taiwan ,2.78,1.5,0.15,42.19,1605
+Nitto Denko,Chemicals ,Japan ,6.31,5.94,0,5.56,1605
+London Stock Exchange,Diversified Financials ,United Kingdom ,2.75,0.96,-0.48,53.91,1607
+Emaar Properties,Diversified Financials ,United Arab Emirates ,4.98,2.41,0.09,17.65,1608
+Japan Securities,Diversified Financials ,Japan ,0.66,0.45,-0.08,53.59,1609
+CF Industries Holdings,Chemicals ,United States ,5.22,2.61,0.37,2.49,1610
+Syndicate Bank,Banking ,India ,0.95,2.04,0.18,25.67,1611
+Aspen Insurance Holdings,Insurance ,Bermuda ,2.38,2.08,0.47,8.25,1612
+Hong Leong Financial Group,Banking ,Malaysia ,2.39,1.08,0.18,24.54,1613
+NGK Insulators,Capital Goods ,Japan ,7.07,2.81,0.25,4.44,1613
+Kimberly-Clark de Mexico,Household & Personal Products ,Mexico ,5.74,1.89,0.32,2.08,1615
+Endurance Specialty,Insurance ,Bermuda ,2.12,1.91,0.54,7.67,1616
+Intact Financial,Insurance ,Canada ,4.84,4.05,0.12,10.83,1616
+Sonae,Food Markets ,Portugal ,2.23,7.46,0.11,9.87,1618
+BMCE-Banque Marocaine,Banking ,Morocco ,4.74,1.41,0.1,18.56,1619
+Goldwind Science & Technology,Capital Goods ,China ,6.85,1.57,0.26,2.15,1620
+Alibaba.com,Business Services & Supplies ,China ,11.15,0.44,0.18,1.11,1621
+Showa Denko,Chemicals ,Japan ,3.05,7.3,-0.41,10,1621
+Kazkommertsbank,Banking ,Kazakhstan ,3.14,3.19,0.18,21.63,1623
+GOME Electrical,Retailing ,Hong Kong/China ,4.81,6.74,0.15,4.03,1624
+Iyo Bank,Banking ,Japan ,2.85,1.25,0.12,49.58,1624
+GF Securities,Diversified Financials ,China ,19.94,0.01,0,0.05,1626
+Jizhong Energy Resources,Materials ,China ,6.05,1.36,0.29,1.62,1627
+SpareBank 1 SR-Bank,Banking ,Norway ,1.1,1.12,0.19,21.62,1628
+CapitaMalls Asia,Diversified Financials ,Singapore ,6.3,0.16,0.28,4.63,1629
+Wacker Chemie,Chemicals ,Germany ,6.03,5.3,-0.11,6.39,1630
+Nippon Electric Glass,Technology Hardware & Equip ,Japan ,6.37,3.45,0.22,5.87,1631
+Fuji Electric Holdings,Capital Goods ,Japan ,1.73,7.87,-0.75,9.17,1632
+Israel Discount Bank,Banking ,Israel ,2.14,2.6,0.06,48.09,1632
+E-Trade Financial,Diversified Financials ,United States ,3.16,2.88,-1.3,47.37,1634
+Doha Bank,Banking ,Qatar ,2.28,0.91,0.27,12.63,1635
+Nanto Bank,Banking ,Japan ,1.55,1.16,-0.23,46.17,1636
+Mizrahi Tefahot Bank,Banking ,Israel ,2.01,1.52,0.16,30.12,1637
+Cephalon,Drugs & Biotechnology ,United States ,5.23,2.19,0.34,4.66,1638
+Toyo Seikan Kaisha,Materials ,Japan ,3.57,7.54,-0.09,8.17,1639
+EFG International,Banking ,Switzerland ,2.02,1.64,0.21,17.73,1640
+Nine Dragons Paper Holdings,Materials ,Hong Kong/China ,6.95,1.92,0.24,4.91,1641
+IDBI Bank,Banking ,India ,1.87,2.61,0.15,34.31,1642
+Banpu,Materials ,Thailand ,4.52,1.73,0.43,3.04,1643
+PLUS Expressways,Transportation ,Malaysia ,5.11,0.93,0.35,5.36,1643
+UGI,Utilities ,United States ,2.74,5.58,0.24,6.45,1645
+Commercial International Bank,Banking ,Egypt ,3.28,1,0.28,11.68,1646
+LAN Airlines,Transportation ,Chile ,5.89,3.52,0.23,5.77,1646
+Daishi Bank,Banking ,Japan ,1.26,0.92,0.07,43.81,1648
+WEG,Capital Goods ,Brazil ,6.04,2.14,0.28,2.49,1648
+Abu Dhabi Commercial Bank,Banking ,United Arab Emirates ,2.17,2.25,-0.15,43.62,1650
+Thai Airways Intl,Transportation ,Thailand ,1.17,4.84,0.22,7.98,1651
+US Airways Group,Transportation ,United States ,1.24,10.46,-0.21,7.45,1651
+Volcan Compania Minera,Materials ,Peru ,10.48,0.69,0.18,1.27,1653
+Jyske Bank,Banking ,Denmark ,2.24,1.97,0.09,43.3,1654
+Computershare,Business Services & Supplies ,Australia ,5.95,1.63,0.28,2.43,1655
+Grupa Lotos,Oil & Gas Operations ,Poland ,1.22,5,0.31,5.23,1656
+Clearwire,Telecommunications Services ,United States ,6.33,0.27,-0.33,11.27,1657
+Juroku Bank,Banking ,Japan ,1.46,1.16,-0.1,41.94,1658
+WHSP-WH Soul Pattinson & Co,Conglomerates ,Australia ,2.78,0.48,0.93,4.08,1658
+Dongfang Electric,Capital Goods ,China ,6.02,3.99,0.07,8.25,1660
+CGI Group,Software & Services ,Canada ,4.23,3.57,0.33,3.61,1661
+Takashimaya,Retailing ,Japan ,2.54,9.98,0.12,7.48,1662
+Inventec,Technology Hardware & Equip ,Taiwan ,1.59,11.53,0.16,3.94,1663
+Shiga Bank,Banking ,Japan ,1.63,0.94,-0.17,41.5,1663
+Bolsas & Mercados,Diversified Financials ,Spain ,2.14,0.41,0.21,16.66,1665
+Hyakugo Bank,Banking ,Japan ,1.2,0.92,0.04,41.29,1666
+SSAB,Materials ,Sweden ,5.48,4.17,-0.14,8.44,1667
+Charoen Pokphand Foods,"Food, Drink & Tobacco ",Thailand ,2.8,4.95,0.31,3.44,1668
+Cliffs Natural Resources,Materials ,United States ,7.99,2.34,0.21,4.64,1669
+Oriental Bank of Commerce,Banking ,India ,1.49,1.93,0.18,22.19,1670
+Dassault Systèmes,Software & Services ,France ,6.85,1.74,0.24,3.3,1671
+Rohm,Semiconductors ,Japan ,7.93,3.26,0.1,8.15,1671
+StanCorp Financial,Insurance ,United States ,2.1,2.77,0.21,16.57,1671
+Carillion,Construction ,United Kingdom ,1.71,7.28,0.21,4.74,1674
+Sydbank,Banking ,Denmark ,1.83,1.42,0.15,30.43,1674
+Cimpor-Cimentos Portugal,Construction ,Portugal ,4.83,2.91,0.31,6.27,1676
+Minmetals Development,Trading Companies ,China ,2.76,16.61,0.13,5.42,1677
+OneSteel,Materials ,Australia ,4.14,5.84,0.19,5.49,1678
+ATEbank,Banking ,Greece ,2.05,1.98,0.04,38.97,1679
+Fugro,Oil & Gas Operations ,Netherlands ,4.5,3,0.39,2.91,1680
+Net Serviços,Media ,Brazil ,4.31,2.65,0.42,4.78,1680
+Mondi,Materials ,United Kingdom/South Africa ,3,7.54,-0.05,8.85,1682
+Ogaki Kyoritsu Bank,Banking ,Japan ,1.23,0.9,-0.07,38.68,1682
+Getinge,Health Care Equipment & Svcs ,Sweden ,5.6,3.19,0.27,5.09,1684
+Hyakujushi Bank,Banking ,Japan ,1.17,0.76,-0.02,38.58,1684
+Almarai,"Food, Drink & Tobacco ",Saudi Arabia ,5.47,1.56,0.29,2.93,1686
+Saudi Kayan Petrochemical,Chemicals ,Saudi Arabia ,7.22,0.05,0,9.55,1686
+AMEC,Construction ,United Kingdom ,4.01,4.1,0.28,3.01,1688
+San-In Godo Bank,Banking ,Japan ,1.36,1.19,0.08,38.02,1689
+Huntsman,Chemicals ,United States ,3.26,7.76,0.11,8.63,1690
+Bendigo & Adelaide Bank,Banking ,Australia ,3.09,2.79,0.07,37.92,1691
+Hanwa,Trading Companies ,Japan ,0.83,15.81,0.06,4.84,1692
+Zoomlion Heavy Industry,Capital Goods ,China ,6.83,1.99,0.23,3.39,1693
+Airgas,Chemicals ,United States ,5.38,3.88,0.21,4.44,1694
+Schweiter Technologies,Capital Goods ,Switzerland ,0.66,0.14,0.84,0.64,1695
+McCormick & Co,"Food, Drink & Tobacco ",United States ,4.93,3.19,0.3,3.39,1696
+Health Net,Health Care Equipment & Svcs ,United States ,2.43,15.71,-0.05,4.28,1697
+Yuanta Financial Hldg,Diversified Financials ,Taiwan ,4.77,0.88,0.05,15.74,1697
+Arab Potash,Chemicals ,Jordan ,4.13,0.95,0.44,1.23,1699
+Higo Bank,Banking ,Japan ,1.28,0.78,0.05,36.8,1700
+TabCorp Holdings," Hotels, Restaurants & Leisure ", Australia ,3.73,3.36,0.42,5.13,1701
+Reliance Infrastructure,Utilities ,India ,4.91,2.45,0.26,6.81,1702
+NSK,Capital Goods ,Japan ,3.86,6.65,0.05,7.51,1703
+HCC Insurance,Insurance ,United States ,3.15,2.37,0.35,8.83,1704
+Fosfertil,Chemicals ,Brazil ,4.81,1.49,0.34,1.79,1705
+Acea,Utilities ,Italy ,2.12,4.26,0.26,7.45,1706
+CIR,Conglomerates ,Italy ,1.6,6.59,0.13,9.53,1707
+MAp,Transportation ,Australia ,5.3,0.96,-0.45,13.37,1707
+SM Investments,Retailing ,Philippines ,4.83,2.55,0.3,6.12,1707
+Telephone & Data Sys,Telecommunications Services ,United States ,3.39,5.02,0.19,7.61,1710
+Tokyu Land,Diversified Financials ,Japan ,1.93,5.9,0.1,10.36,1710
+Nomura Real Estate,Diversified Financials ,Japan ,2.86,4.61,0.14,13.88,1712
+Taiwan Business Bank,Banking ,Taiwan ,1,1.1,0,35.35,1713
+Tim Hortons,"Hotels, Restaurants & Leisure ",Canada ,5.41,2.14,0.28,1.9,1714
+Nomura Research Institute,Software & Services ,Japan ,4.93,3.5,0.25,3.4,1715
+Popular,Banking ,United States ,1.3,2.75,-0.57,34.74,1716
+Pirelli & C,Consumer Durables ,Italy ,2.8,6.49,-0.48,9.54,1717
+Country Garden Holdings,Diversified Financials ,China ,5.91,2.31,0.2,7.18,1718
+Musashino Bank,Banking ,Japan ,0.98,0.77,-0.05,34.61,1718
+Shanghai Industrial,Diversified Financials ,Hong Kong/China ,4.81,1.64,0.27,6.65,1718
+FLSmidth & Co,Construction ,Denmark ,3.42,4.33,0.31,4.22,1721
+Carphone Warehouse,Retailing ,United Kingdom ,2.55,1.97,0.78,2.57,1722
+Southwestern Energy,Oil & Gas Operations ,United States ,14.72,2.15,-0.04,4.77,1723
+Kiyo Holdings,Banking ,Japan ,0.96,0.89,0.01,34.37,1724
+Pride International,Oil & Gas Operations ,United States ,4.89,1.59,0.29,6.14,1725
+Luzerner Kantonalbank,Banking ,Switzerland ,2.27,0.73,0.16,23.21,1726
+St Galler Kantonalbank,Banking ,Switzerland ,2.52,0.77,0.16,22.74,1726
+Chaoda Modern Agriculture,"Food, Drink & Tobacco ",Hong Kong/China ,3.51,0.9,0.58,2.72,1728
+SinoPac Financial Holdings,Banking ,Taiwan ,2.32,1.86,-0.11,33.66,1729
+Daewoo Engineering,Construction ,South Korea ,3.19,5.29,0.2,7.45,1730
+Linear Technology,Semiconductors ,United States ,6.18,0.9,0.24,1.51,1731
+Actelion,Drugs & Biotechnology ,Switzerland ,5.02,1.71,0.3,2.53,1732
+Citrix Systems,Software & Services ,United States ,8.04,1.61,0.19,3.09,1732
+Banco de Chile,Banking ,Chile ,1.88,3.23,0.06,28.34,1734
+RMB Holdings,Diversified Financials ,South Africa ,4.66,0.7,0.34,3.64,1734
+Universal Health,Health Care Equipment & Svcs ,United States ,3.07,5.2,0.26,3.96,1734
+Keiyo Bank,Banking ,Japan ,1.39,0.76,0.06,32.89,1737
+Promise,Diversified Financials ,Japan ,0.98,3.98,-1.29,17.73,1737
+Bucyrus International,Capital Goods ,United States ,4.82,2.65,0.31,2.7,1739
+DIC,Chemicals ,Japan ,1.6,9.58,0.03,7.08,1739
+Synovus Financial,Banking ,United States ,1.36,1.92,-1.41,32.85,1739
+Credito Valtellinese,Banking ,Italy ,1.34,1.89,0.14,32.66,1742
+Novozymes,Drugs & Biotechnology ,Denmark ,6.41,1.63,0.23,2.09,1743
+Thai Beverage,"Food, Drink & Tobacco ",Thailand ,4.46,3.24,0.32,2.31,1744
+Kagoshima Bank,Banking ,Japan ,1.48,0.83,0.07,32.09,1745
+HCL Technologies,Software & Services ,India ,5.37,2.13,0.27,2.5,1746
+Boliden,Materials ,Sweden ,3.47,3.86,0.35,4.65,1747
+Dolby Laboratories,Technology Hardware & Equip ,United States ,6.25,0.76,0.23,1.68,1747
+ASML Holding,Semiconductors ,Netherlands ,13.57,2.29,-0.22,5.16,1749
+Nippon Steel Trading,Trading Companies ,Japan ,0.23,13.56,0.08,3.85,1749
+Makita,Household & Personal Products ,Japan ,4.55,3.02,0.34,3.36,1751
+Hyosung,Household & Personal Products ,South Korea ,2.65,7.7,0.1,8.01,1752
+Suruga Bank,Banking ,Japan ,2.37,1.04,0.11,31.56,1752
+Hokkoku Bank,Banking ,Japan ,1.26,0.74,-0.1,31.5,1754
+Petronas Gas,Oil & Gas Operations ,Malaysia ,5.7,0.94,0.25,2.76,1755
+Sumikin Bussan,Trading Companies ,Japan ,0.36,13.26,0.06,3.69,1756
+British Land,Diversified Financials ,United Kingdom ,5.76,0.81,-5.52,10.86,1757
+Credit Saison,Diversified Financials ,Japan ,2.34,3.33,-0.56,24.12,1758
+Ralcorp Holdings,"Food, Drink & Tobacco ",United States ,3.71,3.92,0.29,5.26,1759
+Bank of Nagoya,Banking ,Japan ,0.79,0.81,0.03,30.84,1760
+Jaccs,Diversified Financials ,Japan ,0.38,1.44,0.03,30.57,1761
+Dongbu Insurance,Insurance ,South Korea ,1.92,4.89,0.17,9.1,1762
+D'Ieteren,Retailing ,Belgium ,2.39,8.56,0.04,7.35,1763
+Omron,Technology Hardware & Equip ,Japan ,4.76,6.44,-0.3,4.91,1763
+Commerce Bancshs,Banking ,United States ,3.35,1.22,0.17,18.12,1765
+Hunan Valin Steel,Materials ,China ,2.58,8.26,0.14,7.4,1766
+Toho Bank,Banking ,Japan ,0.84,0.64,0.02,30.17,1767
+Inmarsat,Telecommunications Services ,United Kingdom ,5.1,0.78,0.28,2.9,1768
+RRI Energy,Utilities ,United States ,1.51,1.82,0.4,7.46,1768
+Iron Mountain,Business Services & Supplies ,United States ,5.29,3.01,0.22,6.85,1770
+Renhe Commercial Holdings,Diversified Financials ,China ,5.07,0.45,0.28,1.08,1770
+Uni-Charm,Household & Personal Products ,Japan ,6.58,3.57,0.18,2.81,1770
+ASX,Diversified Financials ,Australia ,5.56,0.43,0.25,5.49,1773
+Stanley Black & Decker,Household & Personal Products ,United States ,4.76,3.74,0.22,4.77,1774
+Central Bank of India,Banking ,India ,1.31,2.25,0.12,29.15,1775
+Jabil Circuit,Technology Hardware & Equip ,United States ,3.38,11.39,-0.86,5.62,1775
+Magnit,Food Markets ,Russia ,5.86,4.38,0.15,1.84,1775
+Quebecor,Media ,Canada ,1.84,3.61,0.26,7.97,1778
+Royal Vopak,Transportation ,Netherlands ,4.76,1.29,0.3,3.65,1778
+PulteGroup,Construction ,United States ,4.17,4.08,-1.18,10.05,1780
+Van Lanschot,Diversified Financials ,Netherlands ,1.53,2.18,0.04,28.76,1781
+Autogrill,"Hotels, Restaurants & Leisure ",Italy ,3.15,8.22,0.17,5.87,1782
+Grupo Catalana Occidente,Insurance ,Spain ,2.42,4.14,0.14,14.34,1783
+Bank of Queensland,Banking ,Australia ,2.15,1.84,0.12,28.66,1784
+Eastman Kodak,Technology Hardware & Equip ,United States ,1.6,7.61,-0.22,7.69,1785
+Fuyo General Lease,Business Services & Supplies ,Japan ,0.85,3.82,0.1,17.13,1786
+BayWa,"Food, Drink & Tobacco ",Germany ,1.27,12.25,0.08,4.14,1787
+GD Power Development,Utilities ,China ,5.91,2.39,0.03,10.05,1787
+Plum Creek Timber,Diversified Financials ,United States ,5.86,1.29,0.24,4.45,1787
+Tiger Brands,"Food, Drink & Tobacco ",South Africa ,4.43,2.72,0.33,1.53,1790
+Hengan Intl Group,Household & Personal Products ,Hong Kong/China ,8.39,1.03,0.17,1.29,1791
+Bank Muscat,Banking ,Oman ,2.78,1.03,0.19,15.17,1792
+Imperial Holdings,Transportation ,South Africa ,2.73,6.76,0.2,4.21,1792
+DSG International,Retailing ,United Kingdom ,1.6,12.17,-0.32,5.2,1794
+Lawson,Food Markets ,Japan ,4.32,3.57,0.26,4.31,1795
+Office Depot,Retailing ,United States ,2.08,12.14,-0.6,4.89,1796
+Sage Group,Software & Services ,United Kingdom ,4.66,2.3,0.3,4.37,1797
+Tosoh,Chemicals ,Japan ,1.44,7.53,-0.26,7.62,1798
+DVB Bank,Banking ,Germany ,1.56,1.36,0.15,24.05,1799
+MFA Financial,Diversified Financials ,United States ,2.05,0.51,0.27,9.63,1800
+Panzhihua New Steel & Vanadium Co. Ltd., Materials , China ,7.15,4.13,-0.07,3.71,1801
+Bank Danamon,Banking ,Indonesia ,4.62,2,0.16,10.39,1802
+Corporation Bank,Banking ,India ,1.37,1.38,0.18,17.13,1802
+Dentsply Intl,Health Care Equipment & Svcs ,United States ,4.94,2.16,0.27,3.09,1804
+Infineon Technologies,Semiconductors ,Germany ,5.98,4.43,-0.91,6.15,1804
+Ono Pharmaceutical,Drugs & Biotechnology ,Japan ,5.52,1.4,0.24,4.21,1806
+Harmony Gold Mining,Materials ,South Africa ,3.96,1.49,0.38,4.7,1807
+Sankyo,Consumer Durables ,Japan ,4.73,1.93,0.29,4.98,1808
+Avalonbay Communities,Diversified Financials ,United States ,6.62,0.85,0.16,7.46,1809
+Interactive Brokers Group,Diversified Financials ,United States ,0.71,1.17,0.04,26.61,1810
+Cullen/Frost Bankers,Banking ,United States ,3.25,0.92,0.18,16.29,1811
+Kanematsu,Trading Companies ,Japan ,0.34,11.7,-0.13,4.05,1811
+Kuwait Investment Projects,Diversified Financials ,Kuwait ,1.88,1.65,0.16,18.76,1813
+National Aluminium,Materials ,India ,5.38,0.99,0.25,2.43,1813
+NV Energy,Utilities ,United States ,2.71,3.59,0.18,11.41,1813
+Oita Bank,Banking ,Japan ,0.62,0.65,-0.24,26.4,1813
+Sul America,Insurance ,Brazil ,2.47,4.62,0.21,7.14,1813
+Atco,Utilities ,Canada ,2.75,2.97,0.27,9.5,1818
+Kimco Realty,Diversified Financials ,United States ,5.68,0.79,-0.01,10.16,1818
+Yamanashi Chuo Bank,Banking ,Japan ,0.81,0.62,0.06,26.29,1818
+NStar,Utilities ,United States ,3.68,3.05,0.26,8.14,1821
+Tognum,Capital Goods ,Germany ,2.32,4.36,0.29,3.5,1821
+FIBI Holding,Banking ,Israel ,0.63,1.18,0,26.2,1823
+Jiangsu Yanghe Brewery,"Food, Drink & Tobacco ",China ,7.44,0.58,0.18,0.95,1824
+Nelnet,Diversified Financials ,United States ,0.83,1.04,0.14,25.88,1824
+First Horizon National,Banking ,United States ,2.82,2.23,-0.27,26.07,1826
+Arab Banking,Banking ,Bahrain ,1.21,1.35,0.12,25.97,1827
+Brisa,Transportation ,Portugal ,4.69,0.88,0.21,7.52,1827
+Avis Budget Group,Business Services & Supplies ,United States ,1.12,5.13,-0.05,10.09,1829
+Yantai Wanhua,Chemicals ,China ,5.94,1.13,0.22,1.15,1829
+Awa Bank,Banking ,Japan ,1.31,0.77,0.02,25.93,1831
+Cerner,Health Care Equipment & Svcs ,United States ,6.95,1.67,0.19,2.15,1832
+Aichi Bank,Banking ,Japan ,0.82,0.59,0.02,25.88,1833
+Teradata,Software & Services ,United States ,5.21,1.71,0.25,1.57,1833
+World Fuel Services,Business Services & Supplies ,United States ,1.57,11.3,0.12,1.74,1835
+China Taiping Insurance,Insurance ,Hong Kong/China ,5.28,3.17,-0.04,10.24,1836
+TBEA,Capital Goods ,China ,5.85,2.1,0.22,2.76,1836
+Travis Perkins,Retailing ,United Kingdom ,2.07,4.73,0.25,5.06,1838
+Yamazaki Baking,"Food, Drink & Tobacco ",Japan ,2.83,9.53,0.09,6.31,1839
+Alexion Pharmaceuticals,Drugs & Biotechnology ,United States ,4.55,0.39,0.3,0.79,1840
+MobiNil,Telecommunications Services ,Egypt ,3.89,1.95,0.37,2.67,1841
+E.Sun Financial,Banking ,Taiwan ,1.37,0.88,0.03,25.27,1842
+TransAlta,Utilities ,Canada ,4.65,2.64,0.17,9.31,1842
+Inner Mongolia BaoTou,Materials ,China ,3.94,6.48,0.14,6.39,1844
+Nvidia,Semiconductors ,United States ,9.35,3.33,-0.07,3.59,1845
+Jiangsu Expressway,Transportation ,China ,5.52,0.75,0.23,3.43,1846
+Phoenix Cos,Insurance ,United States ,0.28,2.02,-0.32,24.89,1846
+Umicore,Materials ,Belgium ,3.43,9.67,0.1,4.07,1846
+OneBeacon Insurance Group,Insurance ,Bermuda ,1.44,2.38,0.34,7.53,1849
+NCC Group,Construction ,Sweden ,1.8,7.24,0.18,4.18,1850
+Olam International,"Food, Drink & Tobacco ",Singapore ,3.62,5.93,0.17,3.69,1851
+Allahabad Bank,Banking ,India ,1.29,1.66,0.15,19.28,1852
+Shikoku Bank,Banking ,Japan ,0.72,0.51,-0.22,24.39,1853
+BKW FMB Energie,Utilities ,Switzerland ,3.86,3.47,0.29,5.61,1854
+Bank of Iwate,Banking ,Japan ,1.08,0.52,-0.05,24.37,1855
+Sany Heavy Industry,Capital Goods ,China ,7.22,2.02,0.18,2.02,1856
+GEA Group,Conglomerates ,Germany ,3.45,7.21,0.14,6.78,1857
+China Zhongwang Holdings,Capital Goods ,China ,4.62,1.65,0.28,1.88,1858
+Tokyo Tomin Bank,Banking ,Japan ,0.52,0.58,-0.12,24.26,1858
+Fuji Media Holdings,Media ,Japan ,3.28,5.79,0.17,6.8,1860
+Lear,Consumer Durables ,United States ,3.05,9.74,,6.07,1860
+Daiei,Retailing ,Japan ,0.41,10.64,-0.24,4.81,1862
+Aecom Technology,Construction ,United States ,3.11,6.15,0.19,3.83,1863
+Shinsho,Materials ,Japan ,0.15,10.62,0.03,2.19,1863
+Adani Enterprises,Trading Companies ,India ,5.23,5.06,0.1,3.97,1865
+Datong Coal Industry,Materials ,China ,4.43,1.22,0.3,1.88,1865
+Hakuhodo DY,Media ,Japan ,1.89,10.61,-0.03,4.79,1865
+Denway Motors,Consumer Durables ,Hong Kong/China ,4.29,0.11,0.3,1.89,1868
+Tatung,Technology Hardware & Equip ,Taiwan ,1.19,5.69,-0.21,8.67,1868
+Wynn Resorts,"Hotels, Restaurants & Leisure ",United States ,8.15,3.05,0.02,6.86,1870
+Nippon Meat Packers,"Food, Drink & Tobacco ",Japan ,2.75,10.56,0.02,5.72,1871
+Dogan Holding,Diversified Financials ,Turkey ,1.68,8.17,0.05,6.8,1872
+Keio,Transportation ,Japan ,4.34,4.31,0.16,6.86,1873
+DCC,Conglomerates ,Ireland ,2.14,8.42,0.15,2.92,1874
+De La Rue Plc,Business Services & Supplies ,United Kingdom ,1.38,0.71,0.52,0.62,1874
+Petsmart,Retailing ,United States ,3.44,5.34,0.2,2.46,1874
+Pou Chen,Household & Personal Products ,Taiwan ,2.16,6.34,0.15,6.92,1874
+Tochigi Bank,Banking ,Japan ,0.48,0.49,-0.13,23.63,1874
+Oberbank,Banking ,Austria ,1.59,1.16,0.15,21.23,1879
+Aveng,Construction ,South Africa ,1.95,4.37,0.27,2.86,1880
+Valiant Holding,Banking ,Switzerland ,3.06,0.71,0.14,22.13,1880
+Eighteenth Bank,Banking ,Japan ,0.55,0.61,-0.15,23.46,1882
+Singapore Exchange,Diversified Financials ,Singapore ,5.89,0.41,0.21,0.98,1883
+Luzhou Laojiao,"Food, Drink & Tobacco ",China ,6.79,0.53,0.19,0.75,1884
+Technical Olympiaki,Construction ,Greece ,0.1,0.24,0.51,0.96,1884
+Buenaventura,Materials ,Peru ,9.27,0.74,0.15,1.99,1886
+ProSiebenSat.1 Media,Media ,Germany ,3.25,3.96,0.21,8.12,1887
+Roper Industries,Capital Goods ,United States ,5.22,2.05,0.24,4.33,1888
+Atmos Energy,Utilities ,United States ,2.6,4.55,0.21,6.88,1889
+Urban Outfitters,Retailing ,United States ,5.59,1.94,0.22,1.64,1890
+San-Ai Oil,Oil & Gas Operations ,Japan ,0.29,10.08,0.05,1.98,1891
+Akita Bank,Banking ,Japan ,0.78,0.55,-0.02,22.88,1892
+Associated Banc-Corp,Banking ,United States ,2.25,1.33,-0.13,22.87,1893
+Toyota Boshoku,Consumer Durables ,Japan ,3.23,10.06,-0.05,4.58,1894
+XCMG Construction Machinery,Capital Goods ,China ,4.77,2.68,0.26,2.19,1894
+Cobham,Aerospace & Defense ,United Kingdom ,4.22,3.04,0.3,3.91,1896
+Sino-Forest,Materials ,Canada ,4.34,1.24,0.29,3.96,1896
+Mitsui Engineering & Ship,Capital Goods ,Japan ,1.98,7.05,0.11,7.27,1898
+BJ's Wholesale Club,Retailing ,United States ,2.02,9.95,0.13,2.17,1899
+Singapore Press,Media ,Singapore ,4.25,0.9,0.29,2.25,1900
+Murray & Roberts Holdings, Construction , South Africa ,1.63,4.37,0.26,3,1901
+Edwards Lifesciences,Health Care Equipment & Svcs ,United States ,5.3,1.32,0.23,1.62,1902
+Fastenal,Retailing ,United States ,6.62,1.93,0.18,1.33,1903
+Symetra Financial,Insurance ,United States ,1.54,1.71,0.13,22.44,1904
+Admiral Group,Insurance ,United Kingdom ,5.04,0.78,0.24,1.48,1905
+Old Republic Intl,Insurance ,United States ,2.71,3.8,-0.1,14.19,1906
+Markel,Insurance ,United States ,3.47,2.07,0.2,10.24,1907
+Aurubis,Materials ,Germany ,1.96,9.79,-0.07,4.15,1908
+Lundbergs,Diversified Financials ,Sweden ,2.98,2.94,0.22,10.23,1909
+UCO Bank,Banking ,India ,0.68,1.78,0.11,22.01,1910
+Hokuetsu Bank,Banking ,Japan ,0.42,0.53,-0.09,21.89,1911
+Imtech,Construction ,Netherlands ,2.42,6.19,0.18,3.68,1911
+Fred. Olsen Energy,Oil & Gas Operations ,Norway ,2.35,1.14,0.47,2.39,1913
+Rostelecom,Telecommunications Services ,Russia ,3.51,2.18,0.4,2.51,1913
+PGN,Utilities ,Indonesia ,9.82,1.14,0.06,2.34,1915
+LLB Group,Banking ,Liechtenstein ,1.84,0.91,0.14,21.78,1916
+Aomori Bank,Banking ,Japan ,0.52,0.44,-0.14,21.74,1917
+Chiba Kogyo Bank,Banking ,Japan ,0.38,0.5,-0.09,21.63,1918
+Fukui Bank,Banking ,Japan ,0.81,0.52,-0.08,21.6,1919
+KKPC,Chemicals ,South Korea ,0.4,5.77,-0.04,8.09,1919
+BEKB-BCBE,Banking ,Switzerland ,2.03,0.97,0.11,21.53,1921
+Penske Automotive Gp,Retailing ,United States ,1.37,9.52,0.08,3.8,1921
+AOC Holdings,Oil & Gas Operations ,Japan ,0.43,9.52,-0.33,3.57,1923
+Montpelier Re Holdings,Insurance ,Bermuda ,1.39,0.85,0.46,3.1,1923
+Sino-Ocean Land Hldgs,Diversified Financials ,China ,5.22,0.95,0.2,6.33,1925
+American Equity Invest,Insurance ,United States ,0.54,1.19,0.07,21.3,1926
+Youngor Group,Household & Personal Products ,China ,4.97,1.56,0.23,4.67,1927
+TPV Technology,Technology Hardware & Equip ,Hong Kong/China ,1.41,9.28,0.1,3.34,1928
+Commercial Bank Dubai,Banking ,United Arab Emirates ,1.83,0.68,0.22,10.01,1929
+Home Retail Group,Retailing ,United Kingdom ,3.37,8.46,-0.59,5.85,1930
+Church & Dwight,Household & Personal Products ,United States ,4.75,2.52,0.24,3.12,1931
+Maruha Nichiro Hldgs,"Food, Drink & Tobacco ",Japan ,0.72,9.22,-0.06,5.13,1931
+Nexans,Capital Goods ,France ,2.04,7.23,0.01,6.83,1931
+City National,Banking ,United States ,2.58,1,0.05,21.08,1934
+Daewoo Intl,Trading Companies ,South Korea ,3.15,9.16,0.07,2.76,1934
+Shanxi Guoyang,Materials ,China ,5.39,2.5,0.21,1.54,1936
+Yachiyo Bank,Banking ,Japan ,0.36,0.47,-0.18,20.98,1936
+Chimei Innolux,Technology Hardware & Equip ,Taiwan ,4.79,4.99,-0.07,5.65,1938
+Wing Hang Bank,Banking ,Hong Kong/China ,2.51,0.94,0.15,17.34,1938
+Inchcape,Retailing ,United Kingdom ,1.72,9.14,0.08,5.02,1940
+LS Corp,Capital Goods ,South Korea ,2.6,8.39,-0.02,6.1,1940
+Great A&P Tea,Food Markets ,United States ,0.42,9.11,-0.82,3.03,1942
+East West Bancorp,Banking ,United States ,1.9,1.12,0.08,20.58,1943
+Helmerich & Payne,Oil & Gas Operations ,United States ,4.29,1.67,0.27,4.24,1944
+Laurentian Bank,Banking ,Canada ,0.92,1.09,0.11,20.58,1944
+TT Hellenic Postbank,Banking ,Greece ,1.5,1.04,0,20.57,1946
+LG International,Trading Companies ,South Korea ,0.95,9.03,0.03,2.98,1947
+Watson Pharma,Drugs & Biotechnology ,United States ,4.86,2.79,0.22,5.99,1947
+Prisa,Media ,Spain ,1.01,4.6,0.07,9.87,1949
+Foxconn Technology,Technology Hardware & Equip ,Taiwan ,3.57,4.86,0.19,2.74,1950
+Polyus Gold,Materials ,Russia ,9.3,1.09,0.05,3.08,1951
+ACC,Construction ,India ,3.76,1.76,0.32,1.74,1952
+Challenger Financial Svcs,Diversified Financials ,Australia ,1.78,1.96,-0.07,20.36,1952
+Groupe Eurotunnel,Transportation ,France ,4.82,0.98,0.06,10.12,1954
+VeriSign,Software & Services ,United States ,4.67,1.03,0.25,2.47,1954
+China Longyuan Power,Utilities ,China ,9.29,1.26,0.09,5.26,1956
+Okaya & Co,Trading Companies ,Japan ,0.48,8.91,0.05,3.81,1957
+Astoria Financial,Banking ,United States ,1.26,1.08,0.03,20.25,1958
+OGE Energy,Utilities ,United States ,3.57,2.87,0.26,7.27,1958
+American Natl Ins,Insurance ,United States ,2.93,2.95,0.02,20.2,1960
+Pioneer Natural Res,Oil & Gas Operations ,United States ,5.45,1.71,-0.05,8.87,1960
+Taiyo Nippon Sanso,Chemicals ,Japan ,3.71,5.09,0.17,5.38,1960
+Metcash,Food Markets ,Australia ,2.86,8.01,0.15,2.4,1963
+Acom,Diversified Financials ,Japan ,2.29,3.32,0.14,16.25,1964
+Eldorado Gold,Materials ,Canada ,6.82,0.28,0.17,1.36,1965
+Aggreko,Capital Goods ,United Kingdom ,4.23,1.65,0.27,1.8,1966
+Lindt & Sprungli,"Food, Drink & Tobacco ",Switzerland ,4.63,2.75,0.25,2.26,1966
+Ambac Financial Group,Insurance ,United States ,0.2,3.14,-2.91,18.1,1968
+Ube Industries,Chemicals ,Japan ,2.64,7.03,0.12,6.72,1968
+Agnico-Eagle Mines,Materials ,Canada ,9.17,0.64,0.09,4.25,1970
+Nisshin Steel,Materials ,Japan ,1.86,6.34,-0.26,7.21,1970
+Sealed Air,Materials ,United States ,3.28,4.24,0.24,5.42,1970
+Bank of Saga,Banking ,Japan ,0.48,0.45,0,19.68,1973
+Health Care REIT,Diversified Financials ,United States ,5.28,0.57,0.19,6.37,1973
+First BanCorp,Banking ,United States ,0.2,1.17,-0.28,19.63,1975
+Liberty International,Diversified Financials ,United Kingdom ,4.51,0.89,-3.58,10.83,1975
+Semen Gresik,Construction ,Indonesia ,4.87,1.09,0.23,0.97,1977
+Qinghai Salt Lake,Chemicals ,China ,6.2,0.67,0.18,1.38,1978
+Mercury General,Insurance ,United States ,2.28,3.12,0.4,4.23,1979
+Shionogi & Co,Drugs & Biotechnology ,Japan ,7.1,2.34,0.16,5.08,1980
+First Pacific,"Food, Drink & Tobacco ",Hong Kong/China ,2.13,4.12,0.2,7.16,1981
+Kingboard Chemical,Chemicals ,Hong Kong/China ,3.71,3.07,0.31,5.59,1982
+Sappi,Materials ,South Africa ,2.11,6.25,-0.21,7.18,1982
+Toho Holdings,Drugs & Biotechnology ,Japan ,0.99,8.62,-0.03,4.03,1982
+Transurban Group,Transportation ,Australia ,6.05,0.6,-0.02,7.88,1982
+PT Bukit Asam,Materials ,Indonesia ,3.93,0.95,0.29,0.83,1986
+Petronas Dagangan,Oil & Gas Operations ,Malaysia ,2.63,6.69,0.16,1.81,1987
+Yamagata Bank,Banking ,Japan ,0.76,0.51,-0.06,18.75,1988
+Autonomy,Software & Services ,United Kingdom ,5.65,0.76,0.2,2.25,1989
+Hutchison Telecom (Australia),Telecommunications Services ,Australia ,1.34,0.72,0.42,1.5,1990
+Assore,Materials ,South Africa ,2.65,1.14,0.42,1.44,1991
+Salesforce.com,Software & Services ,United States ,8.86,1.31,0.08,2.46,1991
+Sims Metal Mgmt,Materials ,Australia ,3.59,6.97,-0.12,3.02,1993
+Daelim Industrial,Construction ,South Korea ,2.14,6.26,0.09,7.11,1994
+ITT Educational Services,Business Services & Supplies ,United States ,3.81,1.32,0.3,0.62,1994
+Sumitomo Forestry,Construction ,Japan ,1.39,8.46,0.01,4.31,1994
+Miyazaki Bank,Banking ,Japan ,0.53,0.49,-0.22,18.57,1997
+Rheinmetall,Consumer Durables ,Germany ,2.43,5.39,0.19,4.93,1998
+First Citizens Bcshs,Banking ,United States ,1.88,1.14,0.12,18.46,1999
+Vulcan Materials,Construction ,United States ,5.43,2.69,0.03,8.53,2000

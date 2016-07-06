@@ -1,0 +1,1692 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExcelMvc</name>
+    </assembly>
+    <members>
+        <member name="T:ExcelMvc.Bindings.BindingFailedEventArgs">
+            <summary>
+            Binding exception EventArgs
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Bindings.BindingFailedEventArgs.#ctor(ExcelMvc.Views.View,System.Exception)">
+            <summary>
+            Initialises an instance of BindingFailedEventArgs
+            </summary>
+            <param name="view">View</param>
+            <param name="exception">Exception</param>
+        </member>
+        <member name="P:ExcelMvc.Bindings.BindingFailedEventArgs.Exception">
+            <summary>
+            Gets the exception object
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.BindingFailedEventArgs.View">
+            <summary>
+            Gets the view
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Bindings.ModeType">
+            <summary>
+            Binding mode types
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Bindings.ModeType.OneWay">
+            <summary>
+            View fields are updated for its model properties
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Bindings.ModeType.OneWayToSource">
+            <summary>
+            Model properties are update from its view fields
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Bindings.ModeType.TwoWay">
+            <summary>
+            Model properties and view fields are exchanged
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Bindings.BindingFailedHandler">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:ExcelMvc.Bindings.ObjectBinding">
+            <summary>
+            Encapsulates binding functions between View models and Views
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Bindings.ObjectBinding.ChangeLBound``1(System.Array,System.Int32)">
+            <summary>
+            Changes the lower bounds of an array
+            </summary>
+            <typeparam name="T">Element type</typeparam>
+            <param name="value">Array to be changed</param>
+            <param name="lowerBound">Lower bound</param>
+            <returns>Changed array</returns>
+        </member>
+        <member name="M:ExcelMvc.Bindings.ObjectBinding.GetGetPropertyNames(System.Object)">
+            <summary>
+            Gets a list of Get property names
+            </summary>
+            <param name="value">Object to be Interrogated</param>
+            <returns>a list of Get property names</returns>
+        </member>
+        <member name="M:ExcelMvc.Bindings.ObjectBinding.GetPropertyValue(System.Object,ExcelMvc.Bindings.Binding)">
+            <summary>
+            Gets the property value by Binding
+            </summary>
+            <param name="source">Source object</param>
+            <param name="binding">Binding object</param>
+            <returns>Property value</returns>
+        </member>
+        <member name="M:ExcelMvc.Bindings.ObjectBinding.GetPropertyValue(System.Object,System.String)">
+            <summary>
+            Gets the property value by full path
+            </summary>
+            <param name="source">Source object</param>
+            <param name="path">Property path</param>
+            <returns>Property value</returns>
+        </member>
+        <member name="M:ExcelMvc.Bindings.ObjectBinding.SetPropertyValue(System.Object,ExcelMvc.Bindings.Binding,System.Object)">
+            <summary>
+            Sets property value by full property path
+            </summary>
+            <param name="source">Source object</param>
+            <param name="binding">Binding object</param>
+            <param name="value">Property value</param>
+        </member>
+        <member name="M:ExcelMvc.Bindings.ObjectBinding.SetPropertyValue(System.Object,System.String,System.Object)">
+            <summary>
+            Sets property value by full property path
+            </summary>
+            <param name="source">Source object</param>
+            <param name="path">Property path</param>
+            <param name="value">Property value</param>
+        </member>
+        <member name="T:ExcelMvc.Bindings.ErrorCode">
+            <summary>
+            Defines Excel errors
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Bindings.ErrorConverter">
+            <summary>
+            Wraps commonly used Error conversion functions
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Bindings.ErrorConverter.IntToErrorCode(System.Int32)">
+            <summary>
+            Converts an int value to ErrorCode
+            </summary>
+            <param name="value">Value to be convented</param>
+            <returns>ErrorCode or null if the number is not an error code</returns>
+        </member>
+        <member name="M:ExcelMvc.Bindings.ErrorConverter.ToErrorWrapper(ExcelMvc.Bindings.ErrorCode)">
+            <summary>
+            Converts an error code to Interop ErrorWrapper
+            </summary>
+            <param name="code">Error code </param>
+            <returns>ErrorWrapper instance</returns>
+        </member>
+        <member name="T:ExcelMvc.Bindings.RangeConversion">
+            <summary>
+            Wraps commonly used range conversion functions
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Bindings.RangeConversion.MergeChangedValue(Microsoft.Office.Interop.Excel.Range,Microsoft.Office.Interop.Excel.Range,System.Object)">
+            <summary>
+            Merges the value of a range to the value of another range
+            </summary>
+            <param name="changed">Range to be merged</param>
+            <param name="to">Range being merged</param>
+            <param name="toValue">Value of the To range</param>
+            <returns>Merge result</returns>
+        </member>
+        <member name="M:ExcelMvc.Bindings.RangeConversion.RangeToMatrix(Microsoft.Office.Interop.Excel.Range,System.Boolean,System.Boolean,System.Object)">
+            <summary>
+             Converts a range to an instance of Matrix
+            </summary>
+            <param name="range">Range to be converted</param>
+            <param name="isErrorChecked">Indicates if Excel errors are checked</param>
+            <param name="isErrorFilled">Indicates if Excel errors are filed</param>
+            <param name="errorFiller">Error filler</param>
+            <returns>Matrix instance</returns>
+        </member>
+        <member name="T:ExcelMvc.Bindings.RangeConversion.Matrix">
+            <summary>
+            Struct that captures range values and error codes
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Diagnostics.MessageWindow">
+            <summary>
+            Implements a visual sink for exception and information messages
+            </summary>
+            <summary>
+            MessageWindow
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Diagnostics.MessageWindow.ShowInstance">
+            <summary>
+            Creates and shows to the status window
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Diagnostics.MessageWindow.HideInstance">
+            <summary>
+            Hides the singleton
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Diagnostics.MessageWindow.AddErrorLine(System.Exception)">
+            <summary>
+            Adds an exception to the status window
+            </summary>
+            <param name="ex">Exception to be addded</param>
+        </member>
+        <member name="M:ExcelMvc.Diagnostics.MessageWindow.AddErrorLine(System.String)">
+            <summary>
+            Adds an error to  to the status window
+            </summary>
+            <param name="error">Error to be added</param>
+        </member>
+        <member name="M:ExcelMvc.Diagnostics.MessageWindow.AddInfoLine(System.String)">
+            <summary>
+            Adds a message to  to the status window
+            </summary>
+            <param name="message">Message to be added</param>
+        </member>
+        <member name="M:ExcelMvc.Diagnostics.MessageWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Properties.Resources.ExcelMvc">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Runtime.AsyncActions">
+            <summary>
+            Posts and handles asynchronous actions
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncActions.GetActionDepth">
+            <summary>
+            Gets the number of outstanding actions
+            </summary>
+            <returns>Number of items</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncActions.GetMacroDepth">
+            <summary>
+            Gets the number of outstanding macros
+            </summary>
+            <returns>Number of items</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncActions.Initialise">
+            <summary>
+            Initialise class static states
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncActions.Post(System.Action{System.Object},System.Object,System.Boolean,System.Int32)">
+            <summary>
+            Posts an Async action
+            </summary>
+            <param name="action">Action to be executed</param>
+            <param name="state">State object</param>
+            <param name="exectueAsMacro">Execute as a macro</param>
+            <param name="pumpMilliseconds">Pumping message</param>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncActions.Execute(System.Boolean)">
+            <summary>
+            Executes the next action in the queue
+            </summary>
+            <param name="exectueMacro">Execute the next macro</param>
+        </member>
+        <member name="T:ExcelMvc.Runtime.AsyncWindow">
+            <summary>
+            Subclasses a window
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncWindow.#ctor">
+            <summary>
+            Intialises an instance of Window
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncWindow.PostAsyncActionMessage">
+            <summary>
+            Posts an async action message
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncWindow.PostAsyncMacroMessage(System.Int32)">
+            <summary>
+            Posts an async macro message
+            </summary>
+            <param name="pumpMilliseconds">Pumping messages</param>
+        </member>
+        <member name="M:ExcelMvc.Runtime.AsyncWindow.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            Windows proc
+            </summary>
+            <param name="m">Message instance</param>
+        </member>
+        <member name="E:ExcelMvc.Runtime.AsyncWindow.AsyncActionReceived">
+            <summary>
+            Occurs when an async action message is received
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Runtime.AsyncWindow.AsyncMacroReceived">
+            <summary>
+            Occurs when an async macro message is received
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Runtime.AsyncWindow.AsyncActionReceivedHandler">
+            <summary>
+            Handler for a AsyncAction
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="args">EventArgs</param>
+        </member>
+        <member name="T:ExcelMvc.Runtime.AsyncWindow.AsyncMacroReceivedHandler">
+            <summary>
+            Handler for a AsyncAction
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="args">EventArgs</param>
+        </member>
+        <member name="T:ExcelMvc.Views.ViewType">
+            <summary>
+            View types
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Views.ViewType.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Views.ViewType.Matrix">
+            <summary>
+            Matrix
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Views.ViewType.Form">
+            <summary>
+            Form
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Views.ViewType.Table">
+            <summary>
+            Table
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Views.ViewType.Sheet">
+            <summary>
+            Sheet
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Views.ViewType.Book">
+            <summary>
+            Book
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Views.ViewType.App">
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Controls.CommandEventArgs">
+            <summary>
+            Represents EventArgs for a Command event
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandEventArgs.Source">
+            <summary>
+            Command clicked
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandEventArgs.Handled">
+            <summary>
+            Indicates if handled
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Controls.CommandFactory">
+            <summary>
+            Creates command on a sheet
+            </summary>
+        </member>
+        <member name="F:ExcelMvc.Controls.CommandFactory.CommandPrefix">
+            <summary>
+            command names may be prefixed 
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Controls.CommandFactory.Create(Microsoft.Office.Interop.Excel.Worksheet,ExcelMvc.Views.View,System.Collections.Generic.Dictionary{System.String,ExcelMvc.Controls.Command})">
+            <summary>
+            Creates commands on a sheet
+            </summary>
+            <param name="sheet">Sheet where commands are declared</param>
+            <param name="host">View to host the commands</param>
+            <param name="commands">Commands created</param>
+        </member>
+        <member name="M:ExcelMvc.Controls.CommandFactory.RemovePrefix(System.String)">
+            <summary>
+            Removes ExcelMVC prefix from a command name
+            </summary>
+            <param name="name">Command name</param>
+            <returns>Command name without prefix</returns>
+        </member>
+        <member name="T:ExcelMvc.Controls.Command">
+            <summary>
+            Defines an abstract base class for a Command
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Controls.Command.#ctor(ExcelMvc.Views.View,System.String)">
+            <summary>
+            Constructs an instance
+            </summary>
+            <param name="host">Command host</param>
+            <param name="name">Command name</param>
+        </member>
+        <member name="M:ExcelMvc.Controls.Command.Dispose">
+            <summary>
+            Disposes resources
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Controls.Command.FireClicked">
+            <summary>
+            Fires the Clicked event
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Controls.Command.Clicked">
+            <summary>
+            Occurs when the command is clicked
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.Command.Caption">
+            <summary>
+            Caption of the command
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.Command.ClickedCaption">
+            <summary>
+            Caption to be swaped when the command is clicked
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.Command.Host">
+            <summary>
+            Gets the host view 
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.Command.IsEnabled">
+            <summary>
+            Gets and sets the Enabled state
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.Command.Name">
+            <summary>
+            Name of the command
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.Command.Value">
+            <summary>
+            Gets and sets the command value
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.Command.Model">
+            <summary>
+            Gets and sets te command model
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.Command.State">
+            <summary>
+             Gets and sets an application specific object
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandSpinner.Underlying">
+            <summary>
+            Underlying object
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Controls.ClickedHandler">
+            <summary>
+            Defines the handler for a clicked event
+            </summary>
+            <param name="sender">Objects created the Clicked event </param>
+            <param name="args">Commard argument</param>
+        </member>
+        <member name="T:ExcelMvc.Extensions.EnumerableExtensions">
+            <summary>
+            Encapsulates commonly used extensions for IEnumerable
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Extensions.EnumerableExtensions.GetIndex(System.Collections.IEnumerable,System.Object)">
+            <summary>
+            Gets the index of an item from an IEnumerable
+            </summary>
+            <param name="source">Source to be iterated</param>
+            <param name="item">Item to be searched</param>
+            <returns>Index of the item, or -1 if not found</returns>
+        </member>
+        <member name="M:ExcelMvc.Extensions.EnumerableExtensions.GetItems(System.Collections.IEnumerable,System.Int32,System.Int32)">
+            <summary>
+            Gets items from an IEnumerable
+            </summary>
+            <param name="source">Source to be iterated</param>
+            <param name="start">Start index</param>
+            <param name="count">Number of items to get</param>
+            <returns>Items fetched</returns>
+        </member>
+        <member name="M:ExcelMvc.Extensions.EnumerableExtensions.ToList(System.Collections.IEnumerable)">
+            <summary>
+            Converts this enumerable to List&lt;object&gt;
+            </summary>
+            <param name="source">Enumerable to be converted</param>
+            <returns>List of objects</returns>
+        </member>
+        <member name="T:ExcelMvc.Extensions.RangeExtentions">
+            <summary>
+            Encapsulates commonly used extensions for Range
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Extensions.RangeExtentions.ExecuteProtected(ExcelMvc.Views.View,System.Action)">
+            <summary>
+            Executes an action on a protected host
+            </summary>
+            <param name="host">Hosting View</param>
+            <param name="action">Action to be executed</param>
+        </member>
+        <member name="M:ExcelMvc.Extensions.RangeExtentions.MakeRange(Microsoft.Office.Interop.Excel.Range,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Makes a new range
+            </summary>
+            <param name="range">Base range</param>
+            <param name="rowOffset">Start row offset</param>
+            <param name="rows">Rows to extend from the binding Cell</param>
+            <param name="columnOffset">Start column offset</param>
+            <param name="columns">Columns to extend from the binding Cell</param>
+            <returns>Column range</returns>
+        </member>
+        <member name="T:ExcelMvc.Runtime.Interface">
+            <summary>
+            Defines interfacing methods for ExcelMvc
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Interface.Attach(System.Object)">
+            <summary>
+            Attaches the current Excel session to ExcelMvc
+            </summary>
+            <param name="app">Excel Application object</param>
+            <returns>error string, null if success</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Interface.Attach">
+            <summary>
+            Attaches the current Excel session to ExcelMvc
+            </summary>
+            <returns>error string, null if success</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Interface.Detach">
+            <summary>
+            Detaches the current Excel session from ExcelMvc 
+            </summary>
+            <returns>error string, null if success</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Interface.FireClicked">
+            <summary>
+            Fires clicked event for the caller
+            </summary>
+            <returns>error string, null if success</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Interface.TestStauts(System.Exception)">
+            <summary>
+            Tests status
+            </summary>
+            <param name="status">Exception object</param>
+            <returns>error string, null if success</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Interface.Show">
+            <summary>
+            Shows the ExcelMvc window
+            </summary>
+            <returns>error string, null if success</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Interface.Hide">
+            <summary>
+            Hides the ExcelMvc window
+            </summary>
+            <returns>error string, null if success</returns>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Interface.Run">
+            <summary>
+            Runs the next action in the Async queue
+            </summary>
+            <returns>error string, null if success</returns>
+        </member>
+        <member name="T:ExcelMvc.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorBindingPathInvalidIndexer">
+            <summary>
+              Looks up a localized string similar to No matching ending indexer &quot;]&quot; in binding path &quot;{0}&quot;..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorExcelAppFound">
+            <summary>
+              Looks up a localized string similar to Excel.Application not found..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorInvalidTableOrientation">
+            <summary>
+              Looks up a localized string similar to Table &quot;{0}&quot;  is neither a landscape nor a portrait table, table headers must be arranged as a row or a column..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorInvalidViewType">
+            <summary>
+              Looks up a localized string similar to Invalid view type &quot;{0}&quot;. Must be either Form or Table..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoBindingCellFound">
+            <summary>
+              Looks up a localized string similar to No &quot;Data Cell&quot; column in a view binding config table..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoBindingForProperty">
+            <summary>
+              Looks up a localized string similar to No binding found for property &quot;{0}&quot;..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoBindingModeFound">
+            <summary>
+              Looks up a localized string similar to No &quot;Binding Mode&quot; column in a view binding config table..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoBindingPathFound">
+            <summary>
+              Looks up a localized string similar to No &quot;Binding Path&quot; column in a view binding config table..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoCommandNameFound">
+            <summary>
+              Looks up a localized string similar to No command name &quot;{0}&quot; found in &quot;{1}&quot;..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoDataCellRange">
+            <summary>
+              Looks up a localized string similar to Data cell &quot;{0}&quot; does not point to a valid Range..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoIEnumuerable">
+            <summary>
+              Looks up a localized string similar to Model {0} to View {1} does not implment IEnumerable interface..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoPropertyGet">
+            <summary>
+              Looks up a localized string similar to Property {0} (get) does not exist on {1}..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoPropertySet">
+            <summary>
+              Looks up a localized string similar to Property {0} (set) does not exist on {1}..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.ErrorNoViewNameFound">
+            <summary>
+              Looks up a localized string similar to No view name specifed in &quot;{0}&quot;..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.InfoCmdCreated">
+            <summary>
+              Looks up a localized string similar to Command &quot;{0}&quot; (type {1}, parent {2}) created..
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Resource.InfoViewCreated">
+            <summary>
+              Looks up a localized string similar to View &quot;{0}&quot; (type {1}, parent {2}) created..
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Runtime.Lazy`1">
+            <summary>
+            Provides support for lazy initialization.
+            </summary>
+            <typeparam name="T">Specifies the type of object that is being lazily initialized.</typeparam>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Lazy`1.#ctor(System.Func{`0})">
+            <summary>
+            Initializes a new instance of the Lazy{T} class.
+            </summary>
+            <param name="createValue">The delegate that produces the value when it is needed.</param>
+        </member>
+        <member name="M:ExcelMvc.Runtime.Lazy`1.ToString">
+            <summary>
+            Creates and returns a string representation of the Lazy{T}.Value.
+            </summary>
+            <returns>The string representation of the Lazy{T}.Value property.</returns>
+        </member>
+        <member name="P:ExcelMvc.Runtime.Lazy`1.IsValueCreated">
+            <summary>
+            Gets a value that indicates whether a value has been created for this Lazy{T} instance.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Runtime.Lazy`1.Value">
+            <summary>
+            Gets the lazily initialized value of the current Lazy{T} instance.
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Runtime.ObjectFactory`1">
+            <summary>
+            Generic object factory
+            </summary>
+            <typeparam name="T">Type of object</typeparam>
+        </member>
+        <member name="M:ExcelMvc.Runtime.ObjectFactory`1.CreateAll">
+            <summary>
+            Create instances of type T in the current AppDomain
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Runtime.ObjectFactory`1.DeleteAll(System.Action{`0})">
+            <summary>
+            Deletes instance created
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Runtime.ObjectFactory`1.Find(System.String)">
+            <summary>
+            Finds the instance matching the full type name specified
+            </summary>
+            <param name="fullTypeName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ExcelMvc.Runtime.ISession">
+            <summary>
+            Defines an interface for ExcelMvc sessions. ExcelMvc session objects are discovered and created
+            by ExcelMvc automatically. Derived classes should hook into App.Instance notification events.
+                public Session()
+                {
+                    App.Instance.Opening += Book_Opening;
+                    App.Instance.Opened += Book_Opened;
+                    App.Instance.Closing += Book_Closing;
+                    App.Instance.Closed += Book_Closed;
+                }
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandButton.Underlying">
+            <summary>
+            Underlying object
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandCheckBox.Underlying">
+            <summary>
+            Underlying object
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandDropDown.Underlying">
+            <summary>
+            Underlying object
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandListBox.Underlying">
+            <summary>
+            Underlying object
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandOptionButton.Underlying">
+            <summary>
+            Underlying object
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Controls.CommandShape">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Controls.CommandShape.#ctor(ExcelMvc.Views.View,Microsoft.Office.Interop.Excel.Shape,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="host"></param>
+            <param name="shape"></param>
+            <param name="name"></param>
+        </member>
+        <member name="P:ExcelMvc.Controls.CommandShape.Underlying">
+            <summary>
+            Underlying object
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Bindings.Binding">
+            <summary>
+            Represents either a form field binding or a table column binding between 
+            the View (Excel) and its view model
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Bindings.Binding.#ctor">
+            <summary>
+            Initialises an instance of ExcelMvc.Binding
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Bindings.Binding.MakeRange(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Makes a range from the binding cell
+            </summary>
+            <param name="rowOffset">Start row offset</param>
+            <param name="rows">Rows to extend from the binding Cell</param>
+            <param name="columnOffset">Start column offset</param>
+            <param name="cols">Columns to extend from the binding Cell</param>
+            <returns>Column range</returns>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.StartCell">
+            <summary>
+            Start cell 
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.EndCell">
+            <summary>
+            End cell (null for no binding boundary limit)
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.Converter">
+            <summary>
+            Value converter
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.Mode">
+            <summary>
+            Gets and sets the mode Type
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.Path">
+            <summary>
+            Property path
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.ValidationList">
+            <summary>
+            Validation list address
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.Visible">
+            <summary>
+            Visible
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.Name">
+            <summary>
+            View name
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Bindings.Binding.Type">
+            <summary>
+            Gets and sets the View Type
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Extensions.StringExtensions">
+            <summary>
+            Encapsualtes commonly used string extensions methods
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Extensions.StringExtensions.CompareOrdinalIgnoreCase(System.String,System.String)">
+            <summary>
+            Compases two string with OrdinalIgnoreCase 
+            </summary>
+            <param name="lhs">left string</param>
+            <param name="rhs">right string</param>
+            <returns>see string.Compare </returns>
+        </member>
+        <member name="T:ExcelMvc.Extensions.ActionExtensions">
+            <summary>
+            Encapsulates commonly used extensions for Action
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Extensions.ActionExtensions.Try(System.Action,ExcelMvc.Extensions.ActionExtensions.ExceptionHandler)">
+            <summary>
+            Executes an action, catches and/or handles any exceptions
+            </summary>
+            <param name="action">Action to be executed</param>
+            <param name="handler">Exception hadler to be used</param>
+            <returns>Exception caught</returns>
+        </member>
+        <member name="M:ExcelMvc.Extensions.ActionExtensions.Wrap(System.Action)">
+            <summary>
+            Executes an action and wraps the exception with ErrorWrapper
+            </summary>
+            <param name="action">Action to be executed</param>
+            <returns>null or an instance of ErrorWrapper</returns>
+        </member>
+        <member name="T:ExcelMvc.Extensions.ActionExtensions.ExceptionHandler">
+            <summary>
+            Defines an Exception handler
+            </summary>
+            <param name="ex">Exception to be handled</param>
+        </member>
+        <member name="T:ExcelMvc.Controls.MacroNames">
+            <summary>
+            Defines the macro names used by ExcelMvc
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Controls.MacroNames.CommandActionName">
+            <summary>
+            Action name for Commands
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Runtime.RangeUpdator">
+            <summary>
+            Encapsulates Range updating functions
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Runtime.RangeUpdator.Instance">
+            <summary>
+            Singleton
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.Book">
+            <summary>
+            Represents a visual over an Excel workbook
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.View">
+            <summary>
+            Represents the base behaviour of Views
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.View.Dispose">
+            <summary>
+            Disposes resources
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.View.DetachModel">
+            <summary>
+            Sets the Model property to null, but does not clear the view's content 
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.View.FindAncestor``1">
+            <summary>
+            Gets the Ancestor of the specfied type
+            </summary>
+            <typeparam name="T">View type</typeparam>
+            <returns>Ancestor found or null</returns>
+        </member>
+        <member name="M:ExcelMvc.Views.View.Find(System.String)">
+            <summary>
+            Finds the view with the name specified, starting from this instance and downwards
+            </summary>
+            <param name="name">Name of the view</param>
+            <returns>View found or null</returns>
+        </member>
+        <member name="M:ExcelMvc.Views.View.Find(ExcelMvc.Views.ViewType,System.String)">
+            <summary>
+            Finds the view with the name specified, starting from this instance and downwards
+            </summary>
+            <param name="type">View type</param>
+            <param name="name">Name of the view</param>
+            <returns>View found or null</returns>
+        </member>
+        <member name="M:ExcelMvc.Views.View.FindCommand(System.String)">
+            <summary>
+            Finds a command
+            </summary>
+            <param name="name">Name of the command to find</param>
+            <returns>Command found or null</returns>
+        </member>
+        <member name="M:ExcelMvc.Views.View.HookBindingFailed(ExcelMvc.Bindings.BindingFailedHandler,System.Boolean)">
+            <summary>
+            Hooks a binding failed handler
+            </summary>
+            <param name="handler">Handler to be hooked</param>
+            <param name="isHook">Indicates if this call is to hook or unhook the handler</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnBindingFailed(ExcelMvc.Bindings.BindingFailedEventArgs)">
+            <summary>
+            Fires BindingFailed event
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.HookClicked(ExcelMvc.Controls.ClickedHandler,System.String,System.Boolean)">
+            <summary>
+            Hooks a clicked handler to commands
+            </summary>
+            <param name="handler">Handled to be hooked</param>
+            <param name="name">Command name</param>
+            <param name="isHook">Indicates if this call is to hook or unhook the handler</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnActivated(ExcelMvc.Views.ViewEventArgs)">
+            <summary>
+            Fires the Activated event
+            </summary>
+            <param name="args">Event args</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnClosed(ExcelMvc.Views.ViewEventArgs)">
+            <summary>
+            Fires the Closed event
+            </summary>
+            <param name="args">Event args</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnClosing(ExcelMvc.Views.ViewEventArgs)">
+            <summary>
+            Fires the Closing event
+            </summary>
+            <param name="args">Event args</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnDeactivated(ExcelMvc.Views.ViewEventArgs)">
+            <summary>
+            Fires the Deactivated event
+            </summary>
+            <param name="args">Event args</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnDestroyed(System.Object)">
+            <summary>
+            Fires the Destroyed event
+            </summary>
+            <param name="sender">Sender</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnObjectChanged(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Fires the ObjectChanged event
+            </summary>
+            <param name="items">Items changed</param>
+            <param name="paths">Paths changed</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnOpened(ExcelMvc.Views.ViewEventArgs)">
+            <summary>
+            Fires the Opened event
+            </summary>
+            <param name="args">Event args</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnOpening(ExcelMvc.Views.ViewEventArgs)">
+            <summary>
+            Fires the Opening event
+            </summary>
+            <param name="args">Event args</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnSelectionChanged(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{ExcelMvc.Bindings.Binding})">
+            <summary>
+            Fires the SelectionChanged event
+            </summary>
+            <param name="items">Items selected</param>
+            <param name="bindings">Bindings selected</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.Rebind(System.Boolean)">
+            <summary>
+            Collects bindings and rebinds the view
+            </summary>
+            <param name="recursive"></param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.OnUnprotecting(ExcelMvc.Views.ViewEventArgs)">
+            <summary>
+            Fires the Unprotecting event. If the view is password protected, return the password in args.State
+            </summary>
+            <param name="args">Event args</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.Rebind(System.Collections.Generic.Dictionary{Microsoft.Office.Interop.Excel.Worksheet,System.Collections.Generic.List{ExcelMvc.Bindings.Binding}},System.Boolean)">
+            <summary>
+            Rebinds the view with bindings supplied
+            </summary>
+            <param name="bindings">Bindings</param>
+            <param name="recursive">true to rebind child views</param>
+        </member>
+        <member name="M:ExcelMvc.Views.View.ExecuteBinding(System.Action,System.Action)">
+            <summary>
+            Executes an binding action
+            </summary>
+            <param name="ation">Action to be executed</param>
+            <param name="final">Final action</param>
+        </member>
+        <member name="E:ExcelMvc.Views.View.Activated">
+            <summary>
+            Occurs after a View is activated. 
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.BindingFailed">
+            <summary>
+            Occurs when a binding exception is caught
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.Closed">
+            <summary>
+            Occurs after a View is closed. 
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.Closing">
+            <summary>
+             Occurs before a View is closed. 
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.Deactivated">
+            <summary>
+            Occurs after a View is activated. 
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.Destroyed">
+            <summary>
+            Occurs when a View has been destroyed
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.ObjectChanged">
+            <summary>
+            Occurs when a view's objects are changed
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.Opened">
+            <summary>
+            Occurs after a View is opened. 
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.Opening">
+            <summary>
+            Occurs before a View is opened. 
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.SelectionChanged">
+            <summary>
+            Occurs when a view's selection is changed
+            </summary>
+        </member>
+        <member name="E:ExcelMvc.Views.View.Unprotecting">
+            <summary>
+            Occurs before a View is unprotected. 
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.Children">
+            <summary>
+            Gets the child views
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.Commands">
+            <summary>
+            Gets the commands
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.Id">
+            <summary>
+            Gets the view id
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.Model">
+            <summary>
+            Gets and sets the underlying model
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.Name">
+            <summary>
+            Gets the view name
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.Parent">
+            <summary>
+            Gets the parent view
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.Root">
+            <summary>
+            Gets the root view
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.Type">
+            <summary>
+            Gets the view type
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.View.State">
+            <summary>
+             Gets and sets an application specific object
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Book.Dispose">
+            <summary>
+            Disposes resources
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Book.Rebind(System.Boolean)">
+            <summary>
+            Collects bindings and rebinds the view
+            </summary>
+            <param name="recursive"></param>
+        </member>
+        <member name="M:ExcelMvc.Views.Book.FindCommand(Microsoft.Office.Interop.Excel.Worksheet,System.String)">
+            <summary>
+            Finds a specfic command
+            </summary>
+            <param name="sheet">Sheet hosts the command</param>
+            <param name="name">Name of the command</param>
+            <returns>Command found or nullf if not found</returns>
+        </member>
+        <member name="M:ExcelMvc.Views.Book.Initialise">
+            <summary>
+            Initialises the view
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Book.Children">
+            <summary>
+            Gets the child views
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Book.FullName">
+            <summary>
+            Gets the full book name
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Book.Id">
+            <summary>
+            Gets the book id, as defined by the Custom Document Propety named "ExcelMvc"
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Book.Name">
+            <summary>
+            Gets the book name
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Book.Type">
+            <summary>
+            Gets the view type
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Book.Underlying">
+            <summary>
+            Underlying Excel Workbook
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.BindingView">
+            <summary>
+            Defines an abstract interface for Views
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.BindingView.#ctor(ExcelMvc.Views.View,System.Collections.Generic.IEnumerable{ExcelMvc.Bindings.Binding})">
+            <summary>
+            Initialises an instances of ExcelMvc.Views.Panel
+            </summary>
+            <param name="parent"></param>
+            <param name="bindings">Bindings for the view</param>
+        </member>
+        <member name="M:ExcelMvc.Views.BindingView.FireClicked(System.Object,ExcelMvc.Controls.CommandEventArgs)">
+            <summary>
+            Fires the Clicked event
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.BindingView.BindValidationLists(System.Int32)">
+            <summary>
+            Unbinds validation lists
+            </summary>
+            <param name="numberItems">Number of rows to unbind</param>
+        </member>
+        <member name="M:ExcelMvc.Views.BindingView.UnbindValidationLists(System.Int32)">
+            <summary>
+            Unbinds validation lists
+            </summary>
+            <param name="numberItems">Number of rows to unbind</param>
+        </member>
+        <member name="E:ExcelMvc.Views.BindingView.Clicked">
+            <summary>
+            Occurs when a command is clicked
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.BindingView.Bindings">
+            <summary>
+            Gets the bindings on the View
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.BindingView.Id">
+            <summary>
+            Gets the view id
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.BindingView.Name">
+            <summary>
+            Gets the view name
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.DestroyedHandler">
+            <summary>
+            Handler for the Destroyed event
+            </summary>
+            <param name="sender"></param>
+        </member>
+        <member name="T:ExcelMvc.Views.ObjectChangedHandler">
+            <summary>
+            Handler for the ObjectChanged event
+            </summary>
+            <param name="sender">Sender object</param>
+            <param name="args">EventArg object</param>
+        </member>
+        <member name="T:ExcelMvc.Views.SelectionChangedHandler">
+            <summary>
+            Handler for the SelectionChanged event
+            </summary>
+            <param name="sender">Sender object</param>
+            <param name="args">EventArgs object</param>
+        </member>
+        <member name="T:ExcelMvc.Views.ViewEventHandler">
+            <summary>
+            Handler for a view event
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="args">Event Args</param>
+        </member>
+        <member name="T:ExcelMvc.Views.ObjectChangedArgs">
+            <summary>
+            Represents the EventArgs for a ObjectChanged event
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.ObjectChangedArgs.#ctor(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Initialises an instance of ObjectChangedArgs
+            </summary>
+            <param name="items">Objects changed</param>
+            <param name="paths">Property changed</param>
+        </member>
+        <member name="P:ExcelMvc.Views.ObjectChangedArgs.Items">
+            <summary>
+            Items changed
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.ObjectChangedArgs.Paths">
+            <summary>
+            Properties changed
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.SelectionChangedArgs">
+            <summary>
+            Represents the EventArgs for a SelectionChanged event
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.SelectionChangedArgs.#ctor(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{ExcelMvc.Bindings.Binding})">
+            <summary>
+            Initialises an instance of SelectionChangedArgs
+            </summary>
+            <param name="items">Items changed</param>
+            <param name="bindings">Bindings selected</param>
+        </member>
+        <member name="P:ExcelMvc.Views.SelectionChangedArgs.Bindings">
+            <summary>
+            Bindings selected
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.SelectionChangedArgs.Items">
+            <summary>
+            Items selected
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.Root">
+            <summary>
+            Subclasses a window
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Root.#ctor(System.Int32)">
+            <summary>
+            Intialises an instance of Window
+            </summary>
+            <param name="hwnd">Window handle</param>
+        </member>
+        <member name="M:ExcelMvc.Views.Root.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            Windows proc
+            </summary>
+            <param name="m">Message instance</param>
+        </member>
+        <member name="E:ExcelMvc.Views.Root.Destroyed">
+            <summary>
+            Occurs when a Window has been destroyed
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.Root.DestroyedHandler">
+            <summary>
+            Handler for a Destroyed event
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="args">EventArgs</param>
+        </member>
+        <member name="T:ExcelMvc.Views.Form">
+            <summary>
+            Represents a visual consists with scattered fields
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Form.#ctor(ExcelMvc.Views.View,System.Collections.Generic.IEnumerable{ExcelMvc.Bindings.Binding})">
+            <summary>
+            Initialises an instances of ExcelMvc.Views.Form
+            </summary>
+            <param name="parent"></param>
+            <param name="bindings">Bindings for the view</param>
+        </member>
+        <member name="M:ExcelMvc.Views.Form.Dispose">
+            <summary>
+            Disposes resources
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Form.Rebind(System.Collections.Generic.Dictionary{Microsoft.Office.Interop.Excel.Worksheet,System.Collections.Generic.List{ExcelMvc.Bindings.Binding}},System.Boolean)">
+            <summary>
+            Rebinds the view with bindings supplied
+            </summary>
+            <param name="bindings"></param>
+            <param name="recursive"></param>
+        </member>
+        <member name="P:ExcelMvc.Views.Form.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Form.SelectedBindings">
+            <summary>
+            Gets the selected bindings.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Form.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.Table">
+            <summary>
+            Represents a rectangular visual with rows and columns
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Table.#ctor(ExcelMvc.Views.View,System.Collections.Generic.IEnumerable{ExcelMvc.Bindings.Binding})">
+            <summary>
+            Initialises an instances of ExcelMvc.Views.Table
+            </summary>
+            <param name="parent"></param>
+            <param name="bindings">Bindings for the view</param>
+        </member>
+        <member name="M:ExcelMvc.Views.Table.Dispose">
+            <summary>
+            Disposes resources
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Table.DetachModel">
+            <summary>
+            Sets the Model property to null, but does not clear the view's current content 
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Table.SetCategoryVisibility">
+            <summary>
+            Sets visibiliy for all columns (portrait table) or for all rows (landscape table)
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Table.ToggleCategoryVisibility(System.String)">
+            <summary>
+            Toggles the visibility of a column (portrait table) or row (landscape table)
+            </summary>
+            <param name="path">Binding path of the column or row</param>
+            <returns>true if visible, false otherwise</returns>
+        </member>
+        <member name="M:ExcelMvc.Views.Table.Rebind(System.Collections.Generic.Dictionary{Microsoft.Office.Interop.Excel.Worksheet,System.Collections.Generic.List{ExcelMvc.Bindings.Binding}},System.Boolean)">
+            <summary>
+            Rebinds the view with bindings supplied
+            </summary>
+            <param name="bindings"></param>
+            <param name="recursive"></param>
+        </member>
+        <member name="M:ExcelMvc.Views.Table.SetCategoryVisibility(ExcelMvc.Bindings.Binding)">
+            <summary>
+            Sets visibiliy for a single column (portrait table) or for a single row (landscape table)
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Table.Model">
+            <summary>
+            Sets the underlying model
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Table.SelectedBindings">
+            <summary>
+            Gets the selected bindings.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Table.SelectedItems">
+            <summary>
+            Gets the selected objects.
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Table.Type">
+            <summary>
+            Gets the view type
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Table.MaxItemsToBind">
+            <summary>
+            Gets the maximum number of items to bind
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Table.IsOrderingAllowed">
+            <summary>
+            Enables or disables handling row sorting or column re-ordering. Note enabling ordering can result in
+            slow performance in binding. (Not recommended)
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.Sheet">
+            <summary>
+            Represents a visual over an Excel worksheet
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Sheet.#ctor(ExcelMvc.Views.View,Microsoft.Office.Interop.Excel.Worksheet)">
+            <summary>
+            Initiaalises an instance of ExcelMvc.Views.Workspace
+            </summary>
+            <param name="parent"></param>
+            <param name="sheet">The underlying Excel Worksheet</param>
+        </member>
+        <member name="M:ExcelMvc.Views.Sheet.Dispose">
+            <summary>
+            Disposes resources
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.Sheet.Rebind(System.Collections.Generic.Dictionary{Microsoft.Office.Interop.Excel.Worksheet,System.Collections.Generic.List{ExcelMvc.Bindings.Binding}},System.Boolean)">
+            <summary>
+            Rebinds the view with bindings supplied
+            </summary>
+            <param name="bindings"></param>
+            <param name="recursive"></param>
+        </member>
+        <member name="E:ExcelMvc.Views.Sheet.Clicked">
+            <summary>
+            Occurs when a command is clicked
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Sheet.Children">
+            <summary>
+            Gets the child views
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Sheet.Commands">
+            <summary>
+            Gets the Commands on the sheet
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Sheet.Id">
+            <summary>
+            Gets the view id
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Sheet.Name">
+            <summary>
+            Gets the view name
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Sheet.Type">
+            <summary>
+            Gets the view type
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.Sheet.Underlying">
+            <summary>
+            The underlying Excel sheet
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.App">
+            <summary>
+            Represents a visual over the Excel Application
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.App.#ctor">
+            <summary>
+            Disallow instance creation
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.App.Dispose">
+            <summary>
+            Disposes resources
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.App.Rebind(System.Boolean)">
+            <summary>
+            Collects bindings and rebinds the view
+            </summary>
+            <param name="recursive"></param>
+        </member>
+        <member name="M:ExcelMvc.Views.App.Attach(System.Object)">
+            <summary>
+            Attaches the Excel Application instance to this instance
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.App.Detach">
+            <summary>
+            Detaches Excel from this instance
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.App.FindCommand(Microsoft.Office.Interop.Excel.Worksheet,System.String)">
+            <summary>
+            Finds the command by a command name
+            </summary>
+            <param name="sheet"></param>
+            <param name="name">Command name</param>
+            <returns>null or the command found</returns>
+        </member>
+        <member name="M:ExcelMvc.Views.App.FireClicked">
+            <summary>
+            Fires the clicked event
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.ExcelMvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.Instance">
+            <summary>
+            Gets the singleton instance of ExcelMvc.Views.Books 
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.Children">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.Commands">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.MainWindow">
+            <summary>
+            Excel Main Window
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.App.Underlying">
+            <summary>
+            The underlying Excel.Application instance
+            </summary>
+        </member>
+        <member name="T:ExcelMvc.Views.ViewEventArgs">
+            <summary>
+            Represents the EventArgs for a View event
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.ViewEventArgs.#ctor(ExcelMvc.Views.View)">
+            <summary>
+            Initialies an instance of  ExcelMvc.Views.ViewEventArgs
+            </summary>
+            <param name="view">View associated with the event</param>
+        </member>
+        <member name="M:ExcelMvc.Views.ViewEventArgs.Cancel">
+            <summary>
+            Indicates the calling sink is not interested in the event
+            </summary>
+        </member>
+        <member name="M:ExcelMvc.Views.ViewEventArgs.Accept">
+            <summary>
+            Indicates the calling sink is interested in the view
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.ViewEventArgs.IsAccepted">
+            <summary>
+            Indicates at least one event sink accepted the view
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.ViewEventArgs.State">
+            <summary>
+            Gets and sets the event specific state object
+            </summary>
+        </member>
+        <member name="P:ExcelMvc.Views.ViewEventArgs.View">
+            <summary>
+            Gets the View associated with the event
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

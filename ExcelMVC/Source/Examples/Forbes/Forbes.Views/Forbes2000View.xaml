@@ -1,0 +1,27 @@
+﻿<Window x:Class="Forbes.Views.Forbes2000View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterOwner"
+        Title="Forbes (Wpf)" Height="400" Width="800" Icon="Resources/ExcelMvc.ico">
+    <Grid>
+        <ListView x:Name="CompanyList">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Height" Value="30" />
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView x:Name="gridView">
+                    <GridViewColumn Header="Company" DisplayMemberBinding="{Binding Path=Name, Mode=OneWay}"/>
+                    <GridViewColumn Header="Industry" DisplayMemberBinding="{Binding Path=Industry, Mode=OneWay}"/>
+                    <GridViewColumn Header="Country" DisplayMemberBinding="{Binding Path=Country, Mode=OneWay}"/>
+                    <GridViewColumn Header="MarketValue" DisplayMemberBinding="{Binding Path=MarketValue, Mode=OneWay}"/>
+                    <GridViewColumn Header="Sales" DisplayMemberBinding="{Binding Path=Sales, Mode=OneWay}"/>
+                    <GridViewColumn Header="Profits" DisplayMemberBinding="{Binding Path=Profits, Mode=OneWay}"/>
+                    <GridViewColumn Header="Assets" DisplayMemberBinding="{Binding Path=Assets, Mode=OneWay}"/>
+                    <GridViewColumn Header="Rank" DisplayMemberBinding="{Binding Path=Rank, Mode=OneWay}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
